@@ -26,6 +26,13 @@ class DishDetail extends Component {
             year: 'numeric', month: 'short', day: '2-digit'
           };
     }
+
+    renderHeadingForComments() {
+        if(this.props.dish) 
+            return(
+                <h4>Comments</h4>
+            )
+    }
     /**
      * Method to render comments on a particular selected dish
      * @param {*} dish Selected Dish
@@ -58,7 +65,7 @@ class DishDetail extends Component {
                   {this.renderDish(this.props.dish)}
                 </div>
                 <div className="col-12 col-md-5 m-1">
-                    <h4>Comments</h4>
+                    {this.renderHeadingForComments()}
                     {this.renderComments(this.props.dish)}
                 </div>
             </div>
