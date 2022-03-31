@@ -18,13 +18,22 @@ class Main extends Component {
           selectedDish: dishId
       })
   }
+  onDishClick() {
+    return (dishId) => this.onDishSelect(dishId);
+  }
 
+  renderDishDetailComponentConditionally() {
+      if(this.state.selectedDish != null)
+        return(
+            <DishDetail dish={this.state.dishes.find(e => e.id === this.state.selectedDish)}/>
+        )
+  }
   render() {
     return (
       <div>
         <Header/>
         <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
-        <DishDetail dish={this.state.dishes.find(e => e.id === this.state.selectedDish)}/>
+        {this.renderDishDetailComponentConditionally()}
         <Footer/>
       </div>
     );
