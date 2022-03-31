@@ -21,7 +21,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div>
         <Header/>
         <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
         <DishDetail dish={this.state.dishes.find(e => e.id === this.state.selectedDish)}/>

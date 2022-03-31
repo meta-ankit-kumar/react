@@ -10,8 +10,8 @@ class Header extends Component {
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
           </div>
         </Navbar>
-        <div className="container-fluid bg-light text-dark p-5">
-          <div className="container bg-light p-5">
+        <div className="container-fluid p-5 jumbotron">
+          <div className="container p-5">
             <div className="row row-header">
               <div className="col-12 col-sm-6">
                 <h1>Ristorante con Fusion</h1>
