@@ -1,9 +1,11 @@
 import Menu from "./MenuComponent";
 import DISHES from "../shared/dishes";
-import { Component } from "react";
+import React, { Component } from "react";
 import DishDetail from './DishdetailComponent'
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
+import Home from "./HomeComponent";
+import { Routes, Route, Navigate as Redirect } from 'react-router-dom';
 class Main extends Component {
   constructor(props) {
     super(props);
@@ -19,7 +21,9 @@ class Main extends Component {
       })
   }
   onDishClick() {
-    return (dishId) => this.onDishSelect(dishId);
+    return (dishId) => {
+      this.onDishSelect(dishId);
+    }
   }
 
   renderDishDetailComponentConditionally() {
@@ -32,7 +36,11 @@ class Main extends Component {
     return (
       <div>
         <Header/>
-        <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
+        <Routes>
+              <Route path='/home' element={<Home/>} />
+              <Route exact path='/menu' element={<Menu dishes={this.state.dishes} onClick={this.onDishClick()}/>}/>
+              <Route path="*" element={<Redirect to="/home"/>}/>
+        </Routes>
         {this.renderDishDetailComponentConditionally()}
         <Footer/>
       </div>
