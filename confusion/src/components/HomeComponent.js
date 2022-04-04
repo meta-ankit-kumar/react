@@ -8,7 +8,6 @@ import {
 } from "reactstrap";
 
 function RenderCard({item}) {
-    console.log('In render card', JSON.stringify(item));
   return (
     <Card>
       <CardImg src={item.image} alt={item.name} />
@@ -23,7 +22,6 @@ function RenderCard({item}) {
   );
 }
 function Home({dish, promotion, leader}) {
-    console.log("Props");
   return (
     <div className="container">
       <div className="container">
