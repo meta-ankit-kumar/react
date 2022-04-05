@@ -5,8 +5,7 @@ import {
   NavbarBrand,
   NavbarToggler,
   Collapse,
-  NavItem,
-  Jumbotron,
+  NavItem
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
@@ -39,6 +38,7 @@ class Header extends Component {
                 alt="Ristorante Con Fusion"
               />
             </NavbarBrand>
+            <div>
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav navbar>
                 <NavItem>
@@ -64,6 +64,7 @@ class Header extends Component {
                 </NavItem>
               </Nav>
             </Collapse>
+            </div>
           </div>
         </Navbar>
         <div className="container-fluid p-5 jumbotron">
