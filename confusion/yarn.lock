@@ -4253,6 +4253,11 @@ follow-redirects@^1.0.0:
   resolved "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
   integrity sha1-3U6hV957+vnqmz+9haoWlR942Nc=
 
+font-awesome@^4.7.0:
+  version "4.7.0"
+  resolved "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
+
 fork-ts-checker-webpack-plugin@^6.5.0:
   version "6.5.0"
   resolved "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.5.0.tgz#0282b335fa495a97e167f69018f566ea7d2a2b5e"
