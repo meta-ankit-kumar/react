@@ -9,6 +9,7 @@ import Contact from "./ContactComponent";
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
 import Home from "./HomeComponent";
+import About from "./AboutComponent";
 import { Routes, Route, Navigate as Redirect, useParams } from 'react-router-dom';
 class Main extends Component {
   constructor(props) {
@@ -17,20 +18,8 @@ class Main extends Component {
       dishes: DISHES,
       promotions: PROMOTIONS,
       comments: COMMENTS,
-      leaders: LEADERS,
-      selectedDish: null,
+      leaders: LEADERS
     };
-  }
-
-  onDishSelect(dishId) {
-      this.setState({
-          selectedDish: dishId
-      })
-  }
-  onDishClick() {
-    return (dishId) => {
-      this.onDishSelect(dishId);
-    }
   }
 
   render() {
@@ -40,7 +29,8 @@ class Main extends Component {
         <Routes>
               <Route path='/home' element={<Home dish={this.state.dishes.find(e => e.featured)} promotion={this.state.promotions[0]} leader={this.state.leaders[0]}/>} />
               <Route path='/contactus' element={<Contact/>} />
-              <Route exact path='/menu' element={<Menu dishes={this.state.dishes} onClick={this.onDishClick()}/>}/>
+              <Route path='/aboutus' element={<About leaders={this.state.leaders}/>} />
+              <Route exact path='/menu' element={<Menu dishes={this.state.dishes}/>}/>
               <Route path={`menu/:id`} element={<RenderDishDetails dishes={this.state.dishes} comments={this.state.comments}/>}/>
               <Route path="*" element={<Redirect to="/home"/>}/>
         </Routes>
