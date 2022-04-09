@@ -101,8 +101,8 @@ class Contact extends Component {
         return Object.values(this.validate()).some(error => error.length > 0) 
             || this.state.firstname.length === 0
             || this.state.lastname.length === 0
-            || !(/^[A-Za-z]+\d+$/.test(this.state.telnum))
-            || !this.state.email.includes('@');
+            || !(/^\d+$/.test(this.state.telnum))
+            || !/^\w+.+@.+/.test(this.state.email);
     }
     render() {
         const errors = this.validate();
