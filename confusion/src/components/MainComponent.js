@@ -15,6 +15,7 @@ const mapStateToProps = state => {
     comments: state.comments,
     promotions: state.promotions,
     leaders: state.leaders
+    
   }
 }
 
