@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component, Fragment } from "react";
 import {
   Card,
   CardImg,
@@ -7,8 +7,14 @@ import {
   CardTitle,
   Breadcrumb,
   BreadcrumbItem,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  Label,
+  Button,
 } from "reactstrap";
 import { Link } from "react-router-dom";
+import CommentForm from "./CommentForm";
 
 class DishDetail extends Component {
   renderDish(dish) {
@@ -41,7 +47,7 @@ class DishDetail extends Component {
    */
   renderComments(comments) {
     if (comments.length) {
-      return comments.map((element) => {
+      const commentsInfo = comments.map((element) => {
         return (
           <ul key={element.id} className="list-unstyled">
             <li>{element.comment}</li>
@@ -54,6 +60,14 @@ class DishDetail extends Component {
           </ul>
         );
       });
+      return (
+        <Fragment>
+          <Fragment>{commentsInfo}</Fragment>
+          <Fragment>
+            <CommentForm />
+          </Fragment>
+        </Fragment>
+      );
     } else {
       return <div></div>;
     }
