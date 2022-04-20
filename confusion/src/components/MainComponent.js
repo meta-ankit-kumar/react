@@ -8,6 +8,7 @@ import Home from "./HomeComponent";
 import About from "./AboutComponent";
 import { Routes, Route, Navigate as Redirect, useParams, useLocation, useNavigate } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { addComment } from "../redux/actionCreators";
 
 const mapStateToProps = state => {
   return {
@@ -16,6 +17,12 @@ const mapStateToProps = state => {
     promotions: state.promotions,
     leaders: state.leaders
     
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addComment: (dishId, rating, author, comment) => dispatch(addComment(dishId, rating, author, comment))
   }
 }
 
@@ -29,7 +36,7 @@ class Main extends Component {
               <Route path='/contactus' element={<Contact/>} />
               <Route path='/aboutus' element={<About leaders={this.props.leaders}/>} />
               <Route exact path='/menu' element={<Menu dishes={this.props.dishes}/>}/>
-              <Route path={`menu/:id`} element={<RenderDishDetails dishes={this.props.dishes} comments={this.props.comments}/>}/>
+              <Route path={`menu/:id`} element={<RenderDishDetails dishes={this.props.dishes} comments={this.props.comments} addComment={this.props.addComment}/>}/>
               <Route path="*" element={<Redirect to="/home"/>}/>
         </Routes>
         <Footer/>
@@ -44,7 +51,7 @@ function RenderDishDetails(props) {
   const dish = dishes.find(dish => dish.id === parseInt(id))
   const commentList = comments.filter(comment => comment.dishId === parseInt(id))
   return(
-    <DishDetail dish={dish} comments={commentList}/>
+    <DishDetail dish={dish} comments={commentList} addComment={props.addComment}/>
   )
 }
 
@@ -64,4 +71,4 @@ function withRouter(Component) {
   return ComponentWithRouterProp;
 }
 
-export default withRouter(connect(mapStateToProps)(Main));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));

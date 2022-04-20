@@ -7,11 +7,6 @@ import {
   CardTitle,
   Breadcrumb,
   BreadcrumbItem,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  Label,
-  Button,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import CommentForm from "./CommentForm";
@@ -47,6 +42,7 @@ class DishDetail extends Component {
    */
   renderComments(comments) {
     if (comments.length) {
+      const dishId = comments[0].dishId;
       const commentsInfo = comments.map((element) => {
         return (
           <ul key={element.id} className="list-unstyled">
@@ -64,7 +60,7 @@ class DishDetail extends Component {
         <Fragment>
           <Fragment>{commentsInfo}</Fragment>
           <Fragment>
-            <CommentForm />
+            <CommentForm addComment={this.props.addComment} dishId={dishId}/>
           </Fragment>
         </Fragment>
       );
