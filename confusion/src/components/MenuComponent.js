@@ -1,5 +1,6 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 import { Link } from "react-router-dom";
+import Loading from "./LoadingComponent";
 
 function RenderDish({ dish, onClick }) {
   return (
@@ -15,19 +16,29 @@ function RenderDish({ dish, onClick }) {
 }
 
 function Menu(props) {
-  const menu = props.dishes.map((dish) => {
+  if(props.isLoading) {
     return (
-      <div key={dish.id} className="col-12 col-md-5 m-1">
-        <RenderDish dish={dish} onClick={props.onClick} />
+      <Loading/>
+    )
+  }
+  else if(props.errorMessage) {
+    return (<h1>Error Occurred</h1>)
+  }
+  else if(props.dishes){
+    const menu = props.dishes.map((dish) => {
+      return (
+        <div key={dish.id} className="col-12 col-md-5 m-1">
+          <RenderDish dish={dish} onClick={props.onClick} />
+        </div>
+      );
+    });
+  
+    return (
+      <div className="container">
+        <div className="row">{menu}</div>
       </div>
     );
-  });
-
-  return (
-    <div className="container">
-      <div className="row">{menu}</div>
-    </div>
-  );
+  }
 }
 
 export default Menu;

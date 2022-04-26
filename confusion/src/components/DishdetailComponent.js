@@ -10,6 +10,7 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import CommentForm from "./CommentForm";
+import Loading from "./LoadingComponent";
 
 class DishDetail extends Component {
   renderDish(dish) {
@@ -69,6 +70,17 @@ class DishDetail extends Component {
     }
   }
   render() {
+    console.log("IN Final", JSON.stringify(this.props))
+    if(this.props.isLoading) {
+      return (
+        <Loading/>
+      )
+    }
+    else if(this.props.errorMessage) {
+      return (
+        <h1>Error Occurred</h1>
+      )
+    }
     return (
       <div className="container">
         <div className="row">

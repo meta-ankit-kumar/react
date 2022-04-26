@@ -6,6 +6,7 @@ import {
   CardTitle,
   CardSubtitle,
 } from "reactstrap";
+import Loading from "./LoadingComponent";
 
 function RenderCard({item}) {
   return (
@@ -21,7 +22,17 @@ function RenderCard({item}) {
     </Card>
   );
 }
-function Home({dish, promotion, leader}) {
+function Home({dish, promotion, leader, isLoading, errorMessage}) {
+  if(isLoading) {
+    return(
+      <Loading/>
+    )
+  }
+  else if(errorMessage) {
+    return (
+      <h1>Error Occurred</h1>
+    )
+  }
   return (
     <div className="container">
       <div className="container">
