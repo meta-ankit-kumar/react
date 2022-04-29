@@ -3161,6 +3161,13 @@
     "path-type" "^4.0.0"
     "yaml" "^1.10.0"
 
+"cross-fetch@^3.1.5":
+  "integrity" "sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cross-fetch/-/cross-fetch-3.1.5.tgz"
+  "version" "3.1.5"
+  dependencies:
+    "node-fetch" "2.6.7"
+
 "cross-spawn@^7.0.2", "cross-spawn@^7.0.3":
   "integrity" "sha1-9zqFudXUHQRVUcF34ogtSshXKKY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -6115,6 +6122,13 @@
     "lower-case" "^2.0.2"
     "tslib" "^2.0.3"
 
+"node-fetch@2.6.7":
+  "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/node-fetch/-/node-fetch-2.6.7.tgz"
+  "version" "2.6.7"
+  dependencies:
+    "whatwg-url" "^5.0.0"
+
 "node-forge@^1":
   "integrity" "sha1-N6h06nI4VfN9sJHmwYbltnoB1LI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/node-forge/-/node-forge-1.3.0.tgz"
@@ -8432,6 +8446,11 @@
   dependencies:
     "punycode" "^2.1.1"
 
+"tr46@~0.0.3":
+  "integrity" "sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tr46/-/tr46-0.0.3.tgz"
+  "version" "0.0.3"
+
 "tryer@^1.0.1":
   "integrity" "sha1-8shUBoALmw90yfdGW4HqrSQSUvg="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tryer/-/tryer-1.0.1.tgz"
@@ -8682,6 +8701,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/web-vitals/-/web-vitals-2.1.4.tgz"
   "version" "2.1.4"
 
+"webidl-conversions@^3.0.0":
+  "integrity" "sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
+  "version" "3.0.1"
+
 "webidl-conversions@^4.0.2":
   "integrity" "sha1-qFWYCx8LazWbodXZ+zmulB+qY60="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/webidl-conversions/-/webidl-conversions-4.0.2.tgz"
@@ -8833,6 +8857,14 @@
   "integrity" "sha1-PUseAxLSB5h5+Cav8Y2+7KWWD78="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz"
   "version" "2.3.0"
+
+"whatwg-url@^5.0.0":
+  "integrity" "sha1-lmRU6HZUYuN2RNNib2dCzotwll0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/whatwg-url/-/whatwg-url-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "tr46" "~0.0.3"
+    "webidl-conversions" "^3.0.0"
 
 "whatwg-url@^7.0.0":
   "integrity" "sha1-wsSS8eymEpiO/T0iZr4bn8YXDQY="

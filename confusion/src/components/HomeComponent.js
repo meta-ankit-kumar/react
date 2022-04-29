@@ -6,12 +6,15 @@ import {
   CardTitle,
   CardSubtitle,
 } from "reactstrap";
+import { baseUrl } from "../shared/baseUrl";
 import Loading from "./LoadingComponent";
 
 function RenderCard({item}) {
+  console.log("Item", JSON.stringify(item));
+  
   return (
     <Card>
-      <CardImg src={item.image} alt={item.name} />
+      <CardImg src={baseUrl + item.image} alt={item.name} />
       <CardBody>
         <CardTitle>{item.name}</CardTitle>
         {item.designation ? (
@@ -22,7 +25,8 @@ function RenderCard({item}) {
     </Card>
   );
 }
-function Home({dish, promotion, leader, isLoading, errorMessage}) {
+
+function RenderDishConditionally({isLoading, errorMessage, item}) {
   if(isLoading) {
     return(
       <Loading/>
@@ -34,17 +38,22 @@ function Home({dish, promotion, leader, isLoading, errorMessage}) {
     )
   }
   return (
+    <RenderCard item={item} />
+  )
+}
+function Home({dish, promotion, leader, dishLoading, dishErrorMessage, promosLoading, promosErrorMessage}) {
+  return (
     <div className="container">
       <div className="container">
         <div className="row align-items-start">
           <div className="col-12 col-md m-1">
-            <RenderCard item={dish} />
+            <RenderDishConditionally isLoading={dishLoading} errorMessage={dishErrorMessage} item={dish}/>
           </div>
           <div className="col-12 col-md m-1">
-            <RenderCard item={promotion} />
+            <RenderDishConditionally isLoading={promosLoading} errorMessage={promosErrorMessage} item={promotion}/>
           </div>
           <div className="col-12 col-md m-1">
-            <RenderCard item={leader} />
+            <RenderDishConditionally item={leader}/>
           </div>
         </div>
       </div>

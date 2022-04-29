@@ -11,13 +11,14 @@ import {
 import { Link } from "react-router-dom";
 import CommentForm from "./CommentForm";
 import Loading from "./LoadingComponent";
+import { baseUrl } from "../shared/baseUrl";
 
 class DishDetail extends Component {
   renderDish(dish) {
     if (dish != null)
       return (
         <Card>
-          <CardImg top src={dish.image} alt={dish.name} />
+          <CardImg top src={baseUrl + dish.image} alt={dish.name} />
           <CardBody>
             <CardTitle>{dish.name}</CardTitle>
             <CardText>{dish.description}</CardText>
@@ -70,7 +71,6 @@ class DishDetail extends Component {
     }
   }
   render() {
-    console.log("IN Final", JSON.stringify(this.props))
     if(this.props.isLoading) {
       return (
         <Loading/>

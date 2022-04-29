@@ -15,7 +15,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { connect } from "react-redux";
-import { addComment, fetchDishes } from "../redux/actionCreators";
+import { addComment, fetchComments, fetchDishes, fetchPromos } from "../redux/actionCreators";
 import Loading from "./LoadingComponent";
 import { actions } from 'react-redux-form';
 
@@ -33,6 +33,8 @@ const mapDispatchToProps = (dispatch) => {
     addComment: (dishId, rating, author, comment) =>
       dispatch(addComment(dishId, rating, author, comment)),
     fetchDishes: () => dispatch(fetchDishes()),
+    fetchPromos: () => dispatch(fetchPromos()),
+    fetchComments: () => dispatch(fetchComments()),
     resetFeedbackForm: () => dispatch(actions.reset('feedback'))
   };
 };
@@ -40,6 +42,8 @@ const mapDispatchToProps = (dispatch) => {
 class Main extends Component {
   componentDidMount() {
     this.props.fetchDishes();
+    this.props.fetchComments();
+    this.props.fetchPromos();
   }
   render() {
     return (
@@ -51,9 +55,11 @@ class Main extends Component {
             element={
               <Home
                 dish={this.props.dishes.dishes.find((e) => e.featured)}
-                isLoading={this.props.dishes.isLoading}
-                errorMessage={this.props.dishes.errorMessage}
-                promotion={this.props.promotions[0]}
+                dishLoading={this.props.dishes.isLoading}
+                dishErrorMessage={this.props.dishes.errorMessage}
+                promosLoading={this.props.promotions.isLoading}
+                promosErrorMessage={this.props.promotions.errorMessage}
+                promotion={this.props.promotions.promotions[0]}
                 leader={this.props.leaders[0]}
               />
             }
@@ -76,7 +82,7 @@ class Main extends Component {
                 dishes={this.props.dishes.dishes}
                 dishLoading={this.props.dishes.isLoading}
                 dishErrorMessage={this.props.dishes.errorMessage}
-                comments={this.props.comments}
+                comments={this.props.comments.comments}
                 addComment={this.props.addComment}
               />
             }
@@ -92,7 +98,6 @@ class Main extends Component {
 function RenderDishDetails(props) {
   const { id } = useParams();
   const { dishes, comments, dishLoading, dishErrorMessage } = props;
-  console.log("IN renderDIshdetails", dishLoading)
   const dish = dishes.find((dish) => dish.id === parseInt(id));
   const commentList = comments.filter(
     (comment) => comment.dishId === parseInt(id)
