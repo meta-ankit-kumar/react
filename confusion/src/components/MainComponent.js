@@ -83,6 +83,8 @@ class Main extends Component {
                 dishLoading={this.props.dishes.isLoading}
                 dishErrorMessage={this.props.dishes.errorMessage}
                 comments={this.props.comments.comments}
+                commentsLoading={this.props.comments.isLoading}
+                commentsErrorMessage={this.props.comments.errorMessage}
                 addComment={this.props.addComment}
               />
             }
@@ -97,7 +99,7 @@ class Main extends Component {
 
 function RenderDishDetails(props) {
   const { id } = useParams();
-  const { dishes, comments, dishLoading, dishErrorMessage } = props;
+  const { dishes, comments, dishLoading, dishErrorMessage, commentsLoading, commentsErrorMessage} = props;
   const dish = dishes.find((dish) => dish.id === parseInt(id));
   const commentList = comments.filter(
     (comment) => comment.dishId === parseInt(id)
@@ -109,6 +111,8 @@ function RenderDishDetails(props) {
       dish={dish}
       comments={commentList}
       addComment={props.addComment}
+      commentsLoading={commentsLoading}
+      commentsErrorMessage={commentsErrorMessage}
     />
   );
 }

@@ -23,7 +23,12 @@ function Menu(props) {
     )
   }
   else if(props.errorMessage) {
-    return (<h1>Error Occurred</h1>)
+    return (
+      <div className="container">
+        <p>{props.errorMessage}</p>
+        <p>Something went wrong while fetching the dishes.</p>
+      </div>
+    )
   }
   else if(props.dishes){
     const menu = props.dishes.map((dish) => {

@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import {
   Card,
   CardImg,
@@ -34,7 +35,9 @@ function RenderDishConditionally({isLoading, errorMessage, item}) {
   }
   else if(errorMessage) {
     return (
-      <h1>Error Occurred</h1>
+      <Fragment>
+        <p>{errorMessage}</p>
+      </Fragment>
     )
   }
   return (

@@ -1,4 +1,4 @@
-import { ADD_COMMENT, ADD_COMMENTS } from "./actionTypes";
+import { ADD_COMMENT, ADD_COMMENTS, COMMENTS_FAILED } from "./actionTypes";
 
 const CommentReducer = (state = {
     errorMessage: null,
@@ -15,6 +15,12 @@ const CommentReducer = (state = {
                 ...state,
                 errorMessage: null,
                 comments: action.payload
+            }
+        case COMMENTS_FAILED:
+            return {
+                ...state,
+                errorMessage: action.payload,
+                comments: []
             }
         default:
             return state;

@@ -1,4 +1,4 @@
-import { ADD_COMMENT, ADD_DISHES, DISHES_LOADING, DISHES_FAILED, ADD_COMMENTS, PROMOS_LOADING, ADD_PROMOS } from "./actionTypes";
+import { ADD_COMMENT, ADD_DISHES, DISHES_LOADING, DISHES_FAILED, ADD_COMMENTS, PROMOS_LOADING, ADD_PROMOS, PROMOS_FAILED, COMMENTS_FAILED } from "./actionTypes";
 import { baseUrl } from "../shared/baseUrl";
 export const addComment = (dishId, rating, authorName, comment) => (
         {   
@@ -16,22 +16,58 @@ export const fetchDishes = () => (dispatch) => {
     dispatch(dishesLoading());
 
     fetch(baseUrl + 'dishes')
+        .then(response => {
+            if(response.ok) {
+                return response;
+            }
+            else {
+                const error = new Error("Error " + response.status + ": " + response.statusText);
+                throw error;
+            }
+        }, (error) => {
+            throw new Error(error.message);
+        })
         .then(res => res.json())
         .then(dishes => dispatch(addDishes(dishes)))
+        .catch(error => dispatch(dishesFailed(error.message)));
 }
 
 export const fetchComments = () => (dispatch) => {
     fetch(baseUrl + 'comments')
+        .then(response => {
+            if(response.ok) {
+                return response;
+            }
+            else {
+                const error = new Error("Error " + response.status + ": " + response.statusText);
+                throw error;
+            }
+        }, (error) => {
+            throw new Error(error.message);
+        })
         .then(res => res.json())
         .then(comments => dispatch(addComments(comments)))
+        .catch(error => dispatch(commentsFailed(error.message)));
 }
 
 export const fetchPromos = () => (dispatch) => {
 
     dispatch(promosLoading());
     fetch(baseUrl + 'promotions')
+        .then(response => {
+            if(response.ok) {
+                return response;
+            }
+            else {
+                const error = new Error("Error " + response.status + ": " + response.statusText);
+                throw error;
+            }
+        }, (error) => {
+            throw new Error(error.message);
+        })
         .then(res => res.json())
         .then(promos => dispatch(addPromos(promos)))
+        .catch(error => dispatch(promosFailed(error.message)));
 }
 
 const promosLoading = () => ({
@@ -65,3 +101,12 @@ const dishesFailed = (errorMessage) => ({
     payload: errorMessage
 })
 
+const promosFailed = (errorMessage) => ({
+    type: PROMOS_FAILED,
+    payload: errorMessage
+})
+
+const commentsFailed = (errorMessage) => ({
+    type: COMMENTS_FAILED,
+    payload: errorMessage
+})
