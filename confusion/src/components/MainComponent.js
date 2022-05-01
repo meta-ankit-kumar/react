@@ -15,7 +15,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { connect } from "react-redux";
-import { addComment, fetchComments, fetchDishes, fetchPromos } from "../redux/actionCreators";
+import { postComment, fetchComments, fetchDishes, fetchPromos } from "../redux/actionCreators";
 import Loading from "./LoadingComponent";
 import { actions } from 'react-redux-form';
 
@@ -30,8 +30,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    addComment: (dishId, rating, author, comment) =>
-      dispatch(addComment(dishId, rating, author, comment)),
+    postComment: (dishId, rating, author, comment) =>
+      dispatch(postComment(dishId, rating, author, comment)),
     fetchDishes: () => dispatch(fetchDishes()),
     fetchPromos: () => dispatch(fetchPromos()),
     fetchComments: () => dispatch(fetchComments()),
@@ -85,7 +85,7 @@ class Main extends Component {
                 comments={this.props.comments.comments}
                 commentsLoading={this.props.comments.isLoading}
                 commentsErrorMessage={this.props.comments.errorMessage}
-                addComment={this.props.addComment}
+                postComment={this.props.postComment}
               />
             }
           />
@@ -110,7 +110,7 @@ function RenderDishDetails(props) {
       errorMessage={dishErrorMessage}
       dish={dish}
       comments={commentList}
-      addComment={props.addComment}
+      postComment={props.postComment}
       commentsLoading={commentsLoading}
       commentsErrorMessage={commentsErrorMessage}
     />

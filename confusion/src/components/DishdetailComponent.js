@@ -75,7 +75,7 @@ class DishDetail extends Component {
         <Fragment>
           <Fragment>{commentsInfo}</Fragment>
           <Fragment>
-            <CommentForm addComment={this.props.addComment} dishId={dishId}/>
+            <CommentForm postComment={this.props.postComment} dishId={dishId}/>
           </Fragment>
         </Fragment>
       );

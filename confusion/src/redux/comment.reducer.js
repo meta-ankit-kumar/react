@@ -7,9 +7,21 @@ const CommentReducer = (state = {
     switch (action.type) {
         case ADD_COMMENT:
             const comment = action.payload;
-            comment.id = state.length;
-            comment.date = new Date().toISOString();
-            return state.concat(comment);
+            console.log("Comment", JSON.stringify(comment));
+            console.log("State after", JSON.stringify({
+                ...state,
+                comments: [
+                    ...state.comments,
+                    comment
+                ]
+            }))
+            return {
+                ...state,
+                comments: [
+                    ...state.comments,
+                    comment
+                ]
+            };
         case ADD_COMMENTS:
             return {
                 ...state,
