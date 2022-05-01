@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import CommentForm from "./CommentForm";
 import Loading from "./LoadingComponent";
 import { baseUrl } from "../shared/baseUrl";
-import { FadeTransform, Fade, Stagger } from 'react-animation-components';
+import { Fade, Stagger } from 'react-animation-components';
 
 class DishDetail extends Component {
   renderDish(dish) {

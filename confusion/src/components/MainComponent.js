@@ -21,6 +21,7 @@ import {
   fetchComments,
   fetchDishes,
   fetchPromos,
+  fetchLeaders
 } from "../redux/actionCreators";
 import Loading from "./LoadingComponent";
 import { actions } from "react-redux-form";
@@ -41,7 +42,8 @@ const mapDispatchToProps = (dispatch) => {
     fetchDishes: () => dispatch(fetchDishes()),
     fetchPromos: () => dispatch(fetchPromos()),
     fetchComments: () => dispatch(fetchComments()),
-    resetFeedbackForm: () => dispatch(actions.reset("feedback")),
+    fetchLeaders: () => dispatch(fetchLeaders()),
+    resetFeedbackForm: () => dispatch(actions.reset("feedback"))
   };
 };
 
@@ -50,9 +52,9 @@ class Main extends Component {
     this.props.fetchDishes();
     this.props.fetchComments();
     this.props.fetchPromos();
+    this.props.fetchLeaders();
   }
   render() {
-    console.log("This.props.localtion",this.props);
     return (
       <div>
         <Header />
@@ -69,7 +71,9 @@ class Main extends Component {
                     promosLoading={this.props.promotions.isLoading}
                     promosErrorMessage={this.props.promotions.errorMessage}
                     promotion={this.props.promotions.promotions[0]}
-                    leader={this.props.leaders[0]}
+                    leader={this.props.leaders.leaders[0]}
+                    leadersLoading={this.props.leaders.isLoading}
+                    leadersErrorMessage={this.props.leaders.leadersErrorMessage}
                   />
                 }
               />
@@ -81,7 +85,7 @@ class Main extends Component {
               />
               <Route
                 path="/aboutus"
-                element={<About leaders={this.props.leaders} />}
+                element={<About isLoading={this.props.leaders.isLoading} errorMessage={this.props.leaders.errorMessage} leaders={this.props.leaders.leaders}/>}
               />
               <Route
                 exact

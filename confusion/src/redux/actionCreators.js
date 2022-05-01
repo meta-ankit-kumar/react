@@ -1,4 +1,4 @@
-import { ADD_COMMENT, ADD_DISHES, DISHES_LOADING, DISHES_FAILED, ADD_COMMENTS, PROMOS_LOADING, ADD_PROMOS, PROMOS_FAILED, COMMENTS_FAILED } from "./actionTypes";
+import { ADD_COMMENT, ADD_DISHES, DISHES_LOADING, DISHES_FAILED, ADD_COMMENTS, PROMOS_LOADING, ADD_PROMOS, PROMOS_FAILED, COMMENTS_FAILED, LEADERS_LOADING, ADD_LEADERS, LEADERS_FAILED } from "./actionTypes";
 import { baseUrl } from "../shared/baseUrl";
 export const addComment = (comment) => ({
     type: ADD_COMMENT,
@@ -138,3 +138,42 @@ const commentsFailed = (errorMessage) => ({
     type: COMMENTS_FAILED,
     payload: errorMessage
 })
+
+export const fetchLeaders = () => (dispatch) => {
+    dispatch(leadersLoading());
+
+    fetch(baseUrl + 'leaders')
+        .then(res => {
+            if(res.ok) {
+                return res.json()
+            }
+            else {
+                const error = new Error("Error " + res.status + ": " + res.statusText);
+                throw error;
+            }
+        }, error => {
+            throw new Error(error);
+        })
+        .then(leaders => dispatch(addLeaders(leaders)))
+        .catch(error => dispatch(leadersFailed(error.message)))
+}
+
+const addLeaders = (leaders) => (
+    {
+        type: ADD_LEADERS,
+        payload: leaders
+    }
+)
+
+const leadersLoading = () => (
+    {
+        type: LEADERS_LOADING
+    }
+)
+
+const leadersFailed = (errorMessage) => (
+    {
+        type: LEADERS_FAILED,
+        payload: errorMessage
+    }
+)

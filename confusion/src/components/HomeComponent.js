@@ -44,7 +44,17 @@ function RenderDishConditionally({isLoading, errorMessage, item}) {
     <RenderCard item={item} />
   )
 }
-function Home({dish, promotion, leader, dishLoading, dishErrorMessage, promosLoading, promosErrorMessage}) {
+function Home(props) {
+  const { dish,
+    promotion,
+    leader, 
+    dishLoading, 
+    dishErrorMessage, 
+    promosLoading, 
+    promosErrorMessage,
+    leadersLoading,
+    leadersErrorMessage
+  } = props;
   return (
     <div className="container">
       <div className="container">
@@ -56,7 +66,7 @@ function Home({dish, promotion, leader, dishLoading, dishErrorMessage, promosLoa
             <RenderDishConditionally isLoading={promosLoading} errorMessage={promosErrorMessage} item={promotion}/>
           </div>
           <div className="col-12 col-md m-1">
-            <RenderDishConditionally item={leader}/>
+            <RenderDishConditionally item={leader} isLoading={leadersLoading} errorMessage={leadersErrorMessage}/>
           </div>
         </div>
       </div>
