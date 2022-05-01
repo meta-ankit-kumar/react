@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import CommentForm from "./CommentForm";
 import Loading from "./LoadingComponent";
 import { baseUrl } from "../shared/baseUrl";
+import { FadeTransform, Fade, Stagger } from 'react-animation-components';
 
 class DishDetail extends Component {
   renderDish(dish) {
@@ -60,20 +61,26 @@ class DishDetail extends Component {
       const dishId = comments[0].dishId;
       const commentsInfo = comments.map((element) => {
         return (
-          <ul key={element.id} className="list-unstyled">
-            <li>{element.comment}</li>
-            <li>
-              -- {element.author},{" "}
-              {new Intl.DateTimeFormat("en-US", this.options()).format(
-                new Date(Date.parse(element.date))
-              )}
-            </li>
-          </ul>
+          <Fade in key={element.id}>
+            <ul key={element.id} className="list-unstyled">
+              <li>{element.comment}</li>
+              <li>
+                -- {element.author},{" "}
+                {new Intl.DateTimeFormat("en-US", this.options()).format(
+                  new Date(Date.parse(element.date))
+                )}
+              </li>
+            </ul>
+          </Fade>
         );
       });
       return (
         <Fragment>
-          <Fragment>{commentsInfo}</Fragment>
+          <Fragment>
+            <Stagger in>
+              {commentsInfo}
+            </Stagger>
+          </Fragment>
           <Fragment>
             <CommentForm postComment={this.props.postComment} dishId={dishId}/>
           </Fragment>

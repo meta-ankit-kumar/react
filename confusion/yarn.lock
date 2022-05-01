@@ -2166,6 +2166,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/@xtuc/long/-/long-4.2.2.tgz"
   "version" "4.2.2"
 
+"abab@^1.0.3":
+  "integrity" "sha1-X6rZwsB/YN12dw9xzwJbYqY8/U4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/abab/-/abab-1.0.4.tgz"
+  "version" "1.0.4"
+
 "abab@^2.0.3", "abab@^2.0.5":
   "integrity" "sha1-wLZ4+zLWD8EhnHhNaoJv44Wut5o="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/abab/-/abab-2.0.5.tgz"
@@ -2178,6 +2183,13 @@
   dependencies:
     "mime-types" "~2.1.34"
     "negotiator" "0.6.3"
+
+"acorn-globals@^3.1.0":
+  "integrity" "sha1-/YJw9x+7SZawBPqIDuXUZXOnMb8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/acorn-globals/-/acorn-globals-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "acorn" "^4.0.4"
 
 "acorn-globals@^6.0.0":
   "integrity" "sha1-Rs3Tnw+P8IqHZhm1X1rIptx3C0U="
@@ -2210,6 +2222,11 @@
   "integrity" "sha1-DeiJpgEgOQmw++B7iTjcIdLpZ7w="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/acorn-walk/-/acorn-walk-7.2.0.tgz"
   "version" "7.2.0"
+
+"acorn@^4.0.4":
+  "integrity" "sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/acorn/-/acorn-4.0.13.tgz"
+  "version" "4.0.13"
 
 "acorn@^7.0.0":
   "integrity" "sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo="
@@ -2273,7 +2290,7 @@
   dependencies:
     "fast-deep-equal" "^3.1.3"
 
-"ajv@^6.10.0", "ajv@^6.12.2", "ajv@^6.12.4", "ajv@^6.12.5":
+"ajv@^6.10.0", "ajv@^6.12.2", "ajv@^6.12.3", "ajv@^6.12.4", "ajv@^6.12.5":
   "integrity" "sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ajv/-/ajv-6.12.6.tgz"
   "version" "6.12.6"
@@ -2313,6 +2330,11 @@
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
 
+"ansi-escapes@^3.0.0":
+  "integrity" "sha512-cBhpre4ma+U0T1oM5fXg7Dy1Jw7zzwv7lt/GoCpr+hDQJoYnKVPLL4dCvSEFMmQurOQvSrwT7SL/DAlhBI97RQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-escapes/-/ansi-escapes-3.2.0.tgz"
+  "version" "3.2.0"
+
 "ansi-escapes@^4.2.1", "ansi-escapes@^4.3.1":
   "integrity" "sha1-ayKR0dt9mLZSHV8e+kLQ86n+tl4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-escapes/-/ansi-escapes-4.3.2.tgz"
@@ -2325,6 +2347,16 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
   "version" "0.0.8"
 
+"ansi-regex@^2.0.0":
+  "integrity" "sha1-w7M6te42DYbg5ijwRorn7yfWVN8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-regex/-/ansi-regex-2.1.1.tgz"
+  "version" "2.1.1"
+
+"ansi-regex@^3.0.0":
+  "integrity" "sha512-+O9Jct8wf++lXxxFc4hc8LsjaSq0HFzzL7cVsw8pRDIPdjKD2mT4ytDZlLuSBZ4cLKZFXIrMGO7DbQCtMJJMKw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-regex/-/ansi-regex-3.0.1.tgz"
+  "version" "3.0.1"
+
 "ansi-regex@^5.0.1":
   "integrity" "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-regex/-/ansi-regex-5.0.1.tgz"
@@ -2335,7 +2367,12 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-regex/-/ansi-regex-6.0.1.tgz"
   "version" "6.0.1"
 
-"ansi-styles@^3.2.1":
+"ansi-styles@^2.2.1":
+  "integrity" "sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-styles/-/ansi-styles-2.2.1.tgz"
+  "version" "2.2.1"
+
+"ansi-styles@^3.2.0", "ansi-styles@^3.2.1":
   "integrity" "sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-styles/-/ansi-styles-3.2.1.tgz"
   "version" "3.2.1"
@@ -2361,6 +2398,14 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ansi-styles/-/ansi-styles-5.2.0.tgz"
   "version" "5.2.0"
 
+"anymatch@^2.0.0":
+  "integrity" "sha512-5teOsQWABXHHBFP9y3skS5P3d/WfWXpv3FUpy+LorMrNYaT9pI4oLMQX7jzQ2KklNpGpWHzdCXTDT2Y3XGlZBw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/anymatch/-/anymatch-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "micromatch" "^3.1.4"
+    "normalize-path" "^2.1.1"
+
 "anymatch@^3.0.3", "anymatch@~3.1.2":
   "integrity" "sha1-wFV8CWrzLxBhmPT04qODU343hxY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/anymatch/-/anymatch-3.1.2.tgz"
@@ -2368,6 +2413,13 @@
   dependencies:
     "normalize-path" "^3.0.0"
     "picomatch" "^2.0.4"
+
+"append-transform@^0.4.0":
+  "integrity" "sha1-126/jKlNJ24keja61EpLdKthGZE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/append-transform/-/append-transform-0.4.0.tgz"
+  "version" "0.4.0"
+  dependencies:
+    "default-require-extensions" "^1.0.0"
 
 "arg@^5.0.1":
   "integrity" "sha1-6wyaj3d4bK0q+P8rhiiZhC17ats="
@@ -2399,6 +2451,33 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/aria-query/-/aria-query-5.0.0.tgz"
   "version" "5.0.0"
 
+"arr-diff@^2.0.0":
+  "integrity" "sha1-jzuCf5Vai9ZpaX5KQlasPOrjVs8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/arr-diff/-/arr-diff-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "arr-flatten" "^1.0.1"
+
+"arr-diff@^4.0.0":
+  "integrity" "sha1-1kYQdP6/7HHn4VI1dhoyml3HxSA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/arr-diff/-/arr-diff-4.0.0.tgz"
+  "version" "4.0.0"
+
+"arr-flatten@^1.0.1", "arr-flatten@^1.1.0":
+  "integrity" "sha512-L3hKV5R/p5o81R7O02IGnwpDmkp6E982XhtbuwSe3O4qOtMMMtodicASA1Cny2U+aCXcNpml+m4dPsvsJ3jatg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/arr-flatten/-/arr-flatten-1.1.0.tgz"
+  "version" "1.1.0"
+
+"arr-union@^3.1.0":
+  "integrity" "sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/arr-union/-/arr-union-3.1.0.tgz"
+  "version" "3.1.0"
+
+"array-equal@^1.0.0":
+  "integrity" "sha1-jCpe8kcv2ep0KwTHenUJO6J1fJM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/array-equal/-/array-equal-1.0.0.tgz"
+  "version" "1.0.0"
+
 "array-flatten@^2.1.0":
   "integrity" "sha1-JO+AoowaiTYX4hSbDG0NeIKTsJk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/array-flatten/-/array-flatten-2.1.2.tgz"
@@ -2425,6 +2504,16 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/array-union/-/array-union-2.1.0.tgz"
   "version" "2.1.0"
 
+"array-unique@^0.2.1":
+  "integrity" "sha1-odl8yvy8JiXMcPrc6zalDFiwGlM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/array-unique/-/array-unique-0.2.1.tgz"
+  "version" "0.2.1"
+
+"array-unique@^0.3.2":
+  "integrity" "sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/array-unique/-/array-unique-0.3.2.tgz"
+  "version" "0.3.2"
+
 "array.prototype.flat@^1.2.5":
   "integrity" "sha1-B+CXXYS7x8SM0YedYJ5oJZjTPhM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/array.prototype.flat/-/array.prototype.flat-1.2.5.tgz"
@@ -2443,17 +2532,44 @@
     "define-properties" "^1.1.3"
     "es-abstract" "^1.19.0"
 
+"arrify@^1.0.1":
+  "integrity" "sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/arrify/-/arrify-1.0.1.tgz"
+  "version" "1.0.1"
+
 "asap@~2.0.6":
   "integrity" "sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/asap/-/asap-2.0.6.tgz"
   "version" "2.0.6"
+
+"asn1@~0.2.3":
+  "integrity" "sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/asn1/-/asn1-0.2.6.tgz"
+  "version" "0.2.6"
+  dependencies:
+    "safer-buffer" "~2.1.0"
+
+"assert-plus@^1.0.0", "assert-plus@1.0.0":
+  "integrity" "sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/assert-plus/-/assert-plus-1.0.0.tgz"
+  "version" "1.0.0"
+
+"assign-symbols@^1.0.0":
+  "integrity" "sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/assign-symbols/-/assign-symbols-1.0.0.tgz"
+  "version" "1.0.0"
 
 "ast-types-flow@^0.0.7":
   "integrity" "sha1-9wtzXGvKGlycItmCw+Oef+ujva0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ast-types-flow/-/ast-types-flow-0.0.7.tgz"
   "version" "0.0.7"
 
-"async@^2.6.2":
+"astral-regex@^1.0.0":
+  "integrity" "sha512-+Ryf6g3BKoRc7jfp7ad8tM4TtMiaWvbF/1/sQcZPkkS7ag3D5nMBCe2UfOTONtAkaG0tO0ij3C5Lwmf1EiyjHg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/astral-regex/-/astral-regex-1.0.0.tgz"
+  "version" "1.0.0"
+
+"async@^2.1.4", "async@^2.6.2":
   "integrity" "sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/async/-/async-2.6.3.tgz"
   "version" "2.6.3"
@@ -2492,6 +2608,16 @@
     "picocolors" "^1.0.0"
     "postcss-value-parser" "^4.2.0"
 
+"aws-sign2@~0.7.0":
+  "integrity" "sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/aws-sign2/-/aws-sign2-0.7.0.tgz"
+  "version" "0.7.0"
+
+"aws4@^1.8.0":
+  "integrity" "sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/aws4/-/aws4-1.11.0.tgz"
+  "version" "1.11.0"
+
 "axe-core@^4.3.5":
   "integrity" "sha1-fb3CWYkpj5rQBmRc05Z4JEN1dBM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/axe-core/-/axe-core-4.4.1.tgz"
@@ -2501,6 +2627,70 @@
   "integrity" "sha1-lD1H4QwLcEqkInXiDt83ImSJib4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/axobject-query/-/axobject-query-2.2.0.tgz"
   "version" "2.2.0"
+
+"babel-code-frame@^6.26.0":
+  "integrity" "sha1-Y/1D99weO7fONZR9uP42mj9Yx0s="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-code-frame/-/babel-code-frame-6.26.0.tgz"
+  "version" "6.26.0"
+  dependencies:
+    "chalk" "^1.1.3"
+    "esutils" "^2.0.2"
+    "js-tokens" "^3.0.2"
+
+"babel-core@^6.0.0", "babel-core@^6.26.0":
+  "integrity" "sha512-6jyFLuDmeidKmUEb3NM+/yawG0M2bDZ9Z1qbZP59cyHLz8kYGKYwpJP0UwUKKUiTRNvxfLesJnTedqczP7cTDA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-core/-/babel-core-6.26.3.tgz"
+  "version" "6.26.3"
+  dependencies:
+    "babel-code-frame" "^6.26.0"
+    "babel-generator" "^6.26.0"
+    "babel-helpers" "^6.24.1"
+    "babel-messages" "^6.23.0"
+    "babel-register" "^6.26.0"
+    "babel-runtime" "^6.26.0"
+    "babel-template" "^6.26.0"
+    "babel-traverse" "^6.26.0"
+    "babel-types" "^6.26.0"
+    "babylon" "^6.18.0"
+    "convert-source-map" "^1.5.1"
+    "debug" "^2.6.9"
+    "json5" "^0.5.1"
+    "lodash" "^4.17.4"
+    "minimatch" "^3.0.4"
+    "path-is-absolute" "^1.0.1"
+    "private" "^0.1.8"
+    "slash" "^1.0.0"
+    "source-map" "^0.5.7"
+
+"babel-generator@^6.18.0", "babel-generator@^6.26.0":
+  "integrity" "sha512-HyfwY6ApZj7BYTcJURpM5tznulaBvyio7/0d4zFOeMPUmfxkCjHocCuoLa2SAGzBI8AREcH3eP3758F672DppA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-generator/-/babel-generator-6.26.1.tgz"
+  "version" "6.26.1"
+  dependencies:
+    "babel-messages" "^6.23.0"
+    "babel-runtime" "^6.26.0"
+    "babel-types" "^6.26.0"
+    "detect-indent" "^4.0.0"
+    "jsesc" "^1.3.0"
+    "lodash" "^4.17.4"
+    "source-map" "^0.5.7"
+    "trim-right" "^1.0.1"
+
+"babel-helpers@^6.24.1":
+  "integrity" "sha1-NHHenK7DiOXIUOWX5Yom3fN2ArI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-helpers/-/babel-helpers-6.24.1.tgz"
+  "version" "6.24.1"
+  dependencies:
+    "babel-runtime" "^6.22.0"
+    "babel-template" "^6.24.1"
+
+"babel-jest@^21.2.0":
+  "integrity" "sha512-O0W2qLoWu1QOoOGgxiR2JID4O6WSpxPiQanrkyi9SSlM0PJ60Ptzlck47lhtnr9YZO3zYOsxHwnyeWJ6AffoBQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-jest/-/babel-jest-21.2.0.tgz"
+  "version" "21.2.0"
+  dependencies:
+    "babel-plugin-istanbul" "^4.0.0"
+    "babel-preset-jest" "^21.2.0"
 
 "babel-jest@^27.4.2", "babel-jest@^27.5.1":
   "integrity" "sha1-ob+NYZKO3+/SHaJ+uGppW/1pFEQ="
@@ -2526,12 +2716,29 @@
     "make-dir" "^3.1.0"
     "schema-utils" "^2.6.5"
 
+"babel-messages@^6.23.0":
+  "integrity" "sha1-8830cDhYA1sqKVHG7F7fbGLyYw4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-messages/-/babel-messages-6.23.0.tgz"
+  "version" "6.23.0"
+  dependencies:
+    "babel-runtime" "^6.22.0"
+
 "babel-plugin-dynamic-import-node@^2.3.3":
   "integrity" "sha1-hP2hnJduxcbe/vV/lCez3vZuF6M="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz"
   "version" "2.3.3"
   dependencies:
     "object.assign" "^4.1.0"
+
+"babel-plugin-istanbul@^4.0.0":
+  "integrity" "sha512-PWP9FQ1AhZhS01T/4qLSKoHGY/xvkZdVBGlKM/HuxxS3+sC66HhTNR7+MpbO/so/cz/wY94MeSWJuP1hXIPfwQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-plugin-istanbul/-/babel-plugin-istanbul-4.1.6.tgz"
+  "version" "4.1.6"
+  dependencies:
+    "babel-plugin-syntax-object-rest-spread" "^6.13.0"
+    "find-up" "^2.1.0"
+    "istanbul-lib-instrument" "^1.10.1"
+    "test-exclude" "^4.2.1"
 
 "babel-plugin-istanbul@^6.1.1":
   "integrity" "sha1-+ojsWSMv2bTjbbvFQKjsmptH2nM="
@@ -2543,6 +2750,11 @@
     "@istanbuljs/schema" "^0.1.2"
     "istanbul-lib-instrument" "^5.0.4"
     "test-exclude" "^6.0.0"
+
+"babel-plugin-jest-hoist@^21.2.0":
+  "integrity" "sha512-yi5QuiVyyvhBUDLP4ButAnhYzkdrUwWDtvUJv71hjH3fclhnZg4HkDeqaitcR2dZZx/E67kGkRcPVjtVu+SJfQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-21.2.0.tgz"
+  "version" "21.2.0"
 
 "babel-plugin-jest-hoist@^27.5.1":
   "integrity" "sha1-m+mOzyjDMeufXfnHLW+J3rgYHC4="
@@ -2592,6 +2804,11 @@
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
 
+"babel-plugin-syntax-object-rest-spread@^6.13.0":
+  "integrity" "sha1-/WU28rzhODb/o6VFjEkDpZe7O/U="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz"
+  "version" "6.13.0"
+
 "babel-plugin-transform-react-remove-prop-types@^0.4.24":
   "integrity" "sha1-8u2vm0xqX75cHWeL+1MQeMFVXzo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.24.tgz"
@@ -2614,6 +2831,14 @@
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-syntax-top-level-await" "^7.8.3"
+
+"babel-preset-jest@^21.2.0":
+  "integrity" "sha512-hm9cBnr2h3J7yXoTtAVV0zg+3vg0Q/gT2GYuzlreTU0EPkJRtlNgKJJ3tBKEn0+VjAi3JykV6xCJkuUYttEEfA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-preset-jest/-/babel-preset-jest-21.2.0.tgz"
+  "version" "21.2.0"
+  dependencies:
+    "babel-plugin-jest-hoist" "^21.2.0"
+    "babel-plugin-syntax-object-rest-spread" "^6.13.0"
 
 "babel-preset-jest@^27.5.1":
   "integrity" "sha1-kfEPWANMt5ictPlitp+m7vamvIE="
@@ -2645,15 +2870,97 @@
     "babel-plugin-macros" "^3.1.0"
     "babel-plugin-transform-react-remove-prop-types" "^0.4.24"
 
+"babel-register@^6.26.0":
+  "integrity" "sha1-btAhFz4vy0htestFxgCahW9kcHE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-register/-/babel-register-6.26.0.tgz"
+  "version" "6.26.0"
+  dependencies:
+    "babel-core" "^6.26.0"
+    "babel-runtime" "^6.26.0"
+    "core-js" "^2.5.0"
+    "home-or-tmp" "^2.0.0"
+    "lodash" "^4.17.4"
+    "mkdirp" "^0.5.1"
+    "source-map-support" "^0.4.15"
+
+"babel-runtime@^6.22.0", "babel-runtime@^6.26.0":
+  "integrity" "sha1-llxwWGaOgrVde/4E/yM3vItWR/4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-runtime/-/babel-runtime-6.26.0.tgz"
+  "version" "6.26.0"
+  dependencies:
+    "core-js" "^2.4.0"
+    "regenerator-runtime" "^0.11.0"
+
+"babel-template@^6.16.0", "babel-template@^6.24.1", "babel-template@^6.26.0":
+  "integrity" "sha1-3gPi0WOWsGn0bdn/+FIfsaDjXgI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-template/-/babel-template-6.26.0.tgz"
+  "version" "6.26.0"
+  dependencies:
+    "babel-runtime" "^6.26.0"
+    "babel-traverse" "^6.26.0"
+    "babel-types" "^6.26.0"
+    "babylon" "^6.18.0"
+    "lodash" "^4.17.4"
+
+"babel-traverse@^6.18.0", "babel-traverse@^6.26.0":
+  "integrity" "sha1-RqnL1+3MYsjlwGTi0tjQ9ANXZu4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-traverse/-/babel-traverse-6.26.0.tgz"
+  "version" "6.26.0"
+  dependencies:
+    "babel-code-frame" "^6.26.0"
+    "babel-messages" "^6.23.0"
+    "babel-runtime" "^6.26.0"
+    "babel-types" "^6.26.0"
+    "babylon" "^6.18.0"
+    "debug" "^2.6.8"
+    "globals" "^9.18.0"
+    "invariant" "^2.2.2"
+    "lodash" "^4.17.4"
+
+"babel-types@^6.18.0", "babel-types@^6.26.0":
+  "integrity" "sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babel-types/-/babel-types-6.26.0.tgz"
+  "version" "6.26.0"
+  dependencies:
+    "babel-runtime" "^6.26.0"
+    "esutils" "^2.0.2"
+    "lodash" "^4.17.4"
+    "to-fast-properties" "^1.0.3"
+
+"babylon@^6.18.0":
+  "integrity" "sha512-q/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/babylon/-/babylon-6.18.0.tgz"
+  "version" "6.18.0"
+
 "balanced-match@^1.0.0":
   "integrity" "sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/balanced-match/-/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
+"base@^0.11.1":
+  "integrity" "sha512-5T6P4xPgpp0YDFvSWwEZ4NoE3aM4QBQXDzmVbraCkFj8zHM+mba8SyqB5DbZWyR7mYHo6Y7BdQo3MoA4m0TeQg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/base/-/base-0.11.2.tgz"
+  "version" "0.11.2"
+  dependencies:
+    "cache-base" "^1.0.1"
+    "class-utils" "^0.3.5"
+    "component-emitter" "^1.2.1"
+    "define-property" "^1.0.0"
+    "isobject" "^3.0.1"
+    "mixin-deep" "^1.2.0"
+    "pascalcase" "^0.1.1"
+
 "batch@0.6.1":
   "integrity" "sha1-3DQxT05nkxgJP8dgJyUl+UvyXBY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/batch/-/batch-0.6.1.tgz"
   "version" "0.6.1"
+
+"bcrypt-pbkdf@^1.0.0":
+  "integrity" "sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "tweetnacl" "^0.14.3"
 
 "bfj@^7.0.2":
   "integrity" "sha1-GYjOdvOt2awpE/2LpHqtnmUb+7I="
@@ -2674,6 +2981,13 @@
   "integrity" "sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/binary-extensions/-/binary-extensions-2.2.0.tgz"
   "version" "2.2.0"
+
+"bindings@^1.5.0":
+  "integrity" "sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/bindings/-/bindings-1.5.0.tgz"
+  "version" "1.5.0"
+  dependencies:
+    "file-uri-to-path" "1.0.0"
 
 "bluebird@^3.5.5":
   "integrity" "sha1-nyKcFb4nJFT/qXOs4NvueaGww28="
@@ -2726,6 +3040,31 @@
     "balanced-match" "^1.0.0"
     "concat-map" "0.0.1"
 
+"braces@^1.8.2":
+  "integrity" "sha1-uneWLhLf+WnWt2cR6RS3N4V79qc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/braces/-/braces-1.8.5.tgz"
+  "version" "1.8.5"
+  dependencies:
+    "expand-range" "^1.8.1"
+    "preserve" "^0.2.0"
+    "repeat-element" "^1.1.2"
+
+"braces@^2.3.1":
+  "integrity" "sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/braces/-/braces-2.3.2.tgz"
+  "version" "2.3.2"
+  dependencies:
+    "arr-flatten" "^1.1.0"
+    "array-unique" "^0.3.2"
+    "extend-shallow" "^2.0.1"
+    "fill-range" "^4.0.0"
+    "isobject" "^3.0.1"
+    "repeat-element" "^1.1.2"
+    "snapdragon" "^0.8.1"
+    "snapdragon-node" "^2.0.1"
+    "split-string" "^3.0.2"
+    "to-regex" "^3.0.1"
+
 "braces@^3.0.2", "braces@~3.0.2":
   "integrity" "sha1-NFThpGLujVmeI23zNs2epPiv4Qc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/braces/-/braces-3.0.2.tgz"
@@ -2737,6 +3076,13 @@
   "integrity" "sha1-PJtLfXgsgSHlbxAQbYTA0P/JRiY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz"
   "version" "1.0.0"
+
+"browser-resolve@^1.11.2":
+  "integrity" "sha512-exDi1BYWB/6raKHmDTCicQfTkqwN5fioMFV4j8BsfMU4R2DK/QfZfK7kOVkmWCNANf0snkBzqGqAJBao9gZMdQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/browser-resolve/-/browser-resolve-1.11.3.tgz"
+  "version" "1.11.3"
+  dependencies:
+    "resolve" "1.1.7"
 
 "browserslist@^4.0.0", "browserslist@^4.14.5", "browserslist@^4.16.6", "browserslist@^4.17.5", "browserslist@^4.18.1", "browserslist@^4.19.1", "browserslist@^4.20.2":
   "integrity" "sha1-VntBUIdX7NkE2rTRxkbGEs09T4g="
@@ -2766,6 +3112,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/buffer-indexof/-/buffer-indexof-1.1.1.tgz"
   "version" "1.1.1"
 
+"builtin-modules@^1.0.0":
+  "integrity" "sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/builtin-modules/-/builtin-modules-1.1.1.tgz"
+  "version" "1.1.1"
+
 "builtin-modules@^3.1.0":
   "integrity" "sha1-RdXbmefuXmvE82LgCL+RerUEmIc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/builtin-modules/-/builtin-modules-3.2.0.tgz"
@@ -2781,6 +3132,21 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/bytes/-/bytes-3.1.2.tgz"
   "version" "3.1.2"
 
+"cache-base@^1.0.1":
+  "integrity" "sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cache-base/-/cache-base-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "collection-visit" "^1.0.0"
+    "component-emitter" "^1.2.1"
+    "get-value" "^2.0.6"
+    "has-value" "^1.0.0"
+    "isobject" "^3.0.1"
+    "set-value" "^2.0.0"
+    "to-object-path" "^0.3.0"
+    "union-value" "^1.0.0"
+    "unset-value" "^1.0.0"
+
 "call-bind@^1.0.0", "call-bind@^1.0.2":
   "integrity" "sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/call-bind/-/call-bind-1.0.2.tgz"
@@ -2788,6 +3154,11 @@
   dependencies:
     "function-bind" "^1.1.1"
     "get-intrinsic" "^1.0.2"
+
+"callsites@^2.0.0":
+  "integrity" "sha1-BuuE8A7qQT2oav/vrL/7Ngk7PFA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/callsites/-/callsites-2.0.0.tgz"
+  "version" "2.0.0"
 
 "callsites@^3.0.0":
   "integrity" "sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M="
@@ -2806,6 +3177,11 @@
   "integrity" "sha1-7pePaUeRTMMMa0R0G27R338EP9U="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/camelcase-css/-/camelcase-css-2.0.1.tgz"
   "version" "2.0.1"
+
+"camelcase@^4.1.0":
+  "integrity" "sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/camelcase/-/camelcase-4.1.0.tgz"
+  "version" "4.1.0"
 
 "camelcase@^5.3.1":
   "integrity" "sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA="
@@ -2832,12 +3208,35 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/caniuse-lite/-/caniuse-lite-1.0.30001320.tgz"
   "version" "1.0.30001320"
 
+"capture-exit@^1.2.0":
+  "integrity" "sha1-HF/MSJ/QqwDU8ax64QcuMXP7q28="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/capture-exit/-/capture-exit-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "rsvp" "^3.3.3"
+
 "case-sensitive-paths-webpack-plugin@^2.4.0":
   "integrity" "sha1-22QGbGQi7tLgjMFLmGykN5bbxtQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz"
   "version" "2.4.0"
 
-"chalk@^2.0.0", "chalk@^2.4.1":
+"caseless@~0.12.0":
+  "integrity" "sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/caseless/-/caseless-0.12.0.tgz"
+  "version" "0.12.0"
+
+"chalk@^1.1.3":
+  "integrity" "sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/chalk/-/chalk-1.1.3.tgz"
+  "version" "1.1.3"
+  dependencies:
+    "ansi-styles" "^2.2.1"
+    "escape-string-regexp" "^1.0.2"
+    "has-ansi" "^2.0.0"
+    "strip-ansi" "^3.0.0"
+    "supports-color" "^2.0.0"
+
+"chalk@^2.0.0", "chalk@^2.0.1", "chalk@^2.4.1":
   "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/chalk/-/chalk-2.4.2.tgz"
   "version" "2.4.2"
@@ -2926,6 +3325,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz"
   "version" "1.0.3"
 
+"ci-info@^1.5.0":
+  "integrity" "sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ci-info/-/ci-info-1.6.0.tgz"
+  "version" "1.6.0"
+
 "ci-info@^3.2.0":
   "integrity" "sha1-tO0ftoGN6kgDpVxiMEH5Fl0gZrI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ci-info/-/ci-info-3.3.0.tgz"
@@ -2935,6 +3339,16 @@
   "integrity" "sha1-n4S6MkSlEvOlTlJ36O70xImGTkA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz"
   "version" "1.2.2"
+
+"class-utils@^0.3.5":
+  "integrity" "sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/class-utils/-/class-utils-0.3.6.tgz"
+  "version" "0.3.6"
+  dependencies:
+    "arr-union" "^3.1.0"
+    "define-property" "^0.2.5"
+    "isobject" "^3.0.0"
+    "static-extend" "^0.1.1"
 
 "classnames@^2.2.3":
   "integrity" "sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA=="
@@ -2952,6 +3366,15 @@
   "integrity" "sha1-7oRy27Ep5yezHooQpCfe6d/kAIs="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/clean-stack/-/clean-stack-2.2.0.tgz"
   "version" "2.2.0"
+
+"cliui@^3.2.0":
+  "integrity" "sha1-EgYBU3qRbSmUD5NNo7SNWFo5IT0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cliui/-/cliui-3.2.0.tgz"
+  "version" "3.2.0"
+  dependencies:
+    "string-width" "^1.0.1"
+    "strip-ansi" "^3.0.1"
+    "wrap-ansi" "^2.0.0"
 
 "cliui@^7.0.2":
   "integrity" "sha1-oCZe5lVHb8gHrqnfPfjfd4OAi08="
@@ -2976,10 +3399,23 @@
     "chalk" "^2.4.1"
     "q" "^1.1.2"
 
+"code-point-at@^1.0.0":
+  "integrity" "sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/code-point-at/-/code-point-at-1.1.0.tgz"
+  "version" "1.1.0"
+
 "collect-v8-coverage@^1.0.0":
   "integrity" "sha1-zCyOlPwYu9/+ZNZTRXDIpnOyf1k="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/collect-v8-coverage/-/collect-v8-coverage-1.0.1.tgz"
   "version" "1.0.1"
+
+"collection-visit@^1.0.0":
+  "integrity" "sha1-S8A3PBZLwykbTTaMgpzxqApZ3KA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/collection-visit/-/collection-visit-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "map-visit" "^1.0.0"
+    "object-visit" "^1.0.0"
 
 "color-convert@^1.9.0":
   "integrity" "sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg="
@@ -3015,7 +3451,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/colorette/-/colorette-2.0.16.tgz"
   "version" "2.0.16"
 
-"combined-stream@^1.0.8":
+"combined-stream@^1.0.6", "combined-stream@^1.0.8", "combined-stream@~1.0.6":
   "integrity" "sha1-w9RaizT9cwYxoRCoolIGgrMdWn8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/combined-stream/-/combined-stream-1.0.8.tgz"
   "version" "1.0.8"
@@ -3051,6 +3487,11 @@
   "integrity" "sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/commondir/-/commondir-1.0.1.tgz"
   "version" "1.0.1"
+
+"component-emitter@^1.2.1":
+  "integrity" "sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/component-emitter/-/component-emitter-1.3.0.tgz"
+  "version" "1.3.0"
 
 "compressible@~2.0.16":
   "integrity" "sha1-r1PMprBw1MPAdQ+9dyhqbXzEb7o="
@@ -3094,12 +3535,17 @@
   dependencies:
     "safe-buffer" "5.2.1"
 
+"content-type-parser@^1.0.1":
+  "integrity" "sha512-lM4l4CnMEwOLHAHr/P6MEZwZFPJFtAAKgL6pogbXmVZggIqXhdB6RbBtPOTsw2FcXwYhehRGERJmRrjOiIB8pQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/content-type-parser/-/content-type-parser-1.0.2.tgz"
+  "version" "1.0.2"
+
 "content-type@~1.0.4":
   "integrity" "sha1-4TjMdeBAxyexlm/l5fjJruJW/js="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/content-type/-/content-type-1.0.4.tgz"
   "version" "1.0.4"
 
-"convert-source-map@^1.4.0", "convert-source-map@^1.6.0", "convert-source-map@^1.7.0":
+"convert-source-map@^1.4.0", "convert-source-map@^1.5.1", "convert-source-map@^1.6.0", "convert-source-map@^1.7.0":
   "integrity" "sha1-8zc8MtIbTXgN2ABFFGhPt5HKQ2k="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/convert-source-map/-/convert-source-map-1.8.0.tgz"
   "version" "1.8.0"
@@ -3116,6 +3562,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cookie/-/cookie-0.4.2.tgz"
   "version" "0.4.2"
 
+"copy-descriptor@^0.1.0":
+  "integrity" "sha1-Z29us8OZl8LuGsOpJP1hJHSPV40="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/copy-descriptor/-/copy-descriptor-0.1.1.tgz"
+  "version" "0.1.1"
+
 "core-js-compat@^3.20.2", "core-js-compat@^3.21.0":
   "integrity" "sha1-ysNp9nyNE0/4+b0WI+O8LEIGjII="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-js-compat/-/core-js-compat-3.21.1.tgz"
@@ -3129,6 +3580,16 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-js-pure/-/core-js-pure-3.21.1.tgz"
   "version" "3.21.1"
 
+"core-js@^2.4.0":
+  "integrity" "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-js/-/core-js-2.6.12.tgz"
+  "version" "2.6.12"
+
+"core-js@^2.5.0":
+  "integrity" "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-js/-/core-js-2.6.12.tgz"
+  "version" "2.6.12"
+
 "core-js@^3.19.2":
   "integrity" "sha1-8uDdwfxD2m+QRwbo6VW8GdBqDZQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-js/-/core-js-3.21.1.tgz"
@@ -3138,6 +3599,11 @@
   "integrity" "sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-util-is/-/core-util-is-1.0.3.tgz"
   "version" "1.0.3"
+
+"core-util-is@1.0.2":
+  "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/core-util-is/-/core-util-is-1.0.2.tgz"
+  "version" "1.0.2"
 
 "cosmiconfig@^6.0.0":
   "integrity" "sha1-2k/uhTxS9rHmk19BwaL8UL1KmYI="
@@ -3167,6 +3633,15 @@
   "version" "3.1.5"
   dependencies:
     "node-fetch" "2.6.7"
+
+"cross-spawn@^5.0.1":
+  "integrity" "sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cross-spawn/-/cross-spawn-5.1.0.tgz"
+  "version" "5.1.0"
+  dependencies:
+    "lru-cache" "^4.0.1"
+    "shebang-command" "^1.2.0"
+    "which" "^1.2.9"
 
 "cross-spawn@^7.0.2", "cross-spawn@^7.0.3":
   "integrity" "sha1-9zqFudXUHQRVUcF34ogtSshXKKY="
@@ -3379,6 +3854,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cssom/-/cssom-0.4.4.tgz"
   "version" "0.4.4"
 
+"cssom@>= 0.3.2 < 0.4.0", "cssom@0.3.x":
+  "integrity" "sha512-b0tGHbfegbhPJpxpiBPU2sCkigAqtM9O121le6bbOlgyV+NyGyCmVfJ6QW9eRjz8CpNfWEOYBIMIGRYkLwsIYg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cssom/-/cssom-0.3.8.tgz"
+  "version" "0.3.8"
+
 "cssom@~0.3.6":
   "integrity" "sha1-nxJ29bK0Y/IRTT8sdSUK+MGjb0o="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cssom/-/cssom-0.3.8.tgz"
@@ -3391,6 +3871,13 @@
   dependencies:
     "cssom" "~0.3.6"
 
+"cssstyle@>= 0.2.37 < 0.3.0":
+  "integrity" "sha1-VBCXI0yyUTyDzu06zdwn/yeYfVQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/cssstyle/-/cssstyle-0.2.37.tgz"
+  "version" "0.2.37"
+  dependencies:
+    "cssom" "0.3.x"
+
 "csstype@^3.0.2":
   "integrity" "sha1-1mcAxerPrBlA3rTj7lZCeS2FzTM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/csstype/-/csstype-3.0.11.tgz"
@@ -3401,6 +3888,13 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz"
   "version" "1.0.8"
 
+"dashdash@^1.12.0":
+  "integrity" "sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/dashdash/-/dashdash-1.14.1.tgz"
+  "version" "1.14.1"
+  dependencies:
+    "assert-plus" "^1.0.0"
+
 "data-urls@^2.0.0":
   "integrity" "sha1-FWSFpyljqXD11YIar2Qr7yvy25s="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/data-urls/-/data-urls-2.0.0.tgz"
@@ -3410,6 +3904,20 @@
     "whatwg-mimetype" "^2.3.0"
     "whatwg-url" "^8.0.0"
 
+"debug@^2.2.0":
+  "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/debug/-/debug-2.6.9.tgz"
+  "version" "2.6.9"
+  dependencies:
+    "ms" "2.0.0"
+
+"debug@^2.3.3":
+  "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/debug/-/debug-2.6.9.tgz"
+  "version" "2.6.9"
+  dependencies:
+    "ms" "2.0.0"
+
 "debug@^2.6.0":
   "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/debug/-/debug-2.6.9.tgz"
@@ -3417,12 +3925,26 @@
   dependencies:
     "ms" "2.0.0"
 
-"debug@^2.6.9":
-  "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
+"debug@^2.6.8":
+  "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/debug/-/debug-2.6.9.tgz"
   "version" "2.6.9"
   dependencies:
     "ms" "2.0.0"
+
+"debug@^2.6.9":
+  "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/debug/-/debug-2.6.9.tgz"
+  "version" "2.6.9"
+  dependencies:
+    "ms" "2.0.0"
+
+"debug@^3.1.0":
+  "integrity" "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/debug/-/debug-3.2.7.tgz"
+  "version" "3.2.7"
+  dependencies:
+    "ms" "^2.1.1"
 
 "debug@^3.1.1":
   "integrity" "sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o="
@@ -3451,6 +3973,11 @@
   "version" "2.6.9"
   dependencies:
     "ms" "2.0.0"
+
+"decamelize@^1.1.1":
+  "integrity" "sha1-9lNNFRSCabIDUue+4m9QH5oZEpA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/decamelize/-/decamelize-1.2.0.tgz"
+  "version" "1.2.0"
 
 "decimal.js@^10.2.1":
   "integrity" "sha1-2MOkRKnGd0umDKatcmHDqU/V54M="
@@ -3501,6 +4028,13 @@
   dependencies:
     "execa" "^5.0.0"
 
+"default-require-extensions@^1.0.0":
+  "integrity" "sha1-836hXT4T/9m0N9M+GnW1+5eHTLg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/default-require-extensions/-/default-require-extensions-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "strip-bom" "^2.0.0"
+
 "define-lazy-prop@^2.0.0":
   "integrity" "sha1-P3rkIRKbyqrJvHSQXJigAJ7J7n8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/define-lazy-prop/-/define-lazy-prop-2.0.0.tgz"
@@ -3512,6 +4046,28 @@
   "version" "1.1.3"
   dependencies:
     "object-keys" "^1.0.12"
+
+"define-property@^0.2.5":
+  "integrity" "sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/define-property/-/define-property-0.2.5.tgz"
+  "version" "0.2.5"
+  dependencies:
+    "is-descriptor" "^0.1.0"
+
+"define-property@^1.0.0":
+  "integrity" "sha1-dp66rz9KY6rTr56NMEybvnm/sOY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/define-property/-/define-property-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "is-descriptor" "^1.0.0"
+
+"define-property@^2.0.2":
+  "integrity" "sha512-jwK2UV4cnPpbcG7+VRARKTZPUWowwXA8bzH5NP6ud0oeAxyYPuGZUAC7hMugpCdz4BeSZl2Dl9k66CHJ/46ZYQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/define-property/-/define-property-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "is-descriptor" "^1.0.2"
+    "isobject" "^3.0.1"
 
 "defined@^1.0.0":
   "integrity" "sha1-yY2bzvdWdBiOEQlpFRGZ45sfppM="
@@ -3546,6 +4102,13 @@
   "integrity" "sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/destroy/-/destroy-1.0.4.tgz"
   "version" "1.0.4"
+
+"detect-indent@^4.0.0":
+  "integrity" "sha1-920GQ1LN9Docts5hnE7jqUdd4gg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/detect-indent/-/detect-indent-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "repeating" "^2.0.0"
 
 "detect-newline@^3.0.0":
   "integrity" "sha1-V29d/GOuGhkv8ZLYrTr2MImRtlE="
@@ -3583,6 +4146,11 @@
   "integrity" "sha1-6uzA0yf9aMjZZyoeZKuNzLLvUyc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/diff-sequences/-/diff-sequences-27.5.1.tgz"
   "version" "27.5.1"
+
+"diff@^3.2.0":
+  "integrity" "sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/diff/-/diff-3.5.0.tgz"
+  "version" "3.5.0"
 
 "dir-glob@^3.0.1":
   "integrity" "sha1-Vtv3PZkqSpO6FYT0U0Bj/S5BcX8="
@@ -3731,6 +4299,14 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/duplexer/-/duplexer-0.1.2.tgz"
   "version" "0.1.2"
 
+"ecc-jsbn@~0.1.1":
+  "integrity" "sha1-OoOpBOVDUyh4dMVkt1SThoSamMk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz"
+  "version" "0.1.2"
+  dependencies:
+    "jsbn" "~0.1.0"
+    "safer-buffer" "^2.1.0"
+
 "ee-first@1.1.1":
   "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ee-first/-/ee-first-1.1.1.tgz"
@@ -3786,7 +4362,14 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/entities/-/entities-2.2.0.tgz"
   "version" "2.2.0"
 
-"error-ex@^1.3.1":
+"errno@~0.1.7":
+  "integrity" "sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/errno/-/errno-0.1.8.tgz"
+  "version" "0.1.8"
+  dependencies:
+    "prr" "~1.0.1"
+
+"error-ex@^1.2.0", "error-ex@^1.3.1":
   "integrity" "sha1-tKxAZIEH/c3PriQvQovqihTU8b8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/error-ex/-/error-ex-1.3.2.tgz"
   "version" "1.3.2"
@@ -3850,7 +4433,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/escape-html/-/escape-html-1.0.3.tgz"
   "version" "1.0.3"
 
-"escape-string-regexp@^1.0.5":
+"escape-string-regexp@^1.0.2", "escape-string-regexp@^1.0.5":
   "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
   "version" "1.0.5"
@@ -3864,6 +4447,18 @@
   "integrity" "sha1-FLqDpdNz49MR5a/KKc9b+tllvzQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
   "version" "4.0.0"
+
+"escodegen@^1.6.1":
+  "integrity" "sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/escodegen/-/escodegen-1.14.3.tgz"
+  "version" "1.14.3"
+  dependencies:
+    "esprima" "^4.0.1"
+    "estraverse" "^4.2.0"
+    "esutils" "^2.0.2"
+    "optionator" "^0.8.1"
+  optionalDependencies:
+    "source-map" "~0.6.1"
 
 "escodegen@^2.0.0":
   "integrity" "sha1-XjKxKDPoqo+jXhvwvvqJOASEx90="
@@ -4128,6 +4723,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/estraverse/-/estraverse-4.3.0.tgz"
   "version" "4.3.0"
 
+"estraverse@^4.2.0":
+  "integrity" "sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/estraverse/-/estraverse-4.3.0.tgz"
+  "version" "4.3.0"
+
 "estraverse@^5.1.0", "estraverse@^5.2.0", "estraverse@^5.3.0":
   "integrity" "sha1-LupSkHAvJquP5TcDcP+GyWXSESM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/estraverse/-/estraverse-5.3.0.tgz"
@@ -4158,6 +4758,26 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/events/-/events-3.3.0.tgz"
   "version" "3.3.0"
 
+"exec-sh@^0.2.0":
+  "integrity" "sha512-FIUCJz1RbuS0FKTdaAafAByGS0CPvU3R0MeHxgtl+djzCc//F8HakL8GzmVNZanasTbTAY/3DRFA0KpVqj/eAw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/exec-sh/-/exec-sh-0.2.2.tgz"
+  "version" "0.2.2"
+  dependencies:
+    "merge" "^1.2.0"
+
+"execa@^0.7.0":
+  "integrity" "sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/execa/-/execa-0.7.0.tgz"
+  "version" "0.7.0"
+  dependencies:
+    "cross-spawn" "^5.0.1"
+    "get-stream" "^3.0.0"
+    "is-stream" "^1.1.0"
+    "npm-run-path" "^2.0.0"
+    "p-finally" "^1.0.0"
+    "signal-exit" "^3.0.0"
+    "strip-eof" "^1.0.0"
+
 "execa@^5.0.0":
   "integrity" "sha1-+ArZy/Qpj3vR1MlVXCHpN0HEEd0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/execa/-/execa-5.1.1.tgz"
@@ -4177,6 +4797,45 @@
   "integrity" "sha1-BjJjj42HfMghB9MKD/8aF8uhzQw="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/exit/-/exit-0.1.2.tgz"
   "version" "0.1.2"
+
+"expand-brackets@^0.1.4":
+  "integrity" "sha1-3wcoTjQqgHzXM6xa9yQR5YHRF3s="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/expand-brackets/-/expand-brackets-0.1.5.tgz"
+  "version" "0.1.5"
+  dependencies:
+    "is-posix-bracket" "^0.1.0"
+
+"expand-brackets@^2.1.4":
+  "integrity" "sha1-t3c14xXOMPa27/D4OwQVGiJEliI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/expand-brackets/-/expand-brackets-2.1.4.tgz"
+  "version" "2.1.4"
+  dependencies:
+    "debug" "^2.3.3"
+    "define-property" "^0.2.5"
+    "extend-shallow" "^2.0.1"
+    "posix-character-classes" "^0.1.0"
+    "regex-not" "^1.0.0"
+    "snapdragon" "^0.8.1"
+    "to-regex" "^3.0.1"
+
+"expand-range@^1.8.1":
+  "integrity" "sha1-opnv/TNf4nIeuujiV+x5ZE/IUzc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/expand-range/-/expand-range-1.8.2.tgz"
+  "version" "1.8.2"
+  dependencies:
+    "fill-range" "^2.1.0"
+
+"expect@^21.2.1":
+  "integrity" "sha512-orfQQqFRTX0jH7znRIGi8ZMR8kTNpXklTTz8+HGTpmTKZo3Occ6JNB5FXMb8cRuiiC/GyDqsr30zUa66ACYlYw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/expect/-/expect-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "ansi-styles" "^3.2.0"
+    "jest-diff" "^21.2.1"
+    "jest-get-type" "^21.2.0"
+    "jest-matcher-utils" "^21.2.1"
+    "jest-message-util" "^21.2.1"
+    "jest-regex-util" "^21.2.0"
 
 "expect@^27.5.1":
   "integrity" "sha1-g85Z8eW99fnSuUth0gUNtI8/73Q="
@@ -4223,6 +4882,52 @@
     "type-is" "~1.6.18"
     "utils-merge" "1.0.1"
     "vary" "~1.1.2"
+
+"extend-shallow@^2.0.1":
+  "integrity" "sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/extend-shallow/-/extend-shallow-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "is-extendable" "^0.1.0"
+
+"extend-shallow@^3.0.0", "extend-shallow@^3.0.2":
+  "integrity" "sha1-Jqcarwc7OfshJxcnRhMcJwQCjbg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/extend-shallow/-/extend-shallow-3.0.2.tgz"
+  "version" "3.0.2"
+  dependencies:
+    "assign-symbols" "^1.0.0"
+    "is-extendable" "^1.0.1"
+
+"extend@~3.0.2":
+  "integrity" "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/extend/-/extend-3.0.2.tgz"
+  "version" "3.0.2"
+
+"extglob@^0.3.1":
+  "integrity" "sha1-Lhj/PS9JqydlzskCPwEdqo2DSaE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/extglob/-/extglob-0.3.2.tgz"
+  "version" "0.3.2"
+  dependencies:
+    "is-extglob" "^1.0.0"
+
+"extglob@^2.0.4":
+  "integrity" "sha512-Nmb6QXkELsuBr24CJSkilo6UHHgbekK5UiZgfE6UHD3Eb27YC6oD+bhcT+tJ6cl8dmsgdQxnWlcry8ksBIBLpw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/extglob/-/extglob-2.0.4.tgz"
+  "version" "2.0.4"
+  dependencies:
+    "array-unique" "^0.3.2"
+    "define-property" "^1.0.0"
+    "expand-brackets" "^2.1.4"
+    "extend-shallow" "^2.0.1"
+    "fragment-cache" "^0.2.1"
+    "regex-not" "^1.0.0"
+    "snapdragon" "^0.8.1"
+    "to-regex" "^3.0.1"
+
+"extsprintf@^1.2.0", "extsprintf@1.3.0":
+  "integrity" "sha1-lpGEQOMEGnpBT4xS48V06zw+HgU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/extsprintf/-/extsprintf-1.3.0.tgz"
+  "version" "1.3.0"
 
 "fast-deep-equal@^3.1.1", "fast-deep-equal@^3.1.3":
   "integrity" "sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU="
@@ -4286,6 +4991,11 @@
     "loader-utils" "^2.0.0"
     "schema-utils" "^3.0.0"
 
+"file-uri-to-path@1.0.0":
+  "integrity" "sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz"
+  "version" "1.0.0"
+
 "filelist@^1.0.1":
   "integrity" "sha1-gCAvIUYtTRwuIUEZsYB8G8A4Dls="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/filelist/-/filelist-1.0.2.tgz"
@@ -4293,10 +5003,44 @@
   dependencies:
     "minimatch" "^3.0.4"
 
+"filename-regex@^2.0.0":
+  "integrity" "sha1-wcS5vuPglyXdsQa3XB4wH+LxiyY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/filename-regex/-/filename-regex-2.0.1.tgz"
+  "version" "2.0.1"
+
+"fileset@^2.0.2":
+  "integrity" "sha1-jnVIqW08wjJ+5eZ0FocjozO7oqA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fileset/-/fileset-2.0.3.tgz"
+  "version" "2.0.3"
+  dependencies:
+    "glob" "^7.0.3"
+    "minimatch" "^3.0.3"
+
 "filesize@^8.0.6":
   "integrity" "sha1-aV5w2A9ORwEsEy1XoFnoDGtYC9g="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/filesize/-/filesize-8.0.7.tgz"
   "version" "8.0.7"
+
+"fill-range@^2.1.0":
+  "integrity" "sha512-cnrcCbj01+j2gTG921VZPnHbjmdAf8oQV/iGeV2kZxGSyfYjjTyY79ErsK1WJWMpw6DaApEX72binqJE+/d+5Q=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fill-range/-/fill-range-2.2.4.tgz"
+  "version" "2.2.4"
+  dependencies:
+    "is-number" "^2.1.0"
+    "isobject" "^2.0.0"
+    "randomatic" "^3.0.0"
+    "repeat-element" "^1.1.2"
+    "repeat-string" "^1.5.2"
+
+"fill-range@^4.0.0":
+  "integrity" "sha1-1USBHUKPmOsGpj3EAtJAPDKMOPc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fill-range/-/fill-range-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "extend-shallow" "^2.0.1"
+    "is-number" "^3.0.0"
+    "repeat-string" "^1.6.1"
+    "to-regex-range" "^2.1.0"
 
 "fill-range@^7.0.1":
   "integrity" "sha1-GRmmp8df44ssfHflGYU12prN2kA="
@@ -4327,7 +5071,15 @@
     "make-dir" "^3.0.2"
     "pkg-dir" "^4.1.0"
 
-"find-up@^2.1.0":
+"find-up@^1.0.0":
+  "integrity" "sha1-ay6YIrGizgpgq2TWEOzK1TyyTQ8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/find-up/-/find-up-1.1.2.tgz"
+  "version" "1.1.2"
+  dependencies:
+    "path-exists" "^2.0.0"
+    "pinkie-promise" "^2.0.0"
+
+"find-up@^2.0.0", "find-up@^2.1.0":
   "integrity" "sha1-RdG35QbHF93UgndaK3eSCjwMV6c="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/find-up/-/find-up-2.1.0.tgz"
   "version" "2.1.0"
@@ -4388,6 +5140,23 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/font-awesome/-/font-awesome-4.7.0.tgz"
   "version" "4.7.0"
 
+"for-in@^1.0.1", "for-in@^1.0.2":
+  "integrity" "sha1-gQaNKVqBQuwKxybG4iAMMPttXoA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/for-in/-/for-in-1.0.2.tgz"
+  "version" "1.0.2"
+
+"for-own@^0.1.4":
+  "integrity" "sha1-UmXGgaTylNq78XyVCbZ2OqhFEM4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/for-own/-/for-own-0.1.5.tgz"
+  "version" "0.1.5"
+  dependencies:
+    "for-in" "^1.0.1"
+
+"forever-agent@~0.6.1":
+  "integrity" "sha1-+8cfDEGt6zf5bFd60e1C2P2sypE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/forever-agent/-/forever-agent-0.6.1.tgz"
+  "version" "0.6.1"
+
 "fork-ts-checker-webpack-plugin@^6.5.0":
   "integrity" "sha1-AoKzNfpJWpfhZ/aQGPVm6n0qK14="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.5.0.tgz"
@@ -4416,6 +5185,15 @@
     "combined-stream" "^1.0.8"
     "mime-types" "^2.1.12"
 
+"form-data@~2.3.2":
+  "integrity" "sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/form-data/-/form-data-2.3.3.tgz"
+  "version" "2.3.3"
+  dependencies:
+    "asynckit" "^0.4.0"
+    "combined-stream" "^1.0.6"
+    "mime-types" "^2.1.12"
+
 "forwarded@0.2.0":
   "integrity" "sha1-ImmTZCiq1MFcfr6XeahL8LKoGBE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/forwarded/-/forwarded-0.2.0.tgz"
@@ -4425,6 +5203,13 @@
   "integrity" "sha1-RI5RCaMTo1J/WjqyEZ7Ezw4OKVA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fraction.js/-/fraction.js-4.2.0.tgz"
   "version" "4.2.0"
+
+"fragment-cache@^0.2.1":
+  "integrity" "sha1-QpD60n8T6Jvn8zeZxrxaCr//DRk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fragment-cache/-/fragment-cache-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "map-cache" "^0.2.2"
 
 "fresh@0.5.2":
   "integrity" "sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac="
@@ -4470,6 +5255,14 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
+"fsevents@^1.2.3":
+  "integrity" "sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fsevents/-/fsevents-1.2.13.tgz"
+  "version" "1.2.13"
+  dependencies:
+    "bindings" "^1.5.0"
+    "nan" "^2.12.1"
+
 "fsevents@^2.3.2", "fsevents@~2.3.2":
   "integrity" "sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/fsevents/-/fsevents-2.3.2.tgz"
@@ -4489,6 +5282,11 @@
   "integrity" "sha1-MqbudsPX9S1GsrGuXZP+qFgKJeA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/gensync/-/gensync-1.0.0-beta.2.tgz"
   "version" "1.0.0-beta.2"
+
+"get-caller-file@^1.0.1":
+  "integrity" "sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/get-caller-file/-/get-caller-file-1.0.3.tgz"
+  "version" "1.0.3"
 
 "get-caller-file@^2.0.5":
   "integrity" "sha1-T5RBKoLbMvNuOwuXQfipf+sDH34="
@@ -4514,6 +5312,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/get-package-type/-/get-package-type-0.1.0.tgz"
   "version" "0.1.0"
 
+"get-stream@^3.0.0":
+  "integrity" "sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/get-stream/-/get-stream-3.0.0.tgz"
+  "version" "3.0.0"
+
 "get-stream@^6.0.0":
   "integrity" "sha1-omLY7vZ6ztV8KFKtYWdSakPL97c="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/get-stream/-/get-stream-6.0.1.tgz"
@@ -4526,6 +5329,33 @@
   dependencies:
     "call-bind" "^1.0.2"
     "get-intrinsic" "^1.1.1"
+
+"get-value@^2.0.3", "get-value@^2.0.6":
+  "integrity" "sha1-3BXKHGcjh8p2vTesCjlbogQqLCg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/get-value/-/get-value-2.0.6.tgz"
+  "version" "2.0.6"
+
+"getpass@^0.1.1":
+  "integrity" "sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/getpass/-/getpass-0.1.7.tgz"
+  "version" "0.1.7"
+  dependencies:
+    "assert-plus" "^1.0.0"
+
+"glob-base@^0.3.0":
+  "integrity" "sha1-27Fk9iIbHAscz4Kuoyi0l98Oo8Q="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/glob-base/-/glob-base-0.3.0.tgz"
+  "version" "0.3.0"
+  dependencies:
+    "glob-parent" "^2.0.0"
+    "is-glob" "^2.0.0"
+
+"glob-parent@^2.0.0":
+  "integrity" "sha1-gTg9ctsFT8zPUzbaqQLxgvbtuyg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/glob-parent/-/glob-parent-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "is-glob" "^2.0.0"
 
 "glob-parent@^5.1.2":
   "integrity" "sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ="
@@ -4553,7 +5383,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz"
   "version" "0.4.1"
 
-"glob@^7.1.1", "glob@^7.1.2", "glob@^7.1.3", "glob@^7.1.4", "glob@^7.1.6":
+"glob@^7.0.3", "glob@^7.1.1", "glob@^7.1.2", "glob@^7.1.3", "glob@^7.1.4", "glob@^7.1.6":
   "integrity" "sha1-0VU1r3cy4C6Uj0xBYovZECk/YCM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/glob/-/glob-7.2.0.tgz"
   "version" "7.2.0"
@@ -4600,6 +5430,11 @@
   dependencies:
     "type-fest" "^0.20.2"
 
+"globals@^9.18.0":
+  "integrity" "sha512-S0nG3CLEQiY/ILxqtztTWH/3iRRdyBLw6KMDxnKMchrtbj2OFmehVh0WUCfW3DUrIgx/qFrJPICrq4Z4sTR9UQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/globals/-/globals-9.18.0.tgz"
+  "version" "9.18.0"
+
 "globby@^11.0.1", "globby@^11.0.4":
   "integrity" "sha1-vUvpi7BC+D15b344EZkfvoKg00s="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/globby/-/globby-11.1.0.tgz"
@@ -4612,10 +5447,15 @@
     "merge2" "^1.4.1"
     "slash" "^3.0.0"
 
-"graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0", "graceful-fs@^4.2.4", "graceful-fs@^4.2.6", "graceful-fs@^4.2.9":
+"graceful-fs@^4.1.11", "graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0", "graceful-fs@^4.2.4", "graceful-fs@^4.2.6", "graceful-fs@^4.2.9":
   "integrity" "sha1-BBsF30V1Xlh6JJQiebnRExRuHJY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/graceful-fs/-/graceful-fs-4.2.9.tgz"
   "version" "4.2.9"
+
+"growly@^1.3.0":
+  "integrity" "sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/growly/-/growly-1.3.0.tgz"
+  "version" "1.3.0"
 
 "gzip-size@^6.0.0":
   "integrity" "sha1-BlNn/VDCOcBnHLy61b4+LusQ5GI="
@@ -4629,15 +5469,52 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/handle-thing/-/handle-thing-2.0.1.tgz"
   "version" "2.0.1"
 
+"handlebars@^4.0.3":
+  "integrity" "sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/handlebars/-/handlebars-4.7.7.tgz"
+  "version" "4.7.7"
+  dependencies:
+    "minimist" "^1.2.5"
+    "neo-async" "^2.6.0"
+    "source-map" "^0.6.1"
+    "wordwrap" "^1.0.0"
+  optionalDependencies:
+    "uglify-js" "^3.1.4"
+
+"har-schema@^2.0.0":
+  "integrity" "sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/har-schema/-/har-schema-2.0.0.tgz"
+  "version" "2.0.0"
+
+"har-validator@~5.1.3":
+  "integrity" "sha512-nmT2T0lljbxdQZfspsno9hgrG3Uir6Ks5afism62poxqBM6sDnMEuPmzTq8XN0OEwqKLLdh1jQI3qyE66Nzb3w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/har-validator/-/har-validator-5.1.5.tgz"
+  "version" "5.1.5"
+  dependencies:
+    "ajv" "^6.12.3"
+    "har-schema" "^2.0.0"
+
 "harmony-reflect@^1.4.6":
   "integrity" "sha1-Mey9MuZIo00DDYattn1NR1R/5xA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/harmony-reflect/-/harmony-reflect-1.6.2.tgz"
   "version" "1.6.2"
 
+"has-ansi@^2.0.0":
+  "integrity" "sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-ansi/-/has-ansi-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "ansi-regex" "^2.0.0"
+
 "has-bigints@^1.0.1":
   "integrity" "sha1-ZP5qywIGc+O3jbA1pa9pqp0HsRM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-bigints/-/has-bigints-1.0.1.tgz"
   "version" "1.0.1"
+
+"has-flag@^1.0.0":
+  "integrity" "sha1-nZ55MWXOAXoA8AQYxD+UKnsdEfo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-flag/-/has-flag-1.0.0.tgz"
+  "version" "1.0.0"
 
 "has-flag@^3.0.0":
   "integrity" "sha1-tdRU3CGZriJWmfNGfloH87lVuv0="
@@ -4660,6 +5537,37 @@
   "version" "1.0.0"
   dependencies:
     "has-symbols" "^1.0.2"
+
+"has-value@^0.3.1":
+  "integrity" "sha1-ex9YutpiyoJ+wKIHgCVlSEWZXh8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-value/-/has-value-0.3.1.tgz"
+  "version" "0.3.1"
+  dependencies:
+    "get-value" "^2.0.3"
+    "has-values" "^0.1.4"
+    "isobject" "^2.0.0"
+
+"has-value@^1.0.0":
+  "integrity" "sha1-GLKB2lhbHFxR3vJMkw7SmgvmsXc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-value/-/has-value-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "get-value" "^2.0.6"
+    "has-values" "^1.0.0"
+    "isobject" "^3.0.0"
+
+"has-values@^0.1.4":
+  "integrity" "sha1-bWHeldkd/Km5oCCJrThL/49it3E="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-values/-/has-values-0.1.4.tgz"
+  "version" "0.1.4"
+
+"has-values@^1.0.0":
+  "integrity" "sha1-lbC2P+whRmGab+V/51Yo1aOe/k8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/has-values/-/has-values-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "is-number" "^3.0.0"
+    "kind-of" "^4.0.0"
 
 "has@^1.0.3":
   "integrity" "sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y="
@@ -4687,10 +5595,23 @@
   dependencies:
     "react-is" "^16.7.0"
 
+"home-or-tmp@^2.0.0":
+  "integrity" "sha1-42w/LSyufXRqhX440Y1fMqeILbg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/home-or-tmp/-/home-or-tmp-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "os-homedir" "^1.0.0"
+    "os-tmpdir" "^1.0.1"
+
 "hoopy@^0.1.4":
   "integrity" "sha1-YJIH1mEQADOpqUAq096mdzgcGx0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/hoopy/-/hoopy-0.1.4.tgz"
   "version" "0.1.4"
+
+"hosted-git-info@^2.1.4":
+  "integrity" "sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/hosted-git-info/-/hosted-git-info-2.8.9.tgz"
+  "version" "2.8.9"
 
 "hpack.js@^2.1.6":
   "integrity" "sha1-h3dMCUnlE/QuhFdbPEVoH63ioLI="
@@ -4701,6 +5622,13 @@
     "obuf" "^1.0.0"
     "readable-stream" "^2.0.1"
     "wbuf" "^1.1.0"
+
+"html-encoding-sniffer@^1.0.1":
+  "integrity" "sha512-71lZziiDnsuabfdYiUeWdCVyKuqwWi23L8YeIgV9jSSZHCtb6wB1BKWooH7L3tn4/FuZJMVWyNaIDr4RGmaSYw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "whatwg-encoding" "^1.0.1"
 
 "html-encoding-sniffer@^2.0.1":
   "integrity" "sha1-QqbcT9M/ACgRduiyN1nKTk+hhfM="
@@ -4812,6 +5740,15 @@
     "eventemitter3" "^4.0.0"
     "follow-redirects" "^1.0.0"
     "requires-port" "^1.0.0"
+
+"http-signature@~1.2.0":
+  "integrity" "sha1-muzZJRFHcvPZW2WmCruPfBj7rOE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/http-signature/-/http-signature-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "assert-plus" "^1.0.0"
+    "jsprim" "^1.2.2"
+    "sshpk" "^1.7.0"
 
 "https-proxy-agent@^5.0.0":
   "integrity" "sha1-4qkFQqu2inYuCghQ9sntrf2FBrI="
@@ -4930,12 +5867,17 @@
     "has" "^1.0.3"
     "side-channel" "^1.0.4"
 
-"invariant@~2.2.1":
+"invariant@^2.2.2", "invariant@~2.2.1":
   "integrity" "sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA=="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/invariant/-/invariant-2.2.4.tgz"
   "version" "2.2.4"
   dependencies:
     "loose-envify" "^1.0.0"
+
+"invert-kv@^1.0.0":
+  "integrity" "sha1-EEqOSqym09jNFXqO+L+rLXo//bY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/invert-kv/-/invert-kv-1.0.0.tgz"
+  "version" "1.0.0"
 
 "ip@^1.1.0":
   "integrity" "sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo="
@@ -4951,6 +5893,20 @@
   "integrity" "sha1-v/OFQ+64mEglB5/zoqjmy9RngbM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ipaddr.js/-/ipaddr.js-1.9.1.tgz"
   "version" "1.9.1"
+
+"is-accessor-descriptor@^0.1.6":
+  "integrity" "sha1-qeEss66Nh2cn7u84Q/igiXtcmNY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz"
+  "version" "0.1.6"
+  dependencies:
+    "kind-of" "^3.0.2"
+
+"is-accessor-descriptor@^1.0.0":
+  "integrity" "sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "kind-of" "^6.0.0"
 
 "is-arguments@^1.0.4":
   "integrity" "sha1-FbP4j9oB8ql/7ITKdhpWDxI++ps="
@@ -4987,10 +5943,29 @@
     "call-bind" "^1.0.2"
     "has-tostringtag" "^1.0.0"
 
+"is-buffer@^1.1.5":
+  "integrity" "sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-buffer/-/is-buffer-1.1.6.tgz"
+  "version" "1.1.6"
+
+"is-builtin-module@^1.0.0":
+  "integrity" "sha1-VAVy0096wxGfj3bDDLwbHgN6/74="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-builtin-module/-/is-builtin-module-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "builtin-modules" "^1.0.0"
+
 "is-callable@^1.1.4", "is-callable@^1.2.4":
   "integrity" "sha1-RzAdWN0CWUB4ZVR4U99tYf5HGUU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-callable/-/is-callable-1.2.4.tgz"
   "version" "1.2.4"
+
+"is-ci@^1.0.10":
+  "integrity" "sha512-s6tfsaQaQi3JNciBH6shVqEDvhGut0SUXr31ag8Pd8BBbVVlcGfWhpPmEOoM6RJ5TFhbypvf5yyRw/VXW1IiWg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-ci/-/is-ci-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "ci-info" "^1.5.0"
 
 "is-core-module@^2.2.0", "is-core-module@^2.8.0", "is-core-module@^2.8.1":
   "integrity" "sha1-9Z/fynAdWHnQprEApAqhVgzichE="
@@ -4999,6 +5974,20 @@
   dependencies:
     "has" "^1.0.3"
 
+"is-data-descriptor@^0.1.4":
+  "integrity" "sha1-C17mSDiOLIYCgueT8YVv7D8wG1Y="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz"
+  "version" "0.1.4"
+  dependencies:
+    "kind-of" "^3.0.2"
+
+"is-data-descriptor@^1.0.0":
+  "integrity" "sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "kind-of" "^6.0.0"
+
 "is-date-object@^1.0.1":
   "integrity" "sha1-CEHVU25yTCVZe/bqYuG9OCmN8x8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-date-object/-/is-date-object-1.0.5.tgz"
@@ -5006,15 +5995,79 @@
   dependencies:
     "has-tostringtag" "^1.0.0"
 
+"is-descriptor@^0.1.0":
+  "integrity" "sha512-avDYr0SB3DwO9zsMov0gKCESFYqCnE4hq/4z3TdUlukEy5t9C0YRq7HLrsN52NAcqXKaepeCD0n+B0arnVG3Hg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-descriptor/-/is-descriptor-0.1.6.tgz"
+  "version" "0.1.6"
+  dependencies:
+    "is-accessor-descriptor" "^0.1.6"
+    "is-data-descriptor" "^0.1.4"
+    "kind-of" "^5.0.0"
+
+"is-descriptor@^1.0.0", "is-descriptor@^1.0.2":
+  "integrity" "sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-descriptor/-/is-descriptor-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "is-accessor-descriptor" "^1.0.0"
+    "is-data-descriptor" "^1.0.0"
+    "kind-of" "^6.0.2"
+
 "is-docker@^2.0.0", "is-docker@^2.1.1":
   "integrity" "sha1-M+6r4jz+hvFL3kQIoCwM+4U6zao="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-docker/-/is-docker-2.2.1.tgz"
   "version" "2.2.1"
 
+"is-dotfile@^1.0.0":
+  "integrity" "sha1-pqLzL/0t+wT1yiXs0Pa4PPeYoeE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-dotfile/-/is-dotfile-1.0.3.tgz"
+  "version" "1.0.3"
+
+"is-equal-shallow@^0.1.3":
+  "integrity" "sha1-IjgJj8Ih3gvPpdnqxMRdY4qhxTQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-equal-shallow/-/is-equal-shallow-0.1.3.tgz"
+  "version" "0.1.3"
+  dependencies:
+    "is-primitive" "^2.0.0"
+
+"is-extendable@^0.1.0", "is-extendable@^0.1.1":
+  "integrity" "sha1-YrEQ4omkcUGOPsNqYX1HLjAd/Ik="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-extendable/-/is-extendable-0.1.1.tgz"
+  "version" "0.1.1"
+
+"is-extendable@^1.0.1":
+  "integrity" "sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-extendable/-/is-extendable-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "is-plain-object" "^2.0.4"
+
+"is-extglob@^1.0.0":
+  "integrity" "sha1-rEaBd8SUNAWgkvyPKXYMb/xiBsA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-extglob/-/is-extglob-1.0.0.tgz"
+  "version" "1.0.0"
+
 "is-extglob@^2.1.1":
   "integrity" "sha1-qIwCU1eR8C7TfHahueqXc8gz+MI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-extglob/-/is-extglob-2.1.1.tgz"
   "version" "2.1.1"
+
+"is-finite@^1.0.0":
+  "integrity" "sha512-cdyMtqX/BOqqNBBiKlIVkytNHm49MtMlYyn1zxzvJKWmFMlGzm+ry5BBfYyeY9YmNKbRSo/o7OX9w9ale0wg3w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-finite/-/is-finite-1.1.0.tgz"
+  "version" "1.1.0"
+
+"is-fullwidth-code-point@^1.0.0":
+  "integrity" "sha1-754xOG8DGn8NZDr4L95QxFfvAMs="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "number-is-nan" "^1.0.0"
+
+"is-fullwidth-code-point@^2.0.0":
+  "integrity" "sha1-o7MKXE8ZkYMWeqq5O+764937ZU8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz"
+  "version" "2.0.0"
 
 "is-fullwidth-code-point@^3.0.0":
   "integrity" "sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0="
@@ -5025,6 +6078,20 @@
   "integrity" "sha1-fRQK3DiarzARqPKipM+m+q3/sRg="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-generator-fn/-/is-generator-fn-2.1.0.tgz"
   "version" "2.1.0"
+
+"is-glob@^2.0.0":
+  "integrity" "sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-glob/-/is-glob-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "is-extglob" "^1.0.0"
+
+"is-glob@^2.0.1":
+  "integrity" "sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-glob/-/is-glob-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "is-extglob" "^1.0.0"
 
 "is-glob@^4.0.0", "is-glob@^4.0.1", "is-glob@^4.0.3", "is-glob@~4.0.1":
   "integrity" "sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ="
@@ -5049,6 +6116,25 @@
   "version" "1.0.6"
   dependencies:
     "has-tostringtag" "^1.0.0"
+
+"is-number@^2.1.0":
+  "integrity" "sha1-Afy7s5NGOlSPL0ZszhbezknbkI8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-number/-/is-number-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "kind-of" "^3.0.2"
+
+"is-number@^3.0.0":
+  "integrity" "sha1-JP1iAaR4LPUFYcgQJ2r8fRLXEZU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-number/-/is-number-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "kind-of" "^3.0.2"
+
+"is-number@^4.0.0":
+  "integrity" "sha512-rSklcAIlf1OmFdyAqbnWTLVelsQ58uvZ66S/ZyawjWqIviTWCjg2PzVGw8WUA+nNuPTqb4wgA+NszrJ+08LlgQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-number/-/is-number-4.0.0.tgz"
+  "version" "4.0.0"
 
 "is-number@^7.0.0":
   "integrity" "sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss="
@@ -5075,10 +6161,27 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-plain-obj/-/is-plain-obj-3.0.0.tgz"
   "version" "3.0.0"
 
+"is-plain-object@^2.0.3", "is-plain-object@^2.0.4":
+  "integrity" "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-plain-object/-/is-plain-object-2.0.4.tgz"
+  "version" "2.0.4"
+  dependencies:
+    "isobject" "^3.0.1"
+
+"is-posix-bracket@^0.1.0":
+  "integrity" "sha1-MzTceXdDaOkvAW5vvAqI9c1ua8Q="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz"
+  "version" "0.1.1"
+
 "is-potential-custom-element-name@^1.0.1":
   "integrity" "sha1-Fx7W8Z46xVQ5Tt94yqBXhKRb67U="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz"
   "version" "1.0.1"
+
+"is-primitive@^2.0.0":
+  "integrity" "sha1-IHurkWOEmcB7Kt8kCkGochADRXU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-primitive/-/is-primitive-2.0.0.tgz"
+  "version" "2.0.0"
 
 "is-regex@^1.0.4", "is-regex@^1.1.4":
   "integrity" "sha1-7vVmPNWfpMCuM5UFMj32hUuxWVg="
@@ -5103,6 +6206,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-shared-array-buffer/-/is-shared-array-buffer-1.0.1.tgz"
   "version" "1.0.1"
 
+"is-stream@^1.1.0":
+  "integrity" "sha1-EtSj3U5o4Lec6428hBc66A2RykQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-stream/-/is-stream-1.1.0.tgz"
+  "version" "1.1.0"
+
 "is-stream@^2.0.0":
   "integrity" "sha1-+sHj1TuXrVqdCunO8jifWBClwHc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-stream/-/is-stream-2.0.1.tgz"
@@ -5122,10 +6230,15 @@
   dependencies:
     "has-symbols" "^1.0.2"
 
-"is-typedarray@^1.0.0":
+"is-typedarray@^1.0.0", "is-typedarray@~1.0.0":
   "integrity" "sha1-5HnICFjfDBsR3dppQPlgEfzaSpo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-typedarray/-/is-typedarray-1.0.0.tgz"
   "version" "1.0.0"
+
+"is-utf8@^0.2.0":
+  "integrity" "sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-utf8/-/is-utf8-0.2.1.tgz"
+  "version" "0.2.1"
 
 "is-weakref@^1.0.1":
   "integrity" "sha1-lSnzg6kzggXol2XgOS78LxAPBvI="
@@ -5134,6 +6247,16 @@
   dependencies:
     "call-bind" "^1.0.2"
 
+"is-windows@^1.0.2":
+  "integrity" "sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-windows/-/is-windows-1.0.2.tgz"
+  "version" "1.0.2"
+
+"is-wsl@^1.1.0":
+  "integrity" "sha1-HxbkqiKwTRM2tmGIpmrzxgDDpm0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-wsl/-/is-wsl-1.1.0.tgz"
+  "version" "1.1.0"
+
 "is-wsl@^2.2.0":
   "integrity" "sha1-dKTHbnfKn9P5MvKQwX6jJs0VcnE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/is-wsl/-/is-wsl-2.2.0.tgz"
@@ -5141,7 +6264,7 @@
   dependencies:
     "is-docker" "^2.0.0"
 
-"isarray@~1.0.0":
+"isarray@~1.0.0", "isarray@1.0.0":
   "integrity" "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/isarray/-/isarray-1.0.0.tgz"
   "version" "1.0.0"
@@ -5151,10 +6274,87 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/isexe/-/isexe-2.0.0.tgz"
   "version" "2.0.0"
 
+"isobject@^2.0.0":
+  "integrity" "sha1-8GVWEJaj8dou9GJy+BXIQNh+DIk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/isobject/-/isobject-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "isarray" "1.0.0"
+
+"isobject@^3.0.0":
+  "integrity" "sha1-TkMekrEalzFjaqH5yNHMvP2reN8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/isobject/-/isobject-3.0.1.tgz"
+  "version" "3.0.1"
+
+"isobject@^3.0.1":
+  "integrity" "sha1-TkMekrEalzFjaqH5yNHMvP2reN8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/isobject/-/isobject-3.0.1.tgz"
+  "version" "3.0.1"
+
+"isstream@~0.1.2":
+  "integrity" "sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/isstream/-/isstream-0.1.2.tgz"
+  "version" "0.1.2"
+
+"istanbul-api@^1.1.1":
+  "integrity" "sha512-4/ApBnMVeEPG3EkSzcw25wDe4N66wxwn+KKn6b47vyek8Xb3NBAcg4xfuQbS7BqcZuTX4wxfD5lVagdggR3gyA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-api/-/istanbul-api-1.3.7.tgz"
+  "version" "1.3.7"
+  dependencies:
+    "async" "^2.1.4"
+    "fileset" "^2.0.2"
+    "istanbul-lib-coverage" "^1.2.1"
+    "istanbul-lib-hook" "^1.2.2"
+    "istanbul-lib-instrument" "^1.10.2"
+    "istanbul-lib-report" "^1.1.5"
+    "istanbul-lib-source-maps" "^1.2.6"
+    "istanbul-reports" "^1.5.1"
+    "js-yaml" "^3.7.0"
+    "mkdirp" "^0.5.1"
+    "once" "^1.4.0"
+
+"istanbul-lib-coverage@^1.0.1", "istanbul-lib-coverage@^1.2.1":
+  "integrity" "sha512-PzITeunAgyGbtY1ibVIUiV679EFChHjoMNRibEIobvmrCRaIgwLxNucOSimtNWUhEib/oO7QY2imD75JVgCJWQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-coverage/-/istanbul-lib-coverage-1.2.1.tgz"
+  "version" "1.2.1"
+
 "istanbul-lib-coverage@^3.0.0", "istanbul-lib-coverage@^3.2.0":
   "integrity" "sha1-GJ55CdCjn6Wj361bA/cZR3cBkdM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.0.tgz"
   "version" "3.2.0"
+
+"istanbul-lib-hook@^1.2.2":
+  "integrity" "sha512-/Jmq7Y1VeHnZEQ3TL10VHyb564mn6VrQXHchON9Jf/AEcmQ3ZIiyD1BVzNOKTZf/G3gE+kiGK6SmpF9y3qGPLw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-hook/-/istanbul-lib-hook-1.2.2.tgz"
+  "version" "1.2.2"
+  dependencies:
+    "append-transform" "^0.4.0"
+
+"istanbul-lib-instrument@^1.10.1", "istanbul-lib-instrument@^1.4.2":
+  "integrity" "sha512-aWHxfxDqvh/ZlxR8BBaEPVSWDPUkGD63VjGQn3jcw8jCp7sHEMKcrj4xfJn/ABzdMEHiQNyvDQhqm5o8+SQg7A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-instrument/-/istanbul-lib-instrument-1.10.2.tgz"
+  "version" "1.10.2"
+  dependencies:
+    "babel-generator" "^6.18.0"
+    "babel-template" "^6.16.0"
+    "babel-traverse" "^6.18.0"
+    "babel-types" "^6.18.0"
+    "babylon" "^6.18.0"
+    "istanbul-lib-coverage" "^1.2.1"
+    "semver" "^5.3.0"
+
+"istanbul-lib-instrument@^1.10.2":
+  "integrity" "sha512-aWHxfxDqvh/ZlxR8BBaEPVSWDPUkGD63VjGQn3jcw8jCp7sHEMKcrj4xfJn/ABzdMEHiQNyvDQhqm5o8+SQg7A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-instrument/-/istanbul-lib-instrument-1.10.2.tgz"
+  "version" "1.10.2"
+  dependencies:
+    "babel-generator" "^6.18.0"
+    "babel-template" "^6.16.0"
+    "babel-traverse" "^6.18.0"
+    "babel-types" "^6.18.0"
+    "babylon" "^6.18.0"
+    "istanbul-lib-coverage" "^1.2.1"
+    "semver" "^5.3.0"
 
 "istanbul-lib-instrument@^5.0.4", "istanbul-lib-instrument@^5.1.0":
   "integrity" "sha1-e0kZi2V7J6cwuOnLYB8eG/8kxZo="
@@ -5167,6 +6367,16 @@
     "istanbul-lib-coverage" "^3.2.0"
     "semver" "^6.3.0"
 
+"istanbul-lib-report@^1.1.5":
+  "integrity" "sha512-UsYfRMoi6QO/doUshYNqcKJqVmFe9w51GZz8BS3WB0lYxAllQYklka2wP9+dGZeHYaWIdcXUx8JGdbqaoXRXzw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-report/-/istanbul-lib-report-1.1.5.tgz"
+  "version" "1.1.5"
+  dependencies:
+    "istanbul-lib-coverage" "^1.2.1"
+    "mkdirp" "^0.5.1"
+    "path-parse" "^1.0.5"
+    "supports-color" "^3.1.2"
+
 "istanbul-lib-report@^3.0.0":
   "integrity" "sha1-dRj+UupE3jcvRgp2tezan/tz2KY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz"
@@ -5176,6 +6386,28 @@
     "make-dir" "^3.0.0"
     "supports-color" "^7.1.0"
 
+"istanbul-lib-source-maps@^1.1.0":
+  "integrity" "sha512-TtbsY5GIHgbMsMiRw35YBHGpZ1DVFEO19vxxeiDMYaeOFOCzfnYVxvl6pOUIZR4dtPhAGpSMup8OyF8ubsaqEg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-source-maps/-/istanbul-lib-source-maps-1.2.6.tgz"
+  "version" "1.2.6"
+  dependencies:
+    "debug" "^3.1.0"
+    "istanbul-lib-coverage" "^1.2.1"
+    "mkdirp" "^0.5.1"
+    "rimraf" "^2.6.1"
+    "source-map" "^0.5.3"
+
+"istanbul-lib-source-maps@^1.2.6":
+  "integrity" "sha512-TtbsY5GIHgbMsMiRw35YBHGpZ1DVFEO19vxxeiDMYaeOFOCzfnYVxvl6pOUIZR4dtPhAGpSMup8OyF8ubsaqEg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-source-maps/-/istanbul-lib-source-maps-1.2.6.tgz"
+  "version" "1.2.6"
+  dependencies:
+    "debug" "^3.1.0"
+    "istanbul-lib-coverage" "^1.2.1"
+    "mkdirp" "^0.5.1"
+    "rimraf" "^2.6.1"
+    "source-map" "^0.5.3"
+
 "istanbul-lib-source-maps@^4.0.0":
   "integrity" "sha1-iV86cJ/PujTG3lpCk5Ai8+Q1hVE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-lib-source-maps/-/istanbul-lib-source-maps-4.0.1.tgz"
@@ -5184,6 +6416,13 @@
     "debug" "^4.1.1"
     "istanbul-lib-coverage" "^3.0.0"
     "source-map" "^0.6.1"
+
+"istanbul-reports@^1.5.1":
+  "integrity" "sha512-+cfoZ0UXzWjhAdzosCPP3AN8vvef8XDkWtTfgaN+7L3YTpNYITnCaEkceo5SEYy644VkHka/P1FvkWvrG/rrJw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/istanbul-reports/-/istanbul-reports-1.5.1.tgz"
+  "version" "1.5.1"
+  dependencies:
+    "handlebars" "^4.0.3"
 
 "istanbul-reports@^3.1.3":
   "integrity" "sha1-G28GjsvGwzEECqtXQZkSc+YJ5Aw="
@@ -5202,6 +6441,13 @@
     "chalk" "^4.0.2"
     "filelist" "^1.0.1"
     "minimatch" "^3.0.4"
+
+"jest-changed-files@^21.2.0":
+  "integrity" "sha512-+lCNP1IZLwN1NOIvBcV5zEL6GENK6TXrDj4UxWIeLvIsIDa+gf6J7hkqsW2qVVt/wvH65rVvcPwqXdps5eclTQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-changed-files/-/jest-changed-files-21.2.0.tgz"
+  "version" "21.2.0"
+  dependencies:
+    "throat" "^4.0.0"
 
 "jest-changed-files@^27.5.1":
   "integrity" "sha1-o0iu0A7Jv2ccxYpm/L58Pf1qaPU="
@@ -5237,6 +6483,41 @@
     "stack-utils" "^2.0.3"
     "throat" "^6.0.1"
 
+"jest-cli@^21.2.1":
+  "integrity" "sha512-T1BzrbFxDIW/LLYQqVfo94y/hhaj1NzVQkZgBumAC+sxbjMROI7VkihOdxNR758iYbQykL2ZOWUBurFgkQrzdg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-cli/-/jest-cli-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "ansi-escapes" "^3.0.0"
+    "chalk" "^2.0.1"
+    "glob" "^7.1.2"
+    "graceful-fs" "^4.1.11"
+    "is-ci" "^1.0.10"
+    "istanbul-api" "^1.1.1"
+    "istanbul-lib-coverage" "^1.0.1"
+    "istanbul-lib-instrument" "^1.4.2"
+    "istanbul-lib-source-maps" "^1.1.0"
+    "jest-changed-files" "^21.2.0"
+    "jest-config" "^21.2.1"
+    "jest-environment-jsdom" "^21.2.1"
+    "jest-haste-map" "^21.2.0"
+    "jest-message-util" "^21.2.1"
+    "jest-regex-util" "^21.2.0"
+    "jest-resolve-dependencies" "^21.2.0"
+    "jest-runner" "^21.2.1"
+    "jest-runtime" "^21.2.1"
+    "jest-snapshot" "^21.2.1"
+    "jest-util" "^21.2.1"
+    "micromatch" "^2.3.11"
+    "node-notifier" "^5.0.2"
+    "pify" "^3.0.0"
+    "slash" "^1.0.0"
+    "string-length" "^2.0.0"
+    "strip-ansi" "^4.0.0"
+    "which" "^1.2.12"
+    "worker-farm" "^1.3.1"
+    "yargs" "^9.0.0"
+
 "jest-cli@^27.5.1":
   "integrity" "sha1-J4eUpuZFjqgClUfmxsv2c70wsUU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-cli/-/jest-cli-27.5.1.tgz"
@@ -5254,6 +6535,23 @@
     "jest-validate" "^27.5.1"
     "prompts" "^2.0.1"
     "yargs" "^16.2.0"
+
+"jest-config@^21.2.1":
+  "integrity" "sha512-fJru5HtlD/5l2o25eY9xT0doK3t2dlglrqoGpbktduyoI0T5CwuB++2YfoNZCrgZipTwPuAGonYv0q7+8yDc/A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-config/-/jest-config-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "glob" "^7.1.1"
+    "jest-environment-jsdom" "^21.2.1"
+    "jest-environment-node" "^21.2.1"
+    "jest-get-type" "^21.2.0"
+    "jest-jasmine2" "^21.2.1"
+    "jest-regex-util" "^21.2.0"
+    "jest-resolve" "^21.2.0"
+    "jest-util" "^21.2.1"
+    "jest-validate" "^21.2.1"
+    "pretty-format" "^21.2.1"
 
 "jest-config@^27.5.1":
   "integrity" "sha1-XDh94z3KP5mtY1fd7M2RvzoOSkE="
@@ -5285,6 +6583,16 @@
     "slash" "^3.0.0"
     "strip-json-comments" "^3.1.1"
 
+"jest-diff@^21.2.1":
+  "integrity" "sha512-E5fu6r7PvvPr5qAWE1RaUwIh/k6Zx/3OOkZ4rk5dBJkEWRrUuSgbMt2EO8IUTPTd6DOqU3LW6uTIwX5FRvXoFA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-diff/-/jest-diff-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "diff" "^3.2.0"
+    "jest-get-type" "^21.2.0"
+    "pretty-format" "^21.2.1"
+
 "jest-diff@^27.5.1":
   "integrity" "sha1-oH9QEayeZkPPipWkYrex7PZoDe8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-diff/-/jest-diff-27.5.1.tgz"
@@ -5294,6 +6602,11 @@
     "diff-sequences" "^27.5.1"
     "jest-get-type" "^27.5.1"
     "pretty-format" "^27.5.1"
+
+"jest-docblock@^21.2.0":
+  "integrity" "sha512-5IZ7sY9dBAYSV+YjQ0Ovb540Ku7AO9Z5o2Cg789xj167iQuZ2cG+z0f3Uct6WeYLbU6aQiM2pCs7sZ+4dotydw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-docblock/-/jest-docblock-21.2.0.tgz"
+  "version" "21.2.0"
 
 "jest-docblock@^27.5.1":
   "integrity" "sha1-FAkvNkpCxhCNQsM8jPMOBY4l9sA="
@@ -5313,6 +6626,15 @@
     "jest-util" "^27.5.1"
     "pretty-format" "^27.5.1"
 
+"jest-environment-jsdom@^21.2.1":
+  "integrity" "sha512-mecaeNh0eWmzNrUNMWARysc0E9R96UPBamNiOCYL28k7mksb1d0q6DD38WKP7ABffjnXyUWJPVaWRgUOivwXwg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-environment-jsdom/-/jest-environment-jsdom-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "jest-mock" "^21.2.0"
+    "jest-util" "^21.2.1"
+    "jsdom" "^9.12.0"
+
 "jest-environment-jsdom@^27.5.1":
   "integrity" "sha1-6pzNH8YQIJZVp3iY+GsrVZUWpUY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-environment-jsdom/-/jest-environment-jsdom-27.5.1.tgz"
@@ -5326,6 +6648,14 @@
     "jest-util" "^27.5.1"
     "jsdom" "^16.6.0"
 
+"jest-environment-node@^21.2.1":
+  "integrity" "sha512-R211867wx9mVBVHzrjGRGTy5cd05K7eqzQl/WyZixR/VkJ4FayS8qkKXZyYnwZi6Rxo6WEV81cDbiUx/GfuLNw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-environment-node/-/jest-environment-node-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "jest-mock" "^21.2.0"
+    "jest-util" "^21.2.1"
+
 "jest-environment-node@^27.5.1":
   "integrity" "sha1-3tws/lL6trj1cUtICK76hTV6Nl4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-environment-node/-/jest-environment-node-27.5.1.tgz"
@@ -5338,10 +6668,27 @@
     "jest-mock" "^27.5.1"
     "jest-util" "^27.5.1"
 
+"jest-get-type@^21.2.0":
+  "integrity" "sha512-y2fFw3C+D0yjNSDp7ab1kcd6NUYfy3waPTlD8yWkAtiocJdBRQqNoRqVfMNxgj+IjT0V5cBIHJO0z9vuSSZ43Q=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-get-type/-/jest-get-type-21.2.0.tgz"
+  "version" "21.2.0"
+
 "jest-get-type@^27.5.1":
   "integrity" "sha1-PNYTxQew96zgE99Aehwc1Xi8tPE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-get-type/-/jest-get-type-27.5.1.tgz"
   "version" "27.5.1"
+
+"jest-haste-map@^21.2.0":
+  "integrity" "sha512-5LhsY/loPH7wwOFRMs+PT4aIAORJ2qwgbpMFlbWbxfN0bk3ZCwxJ530vrbSiTstMkYLao6JwBkLhCJ5XbY7ZHw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-haste-map/-/jest-haste-map-21.2.0.tgz"
+  "version" "21.2.0"
+  dependencies:
+    "fb-watchman" "^2.0.0"
+    "graceful-fs" "^4.1.11"
+    "jest-docblock" "^21.2.0"
+    "micromatch" "^2.3.11"
+    "sane" "^2.0.0"
+    "worker-farm" "^1.3.1"
 
 "jest-haste-map@^27.5.1":
   "integrity" "sha1-n9i9fntPpQLZxhZMVkBRK06BHn8="
@@ -5362,6 +6709,20 @@
     "walker" "^1.0.7"
   optionalDependencies:
     "fsevents" "^2.3.2"
+
+"jest-jasmine2@^21.2.1":
+  "integrity" "sha512-lw8FXXIEekD+jYNlStfgNsUHpfMWhWWCgHV7n0B7mA/vendH7vBFs8xybjQsDzJSduptBZJHqQX9SMssya9+3A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-jasmine2/-/jest-jasmine2-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "expect" "^21.2.1"
+    "graceful-fs" "^4.1.11"
+    "jest-diff" "^21.2.1"
+    "jest-matcher-utils" "^21.2.1"
+    "jest-message-util" "^21.2.1"
+    "jest-snapshot" "^21.2.1"
+    "p-cancelable" "^0.3.0"
 
 "jest-jasmine2@^27.5.1":
   "integrity" "sha1-oDewA070mp89ccQ3WnlvOyMNGsQ="
@@ -5394,6 +6755,15 @@
     "jest-get-type" "^27.5.1"
     "pretty-format" "^27.5.1"
 
+"jest-matcher-utils@^21.2.1":
+  "integrity" "sha512-kn56My+sekD43dwQPrXBl9Zn9tAqwoy25xxe7/iY4u+mG8P3ALj5IK7MLHZ4Mi3xW7uWVCjGY8cm4PqgbsqMCg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-matcher-utils/-/jest-matcher-utils-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "jest-get-type" "^21.2.0"
+    "pretty-format" "^21.2.1"
+
 "jest-matcher-utils@^27.0.0", "jest-matcher-utils@^27.5.1":
   "integrity" "sha1-nAzb2oJFvCLSMxcp0QkTCLQM+Ks="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-matcher-utils/-/jest-matcher-utils-27.5.1.tgz"
@@ -5403,6 +6773,15 @@
     "jest-diff" "^27.5.1"
     "jest-get-type" "^27.5.1"
     "pretty-format" "^27.5.1"
+
+"jest-message-util@^21.2.1":
+  "integrity" "sha512-EbC1X2n0t9IdeMECJn2BOg7buOGivCvVNjqKMXTzQOu7uIfLml+keUfCALDh8o4rbtndIeyGU8/BKfoTr/LVDQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-message-util/-/jest-message-util-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "micromatch" "^2.3.11"
+    "slash" "^1.0.0"
 
 "jest-message-util@^27.5.1":
   "integrity" "sha1-vdpygG2hDZ7WQl4Sr/84zRRYts8="
@@ -5419,6 +6798,11 @@
     "slash" "^3.0.0"
     "stack-utils" "^2.0.3"
 
+"jest-mock@^21.2.0":
+  "integrity" "sha512-aZDfyVf0LEoABWiY6N0d+O963dUQSyUa4qgzurHR3TBDPen0YxKCJ6l2i7lQGh1tVdsuvdrCZ4qPj+A7PievCw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-mock/-/jest-mock-21.2.0.tgz"
+  "version" "21.2.0"
+
 "jest-mock@^27.5.1":
   "integrity" "sha1-GZSDNtSe9NnFICHTSse182/5Z9Y="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-mock/-/jest-mock-27.5.1.tgz"
@@ -5432,10 +6816,22 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-pnp-resolver/-/jest-pnp-resolver-1.2.2.tgz"
   "version" "1.2.2"
 
+"jest-regex-util@^21.2.0":
+  "integrity" "sha512-BKQ1F83EQy0d9Jen/mcVX7D+lUt2tthhK/2gDWRgLDJRNOdRgSp1iVqFxP8EN1ARuypvDflRfPzYT8fQnoBQFQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-regex-util/-/jest-regex-util-21.2.0.tgz"
+  "version" "21.2.0"
+
 "jest-regex-util@^27.0.0", "jest-regex-util@^27.5.1":
   "integrity" "sha1-TaFD9+n9HlQtSqaWF7OOSng2W5U="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-regex-util/-/jest-regex-util-27.5.1.tgz"
   "version" "27.5.1"
+
+"jest-resolve-dependencies@^21.2.0":
+  "integrity" "sha512-ok8ybRFU5ScaAcfufIQrCbdNJSRZ85mkxJ1EhUp8Bhav1W1/jv/rl1Q6QoVQHObNxmKnbHVKrfLZbCbOsXQ+bQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-resolve-dependencies/-/jest-resolve-dependencies-21.2.0.tgz"
+  "version" "21.2.0"
+  dependencies:
+    "jest-regex-util" "^21.2.0"
 
 "jest-resolve-dependencies@^27.5.1":
   "integrity" "sha1-2BHsyDBecxzIbdeXQe6Y/tBvHag="
@@ -5445,6 +6841,15 @@
     "@jest/types" "^27.5.1"
     "jest-regex-util" "^27.5.1"
     "jest-snapshot" "^27.5.1"
+
+"jest-resolve@^21.2.0":
+  "integrity" "sha512-vefQ/Lr+VdNvHUZFQXWtOqHX3HEdOc2MtSahBO89qXywEbUxGPB9ZLP9+BHinkxb60UT2Q/tTDOS6rYc6Mwigw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-resolve/-/jest-resolve-21.2.0.tgz"
+  "version" "21.2.0"
+  dependencies:
+    "browser-resolve" "^1.11.2"
+    "chalk" "^2.0.1"
+    "is-builtin-module" "^1.0.0"
 
 "jest-resolve@^27.4.2", "jest-resolve@^27.5.1":
   "integrity" "sha1-ovHFoHluwY/p6xU2rDgUwjYXs4Q="
@@ -5461,6 +6866,22 @@
     "resolve" "^1.20.0"
     "resolve.exports" "^1.1.0"
     "slash" "^3.0.0"
+
+"jest-runner@^21.2.1":
+  "integrity" "sha512-Anb72BOQlHqF/zETqZ2K20dbYsnqW/nZO7jV8BYENl+3c44JhMrA8zd1lt52+N7ErnsQMd2HHKiVwN9GYSXmrg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-runner/-/jest-runner-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "jest-config" "^21.2.1"
+    "jest-docblock" "^21.2.0"
+    "jest-haste-map" "^21.2.0"
+    "jest-jasmine2" "^21.2.1"
+    "jest-message-util" "^21.2.1"
+    "jest-runtime" "^21.2.1"
+    "jest-util" "^21.2.1"
+    "pify" "^3.0.0"
+    "throat" "^4.0.0"
+    "worker-farm" "^1.3.1"
 
 "jest-runner@^27.5.1":
   "integrity" "sha1-Bxsnwfow2QVAgFxWRaDsFnx7YuU="
@@ -5488,6 +6909,29 @@
     "jest-worker" "^27.5.1"
     "source-map-support" "^0.5.6"
     "throat" "^6.0.1"
+
+"jest-runtime@^21.2.1":
+  "integrity" "sha512-6omlpA3+NSE+rHwD0PQjNEjZeb2z+oRmuehMfM1tWQVum+E0WV3pFt26Am0DUfQkkPyTABvxITRjCUclYgSOsA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-runtime/-/jest-runtime-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "babel-core" "^6.0.0"
+    "babel-jest" "^21.2.0"
+    "babel-plugin-istanbul" "^4.0.0"
+    "chalk" "^2.0.1"
+    "convert-source-map" "^1.4.0"
+    "graceful-fs" "^4.1.11"
+    "jest-config" "^21.2.1"
+    "jest-haste-map" "^21.2.0"
+    "jest-regex-util" "^21.2.0"
+    "jest-resolve" "^21.2.0"
+    "jest-util" "^21.2.1"
+    "json-stable-stringify" "^1.0.1"
+    "micromatch" "^2.3.11"
+    "slash" "^1.0.0"
+    "strip-bom" "3.0.0"
+    "write-file-atomic" "^2.1.0"
+    "yargs" "^9.0.0"
 
 "jest-runtime@^27.5.1":
   "integrity" "sha1-SJYAPXozT36OSlO6k/ubzT2woa8="
@@ -5525,6 +6969,18 @@
     "@types/node" "*"
     "graceful-fs" "^4.2.9"
 
+"jest-snapshot@^21.2.1":
+  "integrity" "sha512-bpaeBnDpdqaRTzN8tWg0DqOTo2DvD3StOemxn67CUd1p1Po+BUpvePAp44jdJ7Pxcjfg+42o4NHw1SxdCA2rvg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-snapshot/-/jest-snapshot-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "jest-diff" "^21.2.1"
+    "jest-matcher-utils" "^21.2.1"
+    "mkdirp" "^0.5.1"
+    "natural-compare" "^1.4.0"
+    "pretty-format" "^21.2.1"
+
 "jest-snapshot@^27.5.1":
   "integrity" "sha1-tmjVDSPTgFSlG0LEA5yrWa5utqE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-snapshot/-/jest-snapshot-27.5.1.tgz"
@@ -5553,6 +7009,19 @@
     "pretty-format" "^27.5.1"
     "semver" "^7.3.2"
 
+"jest-util@^21.2.1":
+  "integrity" "sha512-r20W91rmHY3fnCoO7aOAlyfC51x2yeV3xF+prGsJAUsYhKeV670ZB8NO88Lwm7ASu8SdH0S+U+eFf498kjhA4g=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-util/-/jest-util-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "callsites" "^2.0.0"
+    "chalk" "^2.0.1"
+    "graceful-fs" "^4.1.11"
+    "jest-message-util" "^21.2.1"
+    "jest-mock" "^21.2.0"
+    "jest-validate" "^21.2.1"
+    "mkdirp" "^0.5.1"
+
 "jest-util@^27.5.1":
   "integrity" "sha1-O6l3Ho4xoLhdpI/gsIkfuGwBwvk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-util/-/jest-util-27.5.1.tgz"
@@ -5564,6 +7033,16 @@
     "ci-info" "^3.2.0"
     "graceful-fs" "^4.2.9"
     "picomatch" "^2.2.3"
+
+"jest-validate@^21.2.1":
+  "integrity" "sha512-k4HLI1rZQjlU+EC682RlQ6oZvLrE5SCh3brseQc24vbZTxzT/k/3urar5QMCVgjadmSO7lECeGdc6YxnM3yEGg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jest-validate/-/jest-validate-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "chalk" "^2.0.1"
+    "jest-get-type" "^21.2.0"
+    "leven" "^2.1.0"
+    "pretty-format" "^21.2.1"
 
 "jest-validate@^27.5.1":
   "integrity" "sha1-kZfVTcC9tSJguNtAtGrmaOBN8Gc="
@@ -5635,7 +7114,12 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/js-tokens/-/js-tokens-4.0.0.tgz"
   "version" "4.0.0"
 
-"js-yaml@^3.13.1":
+"js-tokens@^3.0.2":
+  "integrity" "sha1-mGbfOVECEw449/mWvOtlRDIJwls="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/js-tokens/-/js-tokens-3.0.2.tgz"
+  "version" "3.0.2"
+
+"js-yaml@^3.13.1", "js-yaml@^3.7.0":
   "integrity" "sha1-2ugS/bOCX6MGYJqHFzg8UMNqBTc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/js-yaml/-/js-yaml-3.14.1.tgz"
   "version" "3.14.1"
@@ -5649,6 +7133,11 @@
   "version" "4.1.0"
   dependencies:
     "argparse" "^2.0.1"
+
+"jsbn@~0.1.0":
+  "integrity" "sha1-peZUwuWi3rXyAdls77yoDA7y9RM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsbn/-/jsbn-0.1.1.tgz"
+  "version" "0.1.1"
 
 "jsdom@^16.6.0":
   "integrity" "sha1-kYrnGWVCSxl8gZ+Bg6dU4Yl3txA="
@@ -5683,6 +7172,36 @@
     "ws" "^7.4.6"
     "xml-name-validator" "^3.0.0"
 
+"jsdom@^9.12.0":
+  "integrity" "sha1-6MVG//ywbADUgzyoRBD+1/igl9Q="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsdom/-/jsdom-9.12.0.tgz"
+  "version" "9.12.0"
+  dependencies:
+    "abab" "^1.0.3"
+    "acorn" "^4.0.4"
+    "acorn-globals" "^3.1.0"
+    "array-equal" "^1.0.0"
+    "content-type-parser" "^1.0.1"
+    "cssom" ">= 0.3.2 < 0.4.0"
+    "cssstyle" ">= 0.2.37 < 0.3.0"
+    "escodegen" "^1.6.1"
+    "html-encoding-sniffer" "^1.0.1"
+    "nwmatcher" ">= 1.3.9 < 2.0.0"
+    "parse5" "^1.5.1"
+    "request" "^2.79.0"
+    "sax" "^1.2.1"
+    "symbol-tree" "^3.2.1"
+    "tough-cookie" "^2.3.2"
+    "webidl-conversions" "^4.0.0"
+    "whatwg-encoding" "^1.0.1"
+    "whatwg-url" "^4.3.0"
+    "xml-name-validator" "^2.0.1"
+
+"jsesc@^1.3.0":
+  "integrity" "sha1-RsP+yMGJKxKwgz25vHYiF226s0s="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsesc/-/jsesc-1.3.0.tgz"
+  "version" "1.3.0"
+
 "jsesc@^2.5.1":
   "integrity" "sha1-gFZNLkg9rPbo7yCWUKZ98/DCg6Q="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsesc/-/jsesc-2.5.2.tgz"
@@ -5713,7 +7232,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz"
   "version" "1.0.0"
 
-"json-schema@^0.4.0":
+"json-schema@^0.4.0", "json-schema@0.4.0":
   "integrity" "sha1-995M9u+rg4666zI2R0y7paGTCrU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/json-schema/-/json-schema-0.4.0.tgz"
   "version" "0.4.0"
@@ -5722,6 +7241,23 @@
   "integrity" "sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz"
   "version" "1.0.1"
+
+"json-stable-stringify@^1.0.1":
+  "integrity" "sha1-mnWdOcXy/1A/1TAGRu1EX4jE+a8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "jsonify" "~0.0.0"
+
+"json-stringify-safe@~5.0.1":
+  "integrity" "sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz"
+  "version" "5.0.1"
+
+"json5@^0.5.1":
+  "integrity" "sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/json5/-/json5-0.5.1.tgz"
+  "version" "0.5.1"
 
 "json5@^1.0.1":
   "integrity" "sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4="
@@ -5744,10 +7280,25 @@
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
+"jsonify@~0.0.0":
+  "integrity" "sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsonify/-/jsonify-0.0.0.tgz"
+  "version" "0.0.0"
+
 "jsonpointer@^5.0.0":
   "integrity" "sha1-+AJmmlJOxIBfpzierbyZIdXcgHI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsonpointer/-/jsonpointer-5.0.0.tgz"
   "version" "5.0.0"
+
+"jsprim@^1.2.2":
+  "integrity" "sha512-P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/jsprim/-/jsprim-1.4.2.tgz"
+  "version" "1.4.2"
+  dependencies:
+    "assert-plus" "1.0.0"
+    "extsprintf" "1.3.0"
+    "json-schema" "0.4.0"
+    "verror" "1.10.0"
 
 "jsx-ast-utils@^2.4.1 || ^3.0.0", "jsx-ast-utils@^3.2.1":
   "integrity" "sha1-cguXv+fZAbkn2Hw3c2N66OpIeBs="
@@ -5757,7 +7308,33 @@
     "array-includes" "^3.1.3"
     "object.assign" "^4.1.2"
 
-"kind-of@^6.0.2":
+"kind-of@^3.0.2", "kind-of@^3.0.3":
+  "integrity" "sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/kind-of/-/kind-of-3.2.2.tgz"
+  "version" "3.2.2"
+  dependencies:
+    "is-buffer" "^1.1.5"
+
+"kind-of@^3.2.0":
+  "integrity" "sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/kind-of/-/kind-of-3.2.2.tgz"
+  "version" "3.2.2"
+  dependencies:
+    "is-buffer" "^1.1.5"
+
+"kind-of@^4.0.0":
+  "integrity" "sha1-IIE989cSkosgc3hpGkUGb65y3Vc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/kind-of/-/kind-of-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "is-buffer" "^1.1.5"
+
+"kind-of@^5.0.0":
+  "integrity" "sha512-NGEErnH6F2vUuXDh+OlbcKW7/wOcfdRHaZ7VWtqCztfHri/++YKmP51OdWeGPuqCOba6kk2OTe5d02VmTB80Pw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/kind-of/-/kind-of-5.1.0.tgz"
+  "version" "5.1.0"
+
+"kind-of@^6.0.0", "kind-of@^6.0.2":
   "integrity" "sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/kind-of/-/kind-of-6.0.3.tgz"
   "version" "6.0.3"
@@ -5783,6 +7360,18 @@
   "version" "1.0.5"
   dependencies:
     "language-subtag-registry" "~0.3.2"
+
+"lcid@^1.0.0":
+  "integrity" "sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/lcid/-/lcid-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "invert-kv" "^1.0.0"
+
+"leven@^2.1.0":
+  "integrity" "sha1-wuep93IJTe6dNCAq6KzORoeHVYA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/leven/-/leven-2.1.0.tgz"
+  "version" "2.1.0"
 
 "leven@^3.1.0":
   "integrity" "sha1-d4kd6DQGTMy6gq54QrtrFKE+1/I="
@@ -5814,6 +7403,27 @@
   "integrity" "sha1-7KKE910pZQeTCdwK2SVauy68FjI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
   "version" "1.2.4"
+
+"load-json-file@^1.0.0":
+  "integrity" "sha1-lWkFcI1YtLq0wiYbBPWfMcmTdMA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/load-json-file/-/load-json-file-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "graceful-fs" "^4.1.2"
+    "parse-json" "^2.2.0"
+    "pify" "^2.0.0"
+    "pinkie-promise" "^2.0.0"
+    "strip-bom" "^2.0.0"
+
+"load-json-file@^2.0.0":
+  "integrity" "sha1-eUfkIUmvgNaWy/eXvKq8/h/inKg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/load-json-file/-/load-json-file-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "graceful-fs" "^4.1.2"
+    "parse-json" "^2.2.0"
+    "pify" "^2.0.0"
+    "strip-bom" "^3.0.0"
 
 "loader-runner@^4.2.0":
   "integrity" "sha1-1wIjgNZtFMX7HUlriYZOvP1Hg4Q="
@@ -5899,7 +7509,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.7.0":
+"lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.4", "lodash@^4.17.5", "lodash@^4.7.0":
   "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -5917,6 +7527,14 @@
   "version" "2.0.2"
   dependencies:
     "tslib" "^2.0.3"
+
+"lru-cache@^4.0.1":
+  "integrity" "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/lru-cache/-/lru-cache-4.1.5.tgz"
+  "version" "4.1.5"
+  dependencies:
+    "pseudomap" "^1.0.2"
+    "yallist" "^2.1.2"
 
 "lru-cache@^6.0.0":
   "integrity" "sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ="
@@ -5951,6 +7569,23 @@
   dependencies:
     "tmpl" "1.0.5"
 
+"map-cache@^0.2.2":
+  "integrity" "sha1-wyq9C9ZSXZsFFkW7TyasXcmKDb8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/map-cache/-/map-cache-0.2.2.tgz"
+  "version" "0.2.2"
+
+"map-visit@^1.0.0":
+  "integrity" "sha1-7Nyo8TFE5mDxtb1B8S80edmN+48="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/map-visit/-/map-visit-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "object-visit" "^1.0.0"
+
+"math-random@^1.0.1":
+  "integrity" "sha512-rUxjysqif/BZQH2yhd5Aaq7vXMSx9NdEsQcyA07uEzIvxgI7zIr33gGsh+RU0/XjmQpCW7RsVof1vlkvQVCK5A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/math-random/-/math-random-1.0.4.tgz"
+  "version" "1.0.4"
+
 "mdn-data@2.0.14":
   "integrity" "sha1-cRP8QoGRfWPOKbQ0RvcB5owlulA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mdn-data/-/mdn-data-2.0.14.tgz"
@@ -5965,6 +7600,13 @@
   "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
+
+"mem@^1.1.0":
+  "integrity" "sha1-Xt1StIXKHZAP5kiVUFOZoN+kX3Y="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mem/-/mem-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "mimic-fn" "^1.0.0"
 
 "memfs@^3.1.2", "memfs@^3.4.1":
   "integrity" "sha1-t4CS9Gag3OBU1j05J1skxx0/EwU="
@@ -5983,6 +7625,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/merge-stream/-/merge-stream-2.0.0.tgz"
   "version" "2.0.0"
 
+"merge@^1.2.0":
+  "integrity" "sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/merge/-/merge-1.2.1.tgz"
+  "version" "1.2.1"
+
 "merge2@^1.3.0", "merge2@^1.4.1":
   "integrity" "sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/merge2/-/merge2-1.4.1.tgz"
@@ -5992,6 +7639,44 @@
   "integrity" "sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/methods/-/methods-1.1.2.tgz"
   "version" "1.1.2"
+
+"micromatch@^2.3.11":
+  "integrity" "sha1-hmd8l9FyCzY0MdBNDRUpO9OMFWU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/micromatch/-/micromatch-2.3.11.tgz"
+  "version" "2.3.11"
+  dependencies:
+    "arr-diff" "^2.0.0"
+    "array-unique" "^0.2.1"
+    "braces" "^1.8.2"
+    "expand-brackets" "^0.1.4"
+    "extglob" "^0.3.1"
+    "filename-regex" "^2.0.0"
+    "is-extglob" "^1.0.0"
+    "is-glob" "^2.0.1"
+    "kind-of" "^3.0.2"
+    "normalize-path" "^2.0.1"
+    "object.omit" "^2.0.0"
+    "parse-glob" "^3.0.4"
+    "regex-cache" "^0.4.2"
+
+"micromatch@^3.1.4":
+  "integrity" "sha512-MWikgl9n9M3w+bpsY3He8L+w9eF9338xRl8IAO5viDizwSzziFEyUzo2xrrloB64ADbTf8uA8vRqqttDTOmccg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/micromatch/-/micromatch-3.1.10.tgz"
+  "version" "3.1.10"
+  dependencies:
+    "arr-diff" "^4.0.0"
+    "array-unique" "^0.3.2"
+    "braces" "^2.3.1"
+    "define-property" "^2.0.2"
+    "extend-shallow" "^3.0.2"
+    "extglob" "^2.0.4"
+    "fragment-cache" "^0.2.1"
+    "kind-of" "^6.0.2"
+    "nanomatch" "^1.2.9"
+    "object.pick" "^1.3.0"
+    "regex-not" "^1.0.0"
+    "snapdragon" "^0.8.1"
+    "to-regex" "^3.0.2"
 
 "micromatch@^4.0.2", "micromatch@^4.0.4":
   "integrity" "sha1-vImZp8u/d83InxMvbkZwUbSQkMY="
@@ -6006,7 +7691,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mime-db/-/mime-db-1.52.0.tgz"
   "version" "1.52.0"
 
-"mime-types@^2.1.12", "mime-types@^2.1.27", "mime-types@^2.1.31", "mime-types@~2.1.17", "mime-types@~2.1.24", "mime-types@~2.1.34":
+"mime-types@^2.1.12", "mime-types@^2.1.27", "mime-types@^2.1.31", "mime-types@~2.1.17", "mime-types@~2.1.19", "mime-types@~2.1.24", "mime-types@~2.1.34":
   "integrity" "sha1-OBqHG2KnNEUGYK497uRIE/cNlZo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mime-types/-/mime-types-2.1.35.tgz"
   "version" "2.1.35"
@@ -6017,6 +7702,11 @@
   "integrity" "sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mime/-/mime-1.6.0.tgz"
   "version" "1.6.0"
+
+"mimic-fn@^1.0.0":
+  "integrity" "sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mimic-fn/-/mimic-fn-1.2.0.tgz"
+  "version" "1.2.0"
 
 "mimic-fn@^2.1.0":
   "integrity" "sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs="
@@ -6040,7 +7730,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
   "version" "1.0.1"
 
-"minimatch@^3.0.4", "minimatch@^3.1.2":
+"minimatch@^3.0.3", "minimatch@^3.0.4", "minimatch@^3.1.2":
   "integrity" "sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/minimatch/-/minimatch-3.1.2.tgz"
   "version" "3.1.2"
@@ -6054,12 +7744,20 @@
   dependencies:
     "brace-expansion" "^1.1.7"
 
-"minimist@^1.1.1", "minimist@^1.2.0", "minimist@^1.2.6":
+"minimist@^1.1.1", "minimist@^1.2.0", "minimist@^1.2.5", "minimist@^1.2.6":
   "integrity" "sha1-hjelt1nqDW6YcCz7OpKDMjyTr0Q="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/minimist/-/minimist-1.2.6.tgz"
   "version" "1.2.6"
 
-"mkdirp@^0.5.5", "mkdirp@~0.5.1":
+"mixin-deep@^1.2.0":
+  "integrity" "sha512-WRoDn//mXBiJ1H40rqa3vH0toePwSsGb45iInWlTySa+Uu4k3tYUSxa2v1KqAiLtvlrSzaExqS1gtk96A9zvEA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mixin-deep/-/mixin-deep-1.3.2.tgz"
+  "version" "1.3.2"
+  dependencies:
+    "for-in" "^1.0.2"
+    "is-extendable" "^1.0.1"
+
+"mkdirp@^0.5.1", "mkdirp@^0.5.5", "mkdirp@~0.5.1":
   "integrity" "sha1-fe8D0kMtyuS6HWEURcSDlgYiVfY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/mkdirp/-/mkdirp-0.5.6.tgz"
   "version" "0.5.6"
@@ -6094,10 +7792,32 @@
     "dns-packet" "^1.3.1"
     "thunky" "^1.0.2"
 
+"nan@^2.12.1":
+  "integrity" "sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/nan/-/nan-2.15.0.tgz"
+  "version" "2.15.0"
+
 "nanoid@^3.3.1":
   "integrity" "sha1-Y0ehjKyIr4j1ivCzWUtyPV6ZuzU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/nanoid/-/nanoid-3.3.1.tgz"
   "version" "3.3.1"
+
+"nanomatch@^1.2.9":
+  "integrity" "sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/nanomatch/-/nanomatch-1.2.13.tgz"
+  "version" "1.2.13"
+  dependencies:
+    "arr-diff" "^4.0.0"
+    "array-unique" "^0.3.2"
+    "define-property" "^2.0.2"
+    "extend-shallow" "^3.0.2"
+    "fragment-cache" "^0.2.1"
+    "is-windows" "^1.0.2"
+    "kind-of" "^6.0.2"
+    "object.pick" "^1.3.0"
+    "regex-not" "^1.0.0"
+    "snapdragon" "^0.8.1"
+    "to-regex" "^3.0.1"
 
 "natural-compare@^1.4.0":
   "integrity" "sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc="
@@ -6109,7 +7829,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/negotiator/-/negotiator-0.6.3.tgz"
   "version" "0.6.3"
 
-"neo-async@^2.6.2":
+"neo-async@^2.6.0", "neo-async@^2.6.2":
   "integrity" "sha1-tKr7k+OustgXTKU88WOrfXMIMF8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
@@ -6139,10 +7859,45 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/node-int64/-/node-int64-0.4.0.tgz"
   "version" "0.4.0"
 
+"node-notifier@^5.0.2":
+  "integrity" "sha512-tVbHs7DyTLtzOiN78izLA85zRqB9NvEXkAf014Vx3jtSvn/xBl6bR8ZYifj+dFcFrKI21huSQgJZ6ZtL3B4HfQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/node-notifier/-/node-notifier-5.4.5.tgz"
+  "version" "5.4.5"
+  dependencies:
+    "growly" "^1.3.0"
+    "is-wsl" "^1.1.0"
+    "semver" "^5.5.0"
+    "shellwords" "^0.1.1"
+    "which" "^1.3.0"
+
 "node-releases@^2.0.2":
   "integrity" "sha1-cTn+ceL08RtH1NKYaq+MSGmeDAE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/node-releases/-/node-releases-2.0.2.tgz"
   "version" "2.0.2"
+
+"normalize-package-data@^2.3.2":
+  "integrity" "sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
+  "version" "2.5.0"
+  dependencies:
+    "hosted-git-info" "^2.1.4"
+    "resolve" "^1.10.0"
+    "semver" "2 || 3 || 4 || 5"
+    "validate-npm-package-license" "^3.0.1"
+
+"normalize-path@^2.0.1":
+  "integrity" "sha1-GrKLVW4Zg2Oowab35vogE3/mrtk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/normalize-path/-/normalize-path-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "remove-trailing-separator" "^1.0.1"
+
+"normalize-path@^2.1.1":
+  "integrity" "sha1-GrKLVW4Zg2Oowab35vogE3/mrtk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/normalize-path/-/normalize-path-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "remove-trailing-separator" "^1.0.1"
 
 "normalize-path@^3.0.0", "normalize-path@~3.0.0":
   "integrity" "sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU="
@@ -6158,6 +7913,13 @@
   "integrity" "sha1-QNCIW1Nd7/4/MUe+yHfQX+TFZoo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/normalize-url/-/normalize-url-6.1.0.tgz"
   "version" "6.1.0"
+
+"npm-run-path@^2.0.0":
+  "integrity" "sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/npm-run-path/-/npm-run-path-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "path-key" "^2.0.0"
 
 "npm-run-path@^4.0.1":
   "integrity" "sha1-t+zR5e1T2o43pV4cImnguX7XSOo="
@@ -6180,15 +7942,39 @@
   dependencies:
     "boolbase" "^1.0.0"
 
+"number-is-nan@^1.0.0":
+  "integrity" "sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/number-is-nan/-/number-is-nan-1.0.1.tgz"
+  "version" "1.0.1"
+
+"nwmatcher@>= 1.3.9 < 2.0.0":
+  "integrity" "sha512-3iuY4N5dhgMpCUrOVnuAdGrgxVqV2cJpM+XNccjR2DKOB1RUP0aA+wGXEiNziG/UKboFyGBIoKOaNlJxx8bciQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/nwmatcher/-/nwmatcher-1.4.4.tgz"
+  "version" "1.4.4"
+
 "nwsapi@^2.2.0":
   "integrity" "sha1-IEh5qePQaP8qVROcLHcngGgaOLc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/nwsapi/-/nwsapi-2.2.0.tgz"
   "version" "2.2.0"
 
-"object-assign@^4.1.1":
+"oauth-sign@~0.9.0":
+  "integrity" "sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/oauth-sign/-/oauth-sign-0.9.0.tgz"
+  "version" "0.9.0"
+
+"object-assign@^4.1.0", "object-assign@^4.1.1":
   "integrity" "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object-assign/-/object-assign-4.1.1.tgz"
   "version" "4.1.1"
+
+"object-copy@^0.1.0":
+  "integrity" "sha1-fn2Fi3gb18mRpBupde04EnVOmYw="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object-copy/-/object-copy-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "copy-descriptor" "^0.1.0"
+    "define-property" "^0.2.5"
+    "kind-of" "^3.0.3"
 
 "object-hash@^2.2.0":
   "integrity" "sha1-WtUYWB7vxEO9djRyuP8unCwNVKU="
@@ -6212,6 +7998,13 @@
   "integrity" "sha1-HEfyct8nfzsdrwYWd9nILiMixg4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object-keys/-/object-keys-1.1.1.tgz"
   "version" "1.1.1"
+
+"object-visit@^1.0.0":
+  "integrity" "sha1-95xEk68MU3e1n+OdOV5BBC3QRbs="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object-visit/-/object-visit-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "isobject" "^3.0.0"
 
 "object.assign@^4.1.0", "object.assign@^4.1.2":
   "integrity" "sha1-DtVKNC7Os3s4/3brgxoOeIy2OUA="
@@ -6258,6 +8051,21 @@
     "define-properties" "^1.1.3"
     "es-abstract" "^1.19.1"
 
+"object.omit@^2.0.0":
+  "integrity" "sha1-Gpx0SCnznbuFjHbKNXmuKlTr0fo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object.omit/-/object.omit-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "for-own" "^0.1.4"
+    "is-extendable" "^0.1.1"
+
+"object.pick@^1.3.0":
+  "integrity" "sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object.pick/-/object.pick-1.3.0.tgz"
+  "version" "1.3.0"
+  dependencies:
+    "isobject" "^3.0.1"
+
 "object.values@^1.1.0", "object.values@^1.1.5":
   "integrity" "sha1-lZ9j486e8QhyAzMIITHkpFm3Fqw="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/object.values/-/object.values-1.1.5.tgz"
@@ -6284,7 +8092,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/on-headers/-/on-headers-1.0.2.tgz"
   "version" "1.0.2"
 
-"once@^1.3.0":
+"once@^1.3.0", "once@^1.4.0":
   "integrity" "sha1-WDsap3WWHUsROsF9nFC6753Xa9E="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/once/-/once-1.4.0.tgz"
   "version" "1.4.0"
@@ -6330,6 +8138,35 @@
     "prelude-ls" "^1.2.1"
     "type-check" "^0.4.0"
     "word-wrap" "^1.2.3"
+
+"os-homedir@^1.0.0":
+  "integrity" "sha1-/7xJiDNuDoM94MFox+8VISGqf7M="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/os-homedir/-/os-homedir-1.0.2.tgz"
+  "version" "1.0.2"
+
+"os-locale@^2.0.0":
+  "integrity" "sha512-3sslG3zJbEYcaC4YVAvDorjGxc7tv6KVATnLPZONiljsUncvihe9BQoVCEs0RZ1kmf4Hk9OBqlZfJZWI4GanKA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/os-locale/-/os-locale-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "execa" "^0.7.0"
+    "lcid" "^1.0.0"
+    "mem" "^1.1.0"
+
+"os-tmpdir@^1.0.1":
+  "integrity" "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+  "version" "1.0.2"
+
+"p-cancelable@^0.3.0":
+  "integrity" "sha512-RVbZPLso8+jFeq1MfNvgXtCRED2raz/dKpacfTNxsx6pLEpEomM7gah6VeHSYV3+vo0OAi4MkArtQcWWXuQoyw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/p-cancelable/-/p-cancelable-0.3.0.tgz"
+  "version" "0.3.0"
+
+"p-finally@^1.0.0":
+  "integrity" "sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/p-finally/-/p-finally-1.0.0.tgz"
+  "version" "1.0.0"
 
 "p-limit@^1.1.0":
   "integrity" "sha1-uGvV8MJWkJEcdZD8v8IBDVSzzLg="
@@ -6427,6 +8264,23 @@
   dependencies:
     "callsites" "^3.0.0"
 
+"parse-glob@^3.0.4":
+  "integrity" "sha1-ssN2z7EfNVE7rdFz7wu246OIORw="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/parse-glob/-/parse-glob-3.0.4.tgz"
+  "version" "3.0.4"
+  dependencies:
+    "glob-base" "^0.3.0"
+    "is-dotfile" "^1.0.0"
+    "is-extglob" "^1.0.0"
+    "is-glob" "^2.0.0"
+
+"parse-json@^2.2.0":
+  "integrity" "sha1-9ID0BDTvgHQfhGkJn43qGPVaTck="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/parse-json/-/parse-json-2.2.0.tgz"
+  "version" "2.2.0"
+  dependencies:
+    "error-ex" "^1.2.0"
+
 "parse-json@^5.0.0", "parse-json@^5.2.0":
   "integrity" "sha1-x2/Gbe5UIxyWKyK8yKcs8vmXU80="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/parse-json/-/parse-json-5.2.0.tgz"
@@ -6436,6 +8290,11 @@
     "error-ex" "^1.3.1"
     "json-parse-even-better-errors" "^2.3.0"
     "lines-and-columns" "^1.1.6"
+
+"parse5@^1.5.1":
+  "integrity" "sha1-m387DeMr543CQBsXVzzK8Pb1nZQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/parse5/-/parse5-1.5.1.tgz"
+  "version" "1.5.1"
 
 "parse5@6.0.1":
   "integrity" "sha1-4aHAhcVps9wIMhGE8Zo5zCf3wws="
@@ -6455,6 +8314,18 @@
     "no-case" "^3.0.4"
     "tslib" "^2.0.3"
 
+"pascalcase@^0.1.1":
+  "integrity" "sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pascalcase/-/pascalcase-0.1.1.tgz"
+  "version" "0.1.1"
+
+"path-exists@^2.0.0":
+  "integrity" "sha1-D+tsZPD8UY2adU3V77YscCJ2H0s="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-exists/-/path-exists-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "pinkie-promise" "^2.0.0"
+
 "path-exists@^3.0.0":
   "integrity" "sha1-zg6+ql94yxiSXqfYENe1mwEP1RU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-exists/-/path-exists-3.0.0.tgz"
@@ -6465,17 +8336,22 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-exists/-/path-exists-4.0.0.tgz"
   "version" "4.0.0"
 
-"path-is-absolute@^1.0.0":
+"path-is-absolute@^1.0.0", "path-is-absolute@^1.0.1":
   "integrity" "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
   "version" "1.0.1"
+
+"path-key@^2.0.0":
+  "integrity" "sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-key/-/path-key-2.0.1.tgz"
+  "version" "2.0.1"
 
 "path-key@^3.0.0", "path-key@^3.1.0":
   "integrity" "sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-key/-/path-key-3.1.1.tgz"
   "version" "3.1.1"
 
-"path-parse@^1.0.6", "path-parse@^1.0.7":
+"path-parse@^1.0.5", "path-parse@^1.0.6", "path-parse@^1.0.7":
   "integrity" "sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-parse/-/path-parse-1.0.7.tgz"
   "version" "1.0.7"
@@ -6484,6 +8360,22 @@
   "integrity" "sha1-32BBeABfUi8V60SQ5yR6G/qmf4w="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-to-regexp/-/path-to-regexp-0.1.7.tgz"
   "version" "0.1.7"
+
+"path-type@^1.0.0":
+  "integrity" "sha1-WcRPfuSR2nBNpBXaWkBwuk+P5EE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-type/-/path-type-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "graceful-fs" "^4.1.2"
+    "pify" "^2.0.0"
+    "pinkie-promise" "^2.0.0"
+
+"path-type@^2.0.0":
+  "integrity" "sha1-8BLMuEFbcJb8LaoQVMPXI4lZTHM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/path-type/-/path-type-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "pify" "^2.0.0"
 
 "path-type@^4.0.0":
   "integrity" "sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs="
@@ -6509,6 +8401,28 @@
   "integrity" "sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/picomatch/-/picomatch-2.3.1.tgz"
   "version" "2.3.1"
+
+"pify@^2.0.0":
+  "integrity" "sha1-7RQaasBDqEnqWISY59yosVMw6Qw="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pify/-/pify-2.3.0.tgz"
+  "version" "2.3.0"
+
+"pify@^3.0.0":
+  "integrity" "sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pify/-/pify-3.0.0.tgz"
+  "version" "3.0.0"
+
+"pinkie-promise@^2.0.0":
+  "integrity" "sha1-ITXW36ejWMBprJsXh3YogihFD/o="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pinkie-promise/-/pinkie-promise-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "pinkie" "^2.0.0"
+
+"pinkie@^2.0.0":
+  "integrity" "sha1-clVrgM+g1IqXToDnckjoDtT3+HA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pinkie/-/pinkie-2.0.4.tgz"
+  "version" "2.0.4"
 
 "pirates@^4.0.4":
   "integrity" "sha1-/uw1LqXDJo+yOjfHAqsWmfNaXzs="
@@ -6537,6 +8451,11 @@
     "async" "^2.6.2"
     "debug" "^3.1.1"
     "mkdirp" "^0.5.5"
+
+"posix-character-classes@^0.1.0":
+  "integrity" "sha1-AerA/jta9xoqbAL+q7jB/vfgDqs="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/posix-character-classes/-/posix-character-classes-0.1.1.tgz"
+  "version" "0.1.1"
 
 "postcss-attribute-case-insensitive@^5.0.0":
   "integrity" "sha1-Ocv2ur897R5KvzfQnW7aIcZEEFw="
@@ -7079,6 +8998,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/prelude-ls/-/prelude-ls-1.1.2.tgz"
   "version" "1.1.2"
 
+"preserve@^0.2.0":
+  "integrity" "sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/preserve/-/preserve-0.2.0.tgz"
+  "version" "0.2.0"
+
 "pretty-bytes@^5.3.0", "pretty-bytes@^5.4.1":
   "integrity" "sha1-NWJW9kOAR3PIL2RyP+eMksYr6us="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pretty-bytes/-/pretty-bytes-5.6.0.tgz"
@@ -7092,6 +9016,14 @@
     "lodash" "^4.17.20"
     "renderkid" "^3.0.0"
 
+"pretty-format@^21.2.1":
+  "integrity" "sha512-ZdWPGYAnYfcVP8yKA3zFjCn8s4/17TeYH28MXuC8vTp0o21eXjbFGcOAXZEaDaOFJjc3h2qa7HQNHNshhvoh2A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pretty-format/-/pretty-format-21.2.1.tgz"
+  "version" "21.2.1"
+  dependencies:
+    "ansi-regex" "^3.0.0"
+    "ansi-styles" "^3.2.0"
+
 "pretty-format@^27.0.0", "pretty-format@^27.0.2", "pretty-format@^27.5.1":
   "integrity" "sha1-IYGHn96lGnpYUfs52SD6pj8B2I4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pretty-format/-/pretty-format-27.5.1.tgz"
@@ -7100,6 +9032,11 @@
     "ansi-regex" "^5.0.1"
     "ansi-styles" "^5.0.0"
     "react-is" "^17.0.1"
+
+"private@^0.1.8":
+  "integrity" "sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/private/-/private-0.1.8.tgz"
+  "version" "0.1.8"
 
 "process-nextick-args@~2.0.0":
   "integrity" "sha1-eCDZsWEgzFXKmud5JoCufbptf+I="
@@ -7122,7 +9059,7 @@
     "sisteransi" "^1.0.5"
 
 "prop-types@^15.5.6", "prop-types@^15.5.8", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
-  "integrity" "sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU="
+  "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
   dependencies:
@@ -7138,7 +9075,17 @@
     "forwarded" "0.2.0"
     "ipaddr.js" "1.9.1"
 
-"psl@^1.1.33":
+"prr@~1.0.1":
+  "integrity" "sha1-0/wRS6BplaRexok/SEzrHXj19HY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/prr/-/prr-1.0.1.tgz"
+  "version" "1.0.1"
+
+"pseudomap@^1.0.2":
+  "integrity" "sha1-8FKijacOYYkX7wqKw0wa5aaChrM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/pseudomap/-/pseudomap-1.0.2.tgz"
+  "version" "1.0.2"
+
+"psl@^1.1.28", "psl@^1.1.33":
   "integrity" "sha1-kyb4vPsBOtzABf3/BWrM4CDlHCQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/psl/-/psl-1.8.0.tgz"
   "version" "1.8.0"
@@ -7152,6 +9099,11 @@
   "integrity" "sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/q/-/q-1.5.1.tgz"
   "version" "1.5.1"
+
+"qs@~6.5.2":
+  "integrity" "sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/qs/-/qs-6.5.3.tgz"
+  "version" "6.5.3"
 
 "qs@6.9.7":
   "integrity" "sha1-RhCEaHFIXh4Ej0SuO5QDPw5nWv4="
@@ -7175,6 +9127,15 @@
   dependencies:
     "performance-now" "^2.1.0"
 
+"randomatic@^3.0.0":
+  "integrity" "sha512-TuDE5KxZ0J461RVjrJZCJc+J+zCkTb1MbH9AQUq68sMhOMcy9jLcb3BrZKgp9q9Ncltdg4QVqWrH02W2EFFVYw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/randomatic/-/randomatic-3.1.1.tgz"
+  "version" "3.1.1"
+  dependencies:
+    "is-number" "^4.0.0"
+    "kind-of" "^6.0.0"
+    "math-random" "^1.0.1"
+
 "randombytes@^2.1.0":
   "integrity" "sha1-32+ENy8CcNxlzfYpE0mrekc9Tyo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/randombytes/-/randombytes-2.1.0.tgz"
@@ -7196,6 +9157,14 @@
     "http-errors" "1.8.1"
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
+
+"react-animation-components@^3.0.0":
+  "integrity" "sha512-9BhSSQ+8ZW2RciRA1wmIybZgmyC6myPXmkOR3zBZtt5V8Zm63fxSwb+ooiZZbgC91ASS/1LHjftdzv9Y5izQFA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/react-animation-components/-/react-animation-components-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "jest-cli" "^21.2.1"
+    "lodash" "^4.17.5"
 
 "react-app-polyfill@^3.0.0":
   "integrity" "sha1-lSIeCpvSWeXKaxd8e7HLZ2j2j9c="
@@ -7416,6 +9385,40 @@
     "react-popper" "^2.2.4"
     "react-transition-group" "^4.4.2"
 
+"read-pkg-up@^1.0.1":
+  "integrity" "sha1-nWPBMnbAZZGNV/ACpX9AobZD+wI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/read-pkg-up/-/read-pkg-up-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "find-up" "^1.0.0"
+    "read-pkg" "^1.0.0"
+
+"read-pkg-up@^2.0.0":
+  "integrity" "sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/read-pkg-up/-/read-pkg-up-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "find-up" "^2.0.0"
+    "read-pkg" "^2.0.0"
+
+"read-pkg@^1.0.0":
+  "integrity" "sha1-9f+qXs0pyzHAR0vKfXVra7KePyg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/read-pkg/-/read-pkg-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "load-json-file" "^1.0.0"
+    "normalize-package-data" "^2.3.2"
+    "path-type" "^1.0.0"
+
+"read-pkg@^2.0.0":
+  "integrity" "sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/read-pkg/-/read-pkg-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "load-json-file" "^2.0.0"
+    "normalize-package-data" "^2.3.2"
+    "path-type" "^2.0.0"
+
 "readable-stream@^2.0.1":
   "integrity" "sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/readable-stream/-/readable-stream-2.3.7.tgz"
@@ -7491,6 +9494,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/regenerate/-/regenerate-1.4.2.tgz"
   "version" "1.4.2"
 
+"regenerator-runtime@^0.11.0":
+  "integrity" "sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz"
+  "version" "0.11.1"
+
 "regenerator-runtime@^0.13.4", "regenerator-runtime@^0.13.9":
   "integrity" "sha1-iSV0Kpj/2QgUmI11Zq0wyjsmO1I="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
@@ -7502,6 +9510,21 @@
   "version" "0.14.5"
   dependencies:
     "@babel/runtime" "^7.8.4"
+
+"regex-cache@^0.4.2":
+  "integrity" "sha512-nVIZwtCjkC9YgvWkpM55B5rBhBYRZhAaJbgcFYXXsHnbZ9UZI9nnVWYZpBlCqv9ho2eZryPnWrZGsOdPwVWXWQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/regex-cache/-/regex-cache-0.4.4.tgz"
+  "version" "0.4.4"
+  dependencies:
+    "is-equal-shallow" "^0.1.3"
+
+"regex-not@^1.0.0", "regex-not@^1.0.2":
+  "integrity" "sha512-J6SDjUgDxQj5NusnOtdFxDwN/+HWykR8GELwctJ7mdqhcyy1xEc4SRFHUXvxTp661YaVKAjfRLZ9cCqS6tn32A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/regex-not/-/regex-not-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "extend-shallow" "^3.0.2"
+    "safe-regex" "^1.1.0"
 
 "regex-parser@^2.2.11":
   "integrity" "sha1-OzfskEnhlHmAboeMq+fByoPM/lg="
@@ -7550,6 +9573,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/relateurl/-/relateurl-0.2.7.tgz"
   "version" "0.2.7"
 
+"remove-trailing-separator@^1.0.1":
+  "integrity" "sha1-wkvOKig62tW8P1jg1IJJuSN52O8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz"
+  "version" "1.1.0"
+
 "renderkid@^3.0.0":
   "integrity" "sha1-X9gj5NaVHTc1jsyaWLHwaDa2Joo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/renderkid/-/renderkid-3.0.0.tgz"
@@ -7561,6 +9589,49 @@
     "lodash" "^4.17.21"
     "strip-ansi" "^6.0.1"
 
+"repeat-element@^1.1.2":
+  "integrity" "sha512-LFiNfRcSu7KK3evMyYOuCzv3L10TW7yC1G2/+StMjK8Y6Vqd2MG7r/Qjw4ghtuCOjFvlnms/iMmLqpvW/ES/WQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/repeat-element/-/repeat-element-1.1.4.tgz"
+  "version" "1.1.4"
+
+"repeat-string@^1.5.2", "repeat-string@^1.6.1":
+  "integrity" "sha1-jcrkcOHIirwtYA//Sndihtp15jc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/repeat-string/-/repeat-string-1.6.1.tgz"
+  "version" "1.6.1"
+
+"repeating@^2.0.0":
+  "integrity" "sha1-UhTFOpJtNVJwdSf7q0FdvAjQbdo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/repeating/-/repeating-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "is-finite" "^1.0.0"
+
+"request@^2.79.0":
+  "integrity" "sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/request/-/request-2.88.2.tgz"
+  "version" "2.88.2"
+  dependencies:
+    "aws-sign2" "~0.7.0"
+    "aws4" "^1.8.0"
+    "caseless" "~0.12.0"
+    "combined-stream" "~1.0.6"
+    "extend" "~3.0.2"
+    "forever-agent" "~0.6.1"
+    "form-data" "~2.3.2"
+    "har-validator" "~5.1.3"
+    "http-signature" "~1.2.0"
+    "is-typedarray" "~1.0.0"
+    "isstream" "~0.1.2"
+    "json-stringify-safe" "~5.0.1"
+    "mime-types" "~2.1.19"
+    "oauth-sign" "~0.9.0"
+    "performance-now" "^2.1.0"
+    "qs" "~6.5.2"
+    "safe-buffer" "^5.1.2"
+    "tough-cookie" "~2.5.0"
+    "tunnel-agent" "^0.6.0"
+    "uuid" "^3.3.2"
+
 "require-directory@^2.1.1":
   "integrity" "sha1-jGStX9MNqxyXbiNE/+f3kqam30I="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/require-directory/-/require-directory-2.1.1.tgz"
@@ -7570,6 +9641,11 @@
   "integrity" "sha1-iaf92TgmEmcxjq/hT5wy5ZjDaQk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/require-from-string/-/require-from-string-2.0.2.tgz"
   "version" "2.0.2"
+
+"require-main-filename@^1.0.1":
+  "integrity" "sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/require-main-filename/-/require-main-filename-1.0.1.tgz"
+  "version" "1.0.1"
 
 "requires-port@^1.0.0":
   "integrity" "sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8="
@@ -7604,12 +9680,17 @@
     "postcss" "^7.0.35"
     "source-map" "0.6.1"
 
+"resolve-url@^0.2.1":
+  "integrity" "sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/resolve-url/-/resolve-url-0.2.1.tgz"
+  "version" "0.2.1"
+
 "resolve.exports@^1.1.0":
   "integrity" "sha1-XOhCuUsFFGwOAwdphdHQ5+SMkMk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/resolve.exports/-/resolve.exports-1.1.0.tgz"
   "version" "1.1.0"
 
-"resolve@^1.14.2", "resolve@^1.19.0", "resolve@^1.20.0", "resolve@^1.22.0":
+"resolve@^1.10.0", "resolve@^1.14.2", "resolve@^1.19.0", "resolve@^1.20.0", "resolve@^1.22.0":
   "integrity" "sha1-XguMZ8Fd9XqJvbq+YDoALyFzEZg="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/resolve/-/resolve-1.22.0.tgz"
   "version" "1.22.0"
@@ -7626,6 +9707,16 @@
     "is-core-module" "^2.2.0"
     "path-parse" "^1.0.6"
 
+"resolve@1.1.7":
+  "integrity" "sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/resolve/-/resolve-1.1.7.tgz"
+  "version" "1.1.7"
+
+"ret@~0.1.10":
+  "integrity" "sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ret/-/ret-0.1.15.tgz"
+  "version" "0.1.15"
+
 "retry@^0.13.1":
   "integrity" "sha1-GFsVh6z2eRnWOzVzSeA1N7JIRlg="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/retry/-/retry-0.13.1.tgz"
@@ -7635,6 +9726,13 @@
   "integrity" "sha1-kNo4Kx4SbvwCFG6QhFqI2xKSXXY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/reusify/-/reusify-1.0.4.tgz"
   "version" "1.0.4"
+
+"rimraf@^2.6.1":
+  "integrity" "sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/rimraf/-/rimraf-2.7.1.tgz"
+  "version" "2.7.1"
+  dependencies:
+    "glob" "^7.1.3"
 
 "rimraf@^3.0.0", "rimraf@^3.0.2":
   "integrity" "sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho="
@@ -7660,6 +9758,11 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
+"rsvp@^3.3.3":
+  "integrity" "sha512-OfWGQTb9vnwRjwtA2QwpG2ICclHC3pgXZO5xt8H2EfgDquO0qVdSb5T88L4qJVAEugbS56pAuV4XZM58UX8ulw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/rsvp/-/rsvp-3.6.2.tgz"
+  "version" "3.6.2"
+
 "run-parallel@^1.1.9":
   "integrity" "sha1-ZtE2jae9+SHrnZW9GpIp5/IaQ+4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/run-parallel/-/run-parallel-1.2.0.tgz"
@@ -7667,7 +9770,7 @@
   dependencies:
     "queue-microtask" "^1.2.2"
 
-"safe-buffer@^5.0.1", "safe-buffer@^5.1.0", "safe-buffer@>=5.1.0", "safe-buffer@~5.1.0", "safe-buffer@~5.1.1", "safe-buffer@5.1.2":
+"safe-buffer@^5.0.1", "safe-buffer@^5.1.0", "safe-buffer@^5.1.2", "safe-buffer@>=5.1.0", "safe-buffer@~5.1.0", "safe-buffer@~5.1.1", "safe-buffer@5.1.2":
   "integrity" "sha1-mR7GnSluAxN0fVm9/St0XDX4go0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/safe-buffer/-/safe-buffer-5.1.2.tgz"
   "version" "5.1.2"
@@ -7682,10 +9785,33 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/safe-buffer/-/safe-buffer-5.2.1.tgz"
   "version" "5.2.1"
 
-"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
+"safe-regex@^1.1.0":
+  "integrity" "sha1-QKNmnzsHfR6UPURinhV91IAjvy4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/safe-regex/-/safe-regex-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "ret" "~0.1.10"
+
+"safer-buffer@^2.0.2", "safer-buffer@^2.1.0", "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0", "safer-buffer@~2.1.0":
   "integrity" "sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
+
+"sane@^2.0.0":
+  "integrity" "sha1-tNwYYcIbQn6SlQej51HiosuKs/o="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/sane/-/sane-2.5.2.tgz"
+  "version" "2.5.2"
+  dependencies:
+    "anymatch" "^2.0.0"
+    "capture-exit" "^1.2.0"
+    "exec-sh" "^0.2.0"
+    "fb-watchman" "^2.0.0"
+    "micromatch" "^3.1.4"
+    "minimist" "^1.1.1"
+    "walker" "~1.0.5"
+    "watch" "~0.18.0"
+  optionalDependencies:
+    "fsevents" "^1.2.3"
 
 "sanitize.css@*":
   "integrity" "sha1-JnVVOXSyeWTHVWKt472F15h58XM="
@@ -7700,7 +9826,7 @@
     "klona" "^2.0.4"
     "neo-async" "^2.6.2"
 
-"sax@~1.2.4":
+"sax@^1.2.1", "sax@~1.2.4":
   "integrity" "sha1-KBYjTiN4vdxOU1T6tcqold9xANk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/sax/-/sax-1.2.4.tgz"
   "version" "1.2.4"
@@ -7769,6 +9895,16 @@
   dependencies:
     "node-forge" "^1"
 
+"semver@^5.3.0":
+  "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/semver/-/semver-5.7.1.tgz"
+  "version" "5.7.1"
+
+"semver@^5.5.0":
+  "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/semver/-/semver-5.7.1.tgz"
+  "version" "5.7.1"
+
 "semver@^6.0.0":
   "integrity" "sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/semver/-/semver-6.3.0.tgz"
@@ -7795,6 +9931,11 @@
   "version" "7.3.5"
   dependencies:
     "lru-cache" "^6.0.0"
+
+"semver@2 || 3 || 4 || 5":
+  "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/semver/-/semver-5.7.1.tgz"
+  "version" "5.7.1"
 
 "semver@7.0.0":
   "integrity" "sha1-XzyjV2HkfgWyBsba/yz4FPAxa44="
@@ -7857,6 +9998,21 @@
     "parseurl" "~1.3.3"
     "send" "0.17.2"
 
+"set-blocking@^2.0.0":
+  "integrity" "sha1-BF+XgtARrppoA93TgrJDkrPYkPc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/set-blocking/-/set-blocking-2.0.0.tgz"
+  "version" "2.0.0"
+
+"set-value@^2.0.0", "set-value@^2.0.1":
+  "integrity" "sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/set-value/-/set-value-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "extend-shallow" "^2.0.1"
+    "is-extendable" "^0.1.1"
+    "is-plain-object" "^2.0.3"
+    "split-string" "^3.0.1"
+
 "setprototypeof@1.1.0":
   "integrity" "sha1-0L2FU2iHtv58DYGMuWLZ2RxU5lY="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/setprototypeof/-/setprototypeof-1.1.0.tgz"
@@ -7872,12 +10028,24 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/shallow-compare/-/shallow-compare-1.2.2.tgz"
   "version" "1.2.2"
 
+"shebang-command@^1.2.0":
+  "integrity" "sha1-RKrGW2lbAzmJaMOfNj/uXer98eo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/shebang-command/-/shebang-command-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "shebang-regex" "^1.0.0"
+
 "shebang-command@^2.0.0":
   "integrity" "sha1-zNCvT4g1+9wmW4JGGq8MNmY/NOo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/shebang-command/-/shebang-command-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
     "shebang-regex" "^3.0.0"
+
+"shebang-regex@^1.0.0":
+  "integrity" "sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/shebang-regex/-/shebang-regex-1.0.0.tgz"
+  "version" "1.0.0"
 
 "shebang-regex@^3.0.0":
   "integrity" "sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI="
@@ -7889,6 +10057,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/shell-quote/-/shell-quote-1.7.3.tgz"
   "version" "1.7.3"
 
+"shellwords@^0.1.1":
+  "integrity" "sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/shellwords/-/shellwords-0.1.1.tgz"
+  "version" "0.1.1"
+
 "side-channel@^1.0.4":
   "integrity" "sha1-785cj9wQTudRslxY1CkAEfpeos8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/side-channel/-/side-channel-1.0.4.tgz"
@@ -7898,7 +10071,7 @@
     "get-intrinsic" "^1.0.2"
     "object-inspect" "^1.9.0"
 
-"signal-exit@^3.0.2", "signal-exit@^3.0.3":
+"signal-exit@^3.0.0", "signal-exit@^3.0.2", "signal-exit@^3.0.3":
   "integrity" "sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/signal-exit/-/signal-exit-3.0.7.tgz"
   "version" "3.0.7"
@@ -7907,6 +10080,11 @@
   "integrity" "sha1-E01oEpd1ZDfMBcoBNw06elcQde0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/sisteransi/-/sisteransi-1.0.5.tgz"
   "version" "1.0.5"
+
+"slash@^1.0.0":
+  "integrity" "sha1-xB8vbDn8FtHNF61LXYlhFK5HDVU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/slash/-/slash-1.0.0.tgz"
+  "version" "1.0.0"
 
 "slash@^3.0.0":
   "integrity" "sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ="
@@ -7917,6 +10095,36 @@
   "integrity" "sha1-JCI3IXbExsWt214q2oha+YSzlqc="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/slash/-/slash-4.0.0.tgz"
   "version" "4.0.0"
+
+"snapdragon-node@^2.0.1":
+  "integrity" "sha512-O27l4xaMYt/RSQ5TR3vpWCAB5Kb/czIcqUFOM/C4fYcLnbZUc1PkjTAMjof2pBWaSTwOUd6qUHcFGVGj7aIwnw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/snapdragon-node/-/snapdragon-node-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "define-property" "^1.0.0"
+    "isobject" "^3.0.0"
+    "snapdragon-util" "^3.0.1"
+
+"snapdragon-util@^3.0.1":
+  "integrity" "sha512-mbKkMdQKsjX4BAL4bRYTj21edOf8cN7XHdYUJEe+Zn99hVEYcMvKPct1IqNe7+AZPirn8BCDOQBHQZknqmKlZQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/snapdragon-util/-/snapdragon-util-3.0.1.tgz"
+  "version" "3.0.1"
+  dependencies:
+    "kind-of" "^3.2.0"
+
+"snapdragon@^0.8.1":
+  "integrity" "sha512-FtyOnWN/wCHTVXOMwvSv26d+ko5vWlIDD6zoUJ7LW8vh+ZBC8QdljveRP+crNrtBwioEUWy/4dMtbBjA4ioNlg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/snapdragon/-/snapdragon-0.8.2.tgz"
+  "version" "0.8.2"
+  dependencies:
+    "base" "^0.11.1"
+    "debug" "^2.2.0"
+    "define-property" "^0.2.5"
+    "extend-shallow" "^2.0.1"
+    "map-cache" "^0.2.2"
+    "source-map" "^0.5.6"
+    "source-map-resolve" "^0.5.0"
+    "use" "^3.1.0"
 
 "sockjs@^0.3.21":
   "integrity" "sha1-ybyJlfM6ERvqA5XsMKoyBr21zM4="
@@ -7946,6 +10154,17 @@
     "iconv-lite" "^0.6.3"
     "source-map-js" "^1.0.1"
 
+"source-map-resolve@^0.5.0":
+  "integrity" "sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/source-map-resolve/-/source-map-resolve-0.5.3.tgz"
+  "version" "0.5.3"
+  dependencies:
+    "atob" "^2.1.2"
+    "decode-uri-component" "^0.2.0"
+    "resolve-url" "^0.2.1"
+    "source-map-url" "^0.4.0"
+    "urix" "^0.1.0"
+
 "source-map-resolve@^0.6.0":
   "integrity" "sha1-PZ34fiNrU/FtAeWBUPx3EROOXtI="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/source-map-resolve/-/source-map-resolve-0.6.0.tgz"
@@ -7953,6 +10172,13 @@
   dependencies:
     "atob" "^2.1.2"
     "decode-uri-component" "^0.2.0"
+
+"source-map-support@^0.4.15":
+  "integrity" "sha512-try0/JqxPLF9nOjvSta7tVondkP5dwgyLDjVoyMDlmjugT2lRZ1OfsrYTkCd2hkDnJTKRbO/Rl3orm8vlsUzbA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/source-map-support/-/source-map-support-0.4.18.tgz"
+  "version" "0.4.18"
+  dependencies:
+    "source-map" "^0.5.6"
 
 "source-map-support@^0.5.6", "source-map-support@~0.5.20":
   "integrity" "sha1-BP58f54e0tZiIzwoyys1ufY/bk8="
@@ -7962,7 +10188,12 @@
     "buffer-from" "^1.0.0"
     "source-map" "^0.6.0"
 
-"source-map@^0.5.0":
+"source-map-url@^0.4.0":
+  "integrity" "sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/source-map-url/-/source-map-url-0.4.1.tgz"
+  "version" "0.4.1"
+
+"source-map@^0.5.0", "source-map@^0.5.3", "source-map@^0.5.6", "source-map@^0.5.7":
   "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
@@ -8009,6 +10240,32 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
   "version" "1.4.8"
 
+"spdx-correct@^3.0.0":
+  "integrity" "sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/spdx-correct/-/spdx-correct-3.1.1.tgz"
+  "version" "3.1.1"
+  dependencies:
+    "spdx-expression-parse" "^3.0.0"
+    "spdx-license-ids" "^3.0.0"
+
+"spdx-exceptions@^2.1.0":
+  "integrity" "sha512-/tTrYOC7PPI1nUAgx34hUpqXuyJG+DTHJTnIULG4rDygi4xu/tfgmq1e1cIRwRzwZgo4NLySi+ricLkZkw4i5A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz"
+  "version" "2.3.0"
+
+"spdx-expression-parse@^3.0.0":
+  "integrity" "sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz"
+  "version" "3.0.1"
+  dependencies:
+    "spdx-exceptions" "^2.1.0"
+    "spdx-license-ids" "^3.0.0"
+
+"spdx-license-ids@^3.0.0":
+  "integrity" "sha512-Ctl2BrFiM0X3MANYgj3CkygxhRmr9mi6xhejbdO960nF6EDJApTYpn0BQnDKlnNBULKiCN1n3w9EBkHK8ZWg+g=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/spdx-license-ids/-/spdx-license-ids-3.0.11.tgz"
+  "version" "3.0.11"
+
 "spdy-transport@^3.0.0":
   "integrity" "sha1-ANSGOmQArXXfkzYaFghgXl3NzzE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/spdy-transport/-/spdy-transport-3.0.0.tgz"
@@ -8032,10 +10289,32 @@
     "select-hose" "^2.0.0"
     "spdy-transport" "^3.0.0"
 
+"split-string@^3.0.1", "split-string@^3.0.2":
+  "integrity" "sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/split-string/-/split-string-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "extend-shallow" "^3.0.0"
+
 "sprintf-js@~1.0.2":
   "integrity" "sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/sprintf-js/-/sprintf-js-1.0.3.tgz"
   "version" "1.0.3"
+
+"sshpk@^1.7.0":
+  "integrity" "sha512-/9HIEs1ZXGhSPE8X6Ccm7Nam1z8KcoCqPdI7ecm1N33EzAetWahvQWVqLZtaZQ+IDKX4IyA2o0gBzqIMkAagHQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/sshpk/-/sshpk-1.17.0.tgz"
+  "version" "1.17.0"
+  dependencies:
+    "asn1" "~0.2.3"
+    "assert-plus" "^1.0.0"
+    "bcrypt-pbkdf" "^1.0.0"
+    "dashdash" "^1.12.0"
+    "ecc-jsbn" "~0.1.1"
+    "getpass" "^0.1.1"
+    "jsbn" "~0.1.0"
+    "safer-buffer" "^2.0.2"
+    "tweetnacl" "~0.14.0"
 
 "stable@^0.1.8":
   "integrity" "sha1-g26zyDgv4pNv6vVEYxAXzn1Ho88="
@@ -8053,6 +10332,14 @@
   "integrity" "sha1-EDOjRz7mfwji8vyOumrvT4RRJOE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/stackframe/-/stackframe-1.2.1.tgz"
   "version" "1.2.1"
+
+"static-extend@^0.1.1":
+  "integrity" "sha1-YICcOcv/VTNyJv1eC1IPNB8ftcY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/static-extend/-/static-extend-0.1.2.tgz"
+  "version" "0.1.2"
+  dependencies:
+    "define-property" "^0.2.5"
+    "object-copy" "^0.1.0"
 
 "statuses@>= 1.4.0 < 2", "statuses@>= 1.5.0 < 2", "statuses@~1.5.0":
   "integrity" "sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow="
@@ -8072,6 +10359,14 @@
   "version" "1.1.1"
   dependencies:
     "safe-buffer" "~5.1.0"
+
+"string-length@^2.0.0":
+  "integrity" "sha1-1A27aGo6zpYMHP/KVivyxF+DY+0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/string-length/-/string-length-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "astral-regex" "^1.0.0"
+    "strip-ansi" "^4.0.0"
 
 "string-length@^4.0.1":
   "integrity" "sha1-qKjce9XBqCubPIuH4SX2aHG25Xo="
@@ -8093,6 +10388,23 @@
   "integrity" "sha1-ekLVhHRFSWN1no6LeuY9ccHn/fQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/string-natural-compare/-/string-natural-compare-3.0.1.tgz"
   "version" "3.0.1"
+
+"string-width@^1.0.1":
+  "integrity" "sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/string-width/-/string-width-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "code-point-at" "^1.0.0"
+    "is-fullwidth-code-point" "^1.0.0"
+    "strip-ansi" "^3.0.0"
+
+"string-width@^2.0.0":
+  "integrity" "sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/string-width/-/string-width-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "is-fullwidth-code-point" "^2.0.0"
+    "strip-ansi" "^4.0.0"
 
 "string-width@^4.1.0", "string-width@^4.2.0":
   "integrity" "sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA="
@@ -8142,6 +10454,20 @@
     "is-obj" "^1.0.1"
     "is-regexp" "^1.0.0"
 
+"strip-ansi@^3.0.0", "strip-ansi@^3.0.1":
+  "integrity" "sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-ansi/-/strip-ansi-3.0.1.tgz"
+  "version" "3.0.1"
+  dependencies:
+    "ansi-regex" "^2.0.0"
+
+"strip-ansi@^4.0.0":
+  "integrity" "sha1-qEeQIusaw2iocTibY1JixQXuNo8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-ansi/-/strip-ansi-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "ansi-regex" "^3.0.0"
+
 "strip-ansi@^6.0.0", "strip-ansi@^6.0.1":
   "integrity" "sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-ansi/-/strip-ansi-6.0.1.tgz"
@@ -8163,7 +10489,14 @@
   dependencies:
     "ansi-regex" "^6.0.1"
 
-"strip-bom@^3.0.0":
+"strip-bom@^2.0.0":
+  "integrity" "sha1-YhmoVhZSBJHzV4i9vxRHqZx+aw4="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-bom/-/strip-bom-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "is-utf8" "^0.2.0"
+
+"strip-bom@^3.0.0", "strip-bom@3.0.0":
   "integrity" "sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-bom/-/strip-bom-3.0.0.tgz"
   "version" "3.0.0"
@@ -8177,6 +10510,11 @@
   "integrity" "sha1-StEcP7ysF3pnpArCJMoznKHBups="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-comments/-/strip-comments-2.0.1.tgz"
   "version" "2.0.1"
+
+"strip-eof@^1.0.0":
+  "integrity" "sha1-u0P/VZim6wXYm1n80SnJgzE2Br8="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/strip-eof/-/strip-eof-1.0.0.tgz"
+  "version" "1.0.0"
 
 "strip-final-newline@^2.0.0":
   "integrity" "sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0="
@@ -8207,6 +10545,18 @@
   dependencies:
     "browserslist" "^4.16.6"
     "postcss-selector-parser" "^6.0.4"
+
+"supports-color@^2.0.0":
+  "integrity" "sha1-U10EXOa2Nj+kARcIRimZXp3zJMc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/supports-color/-/supports-color-2.0.0.tgz"
+  "version" "2.0.0"
+
+"supports-color@^3.1.2":
+  "integrity" "sha1-ZawFBLOVQXHYpklGsq48u4pfVPY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/supports-color/-/supports-color-3.2.3.tgz"
+  "version" "3.2.3"
+  dependencies:
+    "has-flag" "^1.0.0"
 
 "supports-color@^5.3.0":
   "integrity" "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8="
@@ -8286,7 +10636,7 @@
     "picocolors" "^1.0.0"
     "stable" "^0.1.8"
 
-"symbol-tree@^3.2.4":
+"symbol-tree@^3.2.1", "symbol-tree@^3.2.4":
   "integrity" "sha1-QwY30ki6d+B4iDlR+5qg7tfGP6I="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/symbol-tree/-/symbol-tree-3.2.4.tgz"
   "version" "3.2.4"
@@ -8372,6 +10722,17 @@
     "source-map" "~0.7.2"
     "source-map-support" "~0.5.20"
 
+"test-exclude@^4.2.1":
+  "integrity" "sha512-SYbXgY64PT+4GAL2ocI3HwPa4Q4TBKm0cwAVeKOt/Aoc0gSpNRjJX8w0pA1LMKZ3LBmd8pYBqApFNQLII9kavA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/test-exclude/-/test-exclude-4.2.3.tgz"
+  "version" "4.2.3"
+  dependencies:
+    "arrify" "^1.0.1"
+    "micromatch" "^2.3.11"
+    "object-assign" "^4.1.0"
+    "read-pkg-up" "^1.0.1"
+    "require-main-filename" "^1.0.1"
+
 "test-exclude@^6.0.0":
   "integrity" "sha1-BKhphmHYBepvopO2y55jrARO8V4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/test-exclude/-/test-exclude-6.0.0.tgz"
@@ -8385,6 +10746,11 @@
   "integrity" "sha1-f17oI66AUgfACvLfSoTsP8+lcLQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
+
+"throat@^4.0.0":
+  "integrity" "sha1-iQN8vJLFarGJJua6TLsgDhVnKmo="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/throat/-/throat-4.1.0.tgz"
+  "version" "4.1.0"
 
 "throat@^6.0.1":
   "integrity" "sha1-1RT+2tlXQMEsLX/HDqhj61Gt43U="
@@ -8406,10 +10772,30 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tmpl/-/tmpl-1.0.5.tgz"
   "version" "1.0.5"
 
+"to-fast-properties@^1.0.3":
+  "integrity" "sha1-uDVx+k2MJbguIxsG46MFXeTKGkc="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/to-fast-properties/-/to-fast-properties-1.0.3.tgz"
+  "version" "1.0.3"
+
 "to-fast-properties@^2.0.0":
   "integrity" "sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/to-fast-properties/-/to-fast-properties-2.0.0.tgz"
   "version" "2.0.0"
+
+"to-object-path@^0.3.0":
+  "integrity" "sha1-KXWIt7Dn4KwI4E5nL4XB9JmeF68="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/to-object-path/-/to-object-path-0.3.0.tgz"
+  "version" "0.3.0"
+  dependencies:
+    "kind-of" "^3.0.2"
+
+"to-regex-range@^2.1.0":
+  "integrity" "sha1-fIDBe53+vlmeJzZ+DU3VWQFB2zg="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/to-regex-range/-/to-regex-range-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "is-number" "^3.0.0"
+    "repeat-string" "^1.6.1"
 
 "to-regex-range@^5.0.1":
   "integrity" "sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ="
@@ -8418,10 +10804,28 @@
   dependencies:
     "is-number" "^7.0.0"
 
+"to-regex@^3.0.1", "to-regex@^3.0.2":
+  "integrity" "sha512-FWtleNAtZ/Ki2qtqej2CXTOayOH9bHDQF+Q48VpWyDXjbYxA4Yz8iDB31zXOBUlOHHKidDbqGVrTUvQMPmBGBw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/to-regex/-/to-regex-3.0.2.tgz"
+  "version" "3.0.2"
+  dependencies:
+    "define-property" "^2.0.2"
+    "extend-shallow" "^3.0.2"
+    "regex-not" "^1.0.2"
+    "safe-regex" "^1.1.0"
+
 "toidentifier@1.0.1":
   "integrity" "sha1-O+NDIaiKgg7RvYDfqjPkefu43TU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/toidentifier/-/toidentifier-1.0.1.tgz"
   "version" "1.0.1"
+
+"tough-cookie@^2.3.2":
+  "integrity" "sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tough-cookie/-/tough-cookie-2.5.0.tgz"
+  "version" "2.5.0"
+  dependencies:
+    "psl" "^1.1.28"
+    "punycode" "^2.1.1"
 
 "tough-cookie@^4.0.0":
   "integrity" "sha1-2CIjTuyogvmR8PkIgkrSYi3b7OQ="
@@ -8431,6 +10835,14 @@
     "psl" "^1.1.33"
     "punycode" "^2.1.1"
     "universalify" "^0.1.2"
+
+"tough-cookie@~2.5.0":
+  "integrity" "sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tough-cookie/-/tough-cookie-2.5.0.tgz"
+  "version" "2.5.0"
+  dependencies:
+    "psl" "^1.1.28"
+    "punycode" "^2.1.1"
 
 "tr46@^1.0.1":
   "integrity" "sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk="
@@ -8450,6 +10862,11 @@
   "integrity" "sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tr46/-/tr46-0.0.3.tgz"
   "version" "0.0.3"
+
+"trim-right@^1.0.1":
+  "integrity" "sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/trim-right/-/trim-right-1.0.1.tgz"
+  "version" "1.0.1"
 
 "tryer@^1.0.1":
   "integrity" "sha1-8shUBoALmw90yfdGW4HqrSQSUvg="
@@ -8482,6 +10899,18 @@
   "version" "3.21.0"
   dependencies:
     "tslib" "^1.8.1"
+
+"tunnel-agent@^0.6.0":
+  "integrity" "sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tunnel-agent/-/tunnel-agent-0.6.0.tgz"
+  "version" "0.6.0"
+  dependencies:
+    "safe-buffer" "^5.0.1"
+
+"tweetnacl@^0.14.3", "tweetnacl@~0.14.0":
+  "integrity" "sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/tweetnacl/-/tweetnacl-0.14.5.tgz"
+  "version" "0.14.5"
 
 "type-check@^0.4.0", "type-check@~0.4.0":
   "integrity" "sha1-B7ggO/pwVsBlcFDjzNLDdzC6uPE="
@@ -8532,6 +10961,11 @@
   dependencies:
     "is-typedarray" "^1.0.0"
 
+"uglify-js@^3.1.4":
+  "integrity" "sha512-vMOPGDuvXecPs34V74qDKk4iJ/SN4vL3Ow/23ixafENYvtrNvtbcgUeugTcUGRGsOF/5fU8/NYSL5Hyb3l1OJA=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/uglify-js/-/uglify-js-3.15.4.tgz"
+  "version" "3.15.4"
+
 "unbox-primitive@^1.0.1":
   "integrity" "sha1-CF4hViXsMWJXTciFmr7nilmxRHE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/unbox-primitive/-/unbox-primitive-1.0.1.tgz"
@@ -8565,6 +10999,16 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz"
   "version" "2.0.0"
 
+"union-value@^1.0.0":
+  "integrity" "sha512-tJfXmxMeWYnczCVs7XAEvIV7ieppALdyepWMkHkwciRpZraG/xwT+s2JN8+pr1+8jCRf80FFzvr+MpQeeoF4Xg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/union-value/-/union-value-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "arr-union" "^3.1.0"
+    "get-value" "^2.0.6"
+    "is-extendable" "^0.1.1"
+    "set-value" "^2.0.1"
+
 "unique-string@^2.0.0":
   "integrity" "sha1-OcZFH4GvsnSd4rIz4/fF6IQ72J0="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/unique-string/-/unique-string-2.0.0.tgz"
@@ -8592,6 +11036,14 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/unquote/-/unquote-1.1.1.tgz"
   "version" "1.1.1"
 
+"unset-value@^1.0.0":
+  "integrity" "sha1-g3aHP30jNRef+x5vw6jtDfyKtVk="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/unset-value/-/unset-value-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "has-value" "^0.3.1"
+    "isobject" "^3.0.0"
+
 "upath@^1.2.0":
   "integrity" "sha1-j2bbzVWog6za5ECK+LA1pQRMGJQ="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/upath/-/upath-1.2.0.tgz"
@@ -8603,6 +11055,16 @@
   "version" "4.4.1"
   dependencies:
     "punycode" "^2.1.0"
+
+"urix@^0.1.0":
+  "integrity" "sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/urix/-/urix-0.1.0.tgz"
+  "version" "0.1.0"
+
+"use@^3.1.0":
+  "integrity" "sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/use/-/use-3.1.1.tgz"
+  "version" "3.1.1"
 
 "util-deprecate@^1.0.1", "util-deprecate@^1.0.2", "util-deprecate@~1.0.1":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
@@ -8629,6 +11091,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/utils-merge/-/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
 
+"uuid@^3.3.2":
+  "integrity" "sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/uuid/-/uuid-3.4.0.tgz"
+  "version" "3.4.0"
+
 "uuid@^8.3.2":
   "integrity" "sha1-gNW1ztJxu5r2xEXyGhoExgbO++I="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/uuid/-/uuid-8.3.2.tgz"
@@ -8648,10 +11115,27 @@
     "convert-source-map" "^1.6.0"
     "source-map" "^0.7.3"
 
+"validate-npm-package-license@^3.0.1":
+  "integrity" "sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz"
+  "version" "3.0.4"
+  dependencies:
+    "spdx-correct" "^3.0.0"
+    "spdx-expression-parse" "^3.0.0"
+
 "vary@~1.1.2":
   "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
+
+"verror@1.10.0":
+  "integrity" "sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/verror/-/verror-1.10.0.tgz"
+  "version" "1.10.0"
+  dependencies:
+    "assert-plus" "^1.0.0"
+    "core-util-is" "1.0.2"
+    "extsprintf" "^1.2.0"
 
 "w3c-hr-time@^1.0.2":
   "integrity" "sha1-ConN9cwVgi35w2BUNnaWPgzDCM0="
@@ -8667,7 +11151,7 @@
   dependencies:
     "xml-name-validator" "^3.0.0"
 
-"walker@^1.0.7":
+"walker@^1.0.7", "walker@~1.0.5":
   "integrity" "sha1-vUmNtHev5XPcBBhfAR06uKjXZT8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/walker/-/walker-1.0.8.tgz"
   "version" "1.0.8"
@@ -8680,6 +11164,14 @@
   "version" "4.0.3"
   dependencies:
     "loose-envify" "^1.0.0"
+
+"watch@~0.18.0":
+  "integrity" "sha1-KAlUdsbffJDJYxOJkMClQj60uYY="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/watch/-/watch-0.18.0.tgz"
+  "version" "0.18.0"
+  dependencies:
+    "exec-sh" "^0.2.0"
+    "minimist" "^1.2.0"
 
 "watchpack@^2.3.1":
   "integrity" "sha1-QgDZRHtAEVbuyndn7mEPiAm8nSU="
@@ -8705,6 +11197,11 @@
   "integrity" "sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
   "version" "3.0.1"
+
+"webidl-conversions@^4.0.0":
+  "integrity" "sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/webidl-conversions/-/webidl-conversions-4.0.2.tgz"
+  "version" "4.0.2"
 
 "webidl-conversions@^4.0.2":
   "integrity" "sha1-qFWYCx8LazWbodXZ+zmulB+qY60="
@@ -8841,7 +11338,7 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/websocket-extensions/-/websocket-extensions-0.1.4.tgz"
   "version" "0.1.4"
 
-"whatwg-encoding@^1.0.5":
+"whatwg-encoding@^1.0.1", "whatwg-encoding@^1.0.5":
   "integrity" "sha1-WrrPd3wyFmpR0IXWtPPn0nET3bA="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/whatwg-encoding/-/whatwg-encoding-1.0.5.tgz"
   "version" "1.0.5"
@@ -8857,6 +11354,14 @@
   "integrity" "sha1-PUseAxLSB5h5+Cav8Y2+7KWWD78="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz"
   "version" "2.3.0"
+
+"whatwg-url@^4.3.0":
+  "integrity" "sha1-0pgaqRSMHgCkHFphMRZqtGg7vMA="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/whatwg-url/-/whatwg-url-4.8.0.tgz"
+  "version" "4.8.0"
+  dependencies:
+    "tr46" "~0.0.3"
+    "webidl-conversions" "^3.0.0"
 
 "whatwg-url@^5.0.0":
   "integrity" "sha1-lmRU6HZUYuN2RNNib2dCzotwll0="
@@ -8895,6 +11400,32 @@
     "is-string" "^1.0.5"
     "is-symbol" "^1.0.3"
 
+"which-module@^2.0.0":
+  "integrity" "sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/which-module/-/which-module-2.0.0.tgz"
+  "version" "2.0.0"
+
+"which@^1.2.12":
+  "integrity" "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/which/-/which-1.3.1.tgz"
+  "version" "1.3.1"
+  dependencies:
+    "isexe" "^2.0.0"
+
+"which@^1.2.9":
+  "integrity" "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/which/-/which-1.3.1.tgz"
+  "version" "1.3.1"
+  dependencies:
+    "isexe" "^2.0.0"
+
+"which@^1.3.0":
+  "integrity" "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/which/-/which-1.3.1.tgz"
+  "version" "1.3.1"
+  dependencies:
+    "isexe" "^2.0.0"
+
 "which@^1.3.1":
   "integrity" "sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/which/-/which-1.3.1.tgz"
@@ -8913,6 +11444,11 @@
   "integrity" "sha1-YQY29rH3A4kb00dxzLF/uTtHB5w="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/word-wrap/-/word-wrap-1.2.3.tgz"
   "version" "1.2.3"
+
+"wordwrap@^1.0.0":
+  "integrity" "sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/wordwrap/-/wordwrap-1.0.0.tgz"
+  "version" "1.0.0"
 
 "workbox-background-sync@6.5.2":
   "integrity" "sha1-KL6b+JuOTgN51FkDKAx8EvTfg28="
@@ -9083,6 +11619,21 @@
     "@types/trusted-types" "^2.0.2"
     "workbox-core" "6.5.2"
 
+"worker-farm@^1.3.1":
+  "integrity" "sha512-rvw3QTZc8lAxyVrqcSGVm5yP/IJ2UcB3U0graE3LCFoZ0Yn2x4EoVSqJKdB/T5M+FLcRPjz4TDacRf3OCfNUzw=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/worker-farm/-/worker-farm-1.7.0.tgz"
+  "version" "1.7.0"
+  dependencies:
+    "errno" "~0.1.7"
+
+"wrap-ansi@^2.0.0":
+  "integrity" "sha1-2Pw9KE3QV5T+hJc8rs3Rz4JP3YU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/wrap-ansi/-/wrap-ansi-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "string-width" "^1.0.1"
+    "strip-ansi" "^3.0.1"
+
 "wrap-ansi@^7.0.0":
   "integrity" "sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
@@ -9096,6 +11647,15 @@
   "integrity" "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/wrappy/-/wrappy-1.0.2.tgz"
   "version" "1.0.2"
+
+"write-file-atomic@^2.1.0":
+  "integrity" "sha512-GaETH5wwsX+GcnzhPgKcKjJ6M2Cq3/iZp1WyY/X1CSqrW+jVNM9Y7D8EC2sM4ZG/V8wZlSniJnCKWPmBYAucRQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/write-file-atomic/-/write-file-atomic-2.4.3.tgz"
+  "version" "2.4.3"
+  dependencies:
+    "graceful-fs" "^4.1.11"
+    "imurmurhash" "^0.1.4"
+    "signal-exit" "^3.0.2"
 
 "write-file-atomic@^3.0.0":
   "integrity" "sha1-Vr1cWlxwSBzRnFcb05q5ZaXeVug="
@@ -9117,6 +11677,11 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/ws/-/ws-8.5.0.tgz"
   "version" "8.5.0"
 
+"xml-name-validator@^2.0.1":
+  "integrity" "sha1-TYuPHszTQZqjYgYb7O9RXh5VljU="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/xml-name-validator/-/xml-name-validator-2.0.1.tgz"
+  "version" "2.0.1"
+
 "xml-name-validator@^3.0.0":
   "integrity" "sha1-auc+Bt5NjG5H+fsYH3jWSK1FfGo="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/xml-name-validator/-/xml-name-validator-3.0.0.tgz"
@@ -9132,10 +11697,20 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/xtend/-/xtend-4.0.2.tgz"
   "version" "4.0.2"
 
+"y18n@^3.2.1":
+  "integrity" "sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ=="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/y18n/-/y18n-3.2.2.tgz"
+  "version" "3.2.2"
+
 "y18n@^5.0.5":
   "integrity" "sha1-f0k00PfKjFb5UxSTndzS3ZHOHVU="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/y18n/-/y18n-5.0.8.tgz"
   "version" "5.0.8"
+
+"yallist@^2.1.2":
+  "integrity" "sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/yallist/-/yallist-2.1.2.tgz"
+  "version" "2.1.2"
 
 "yallist@^4.0.0":
   "integrity" "sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI="
@@ -9152,6 +11727,13 @@
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/yargs-parser/-/yargs-parser-20.2.9.tgz"
   "version" "20.2.9"
 
+"yargs-parser@^7.0.0":
+  "integrity" "sha1-jQrELxbqVd69MyyvTEA4s+P139k="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/yargs-parser/-/yargs-parser-7.0.0.tgz"
+  "version" "7.0.0"
+  dependencies:
+    "camelcase" "^4.1.0"
+
 "yargs@^16.2.0":
   "integrity" "sha1-HIK/D2tqZur85+8w43b0mhJHf2Y="
   "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/yargs/-/yargs-16.2.0.tgz"
@@ -9164,6 +11746,25 @@
     "string-width" "^4.2.0"
     "y18n" "^5.0.5"
     "yargs-parser" "^20.2.2"
+
+"yargs@^9.0.0":
+  "integrity" "sha1-UqzCP+7Kw0BCB47njAwAf1CF20w="
+  "resolved" "https://artifactory.dev.financialforce.com/artifactory/api/npm/ffdc-npm/yargs/-/yargs-9.0.1.tgz"
+  "version" "9.0.1"
+  dependencies:
+    "camelcase" "^4.1.0"
+    "cliui" "^3.2.0"
+    "decamelize" "^1.1.1"
+    "get-caller-file" "^1.0.1"
+    "os-locale" "^2.0.0"
+    "read-pkg-up" "^2.0.0"
+    "require-directory" "^2.1.1"
+    "require-main-filename" "^1.0.1"
+    "set-blocking" "^2.0.0"
+    "string-width" "^2.0.0"
+    "which-module" "^2.0.0"
+    "y18n" "^3.2.1"
+    "yargs-parser" "^7.0.0"
 
 "yocto-queue@^0.1.0":
   "integrity" "sha1-ApTrPe4FAo0x7hpfosVWpqrxChs="
