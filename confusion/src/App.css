@@ -69,3 +69,25 @@ address{
   }
 }
 
+.page-enter {
+  opacity: 0;
+  transform: translateY(-1%);
+}
+
+.page-enter-active {
+  transform: translateY(0%);
+  opacity: 1;
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
