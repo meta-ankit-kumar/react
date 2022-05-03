@@ -10,9 +10,7 @@ import {
 import { baseUrl } from "../shared/baseUrl";
 import Loading from "./LoadingComponent";
 
-function RenderCard({item}) {
-  console.log("Item", JSON.stringify(item));
-  
+function RenderCard({item}) {  
   return (
     <Card>
       <CardImg src={baseUrl + item.image} alt={item.name} />
